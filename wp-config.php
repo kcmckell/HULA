@@ -22,18 +22,23 @@ define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVE
 define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/wp-content');
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'huladb-local');
+if (file_exists(dirname(__FILE__) . '/local-config.php')) {
+  include( dirname(__FILE__) . '/local-config.php' );
+  define ('WP_LOCAL_DEV', true );
+} else {
+  // ** MySQL settings - You can get this info from your web host ** //
+  /** The name of the database for WordPress */
+  define('DB_NAME', 'huladb-production');
 
-/** MySQL database username */
-define('DB_USER', 'root');
+  /** MySQL database username */
+  define('DB_USER', 'user-production');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
+  /** MySQL database password */
+  define('DB_PASSWORD', 'password-produciton');
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+  /** MySQL hostname */
+  define('DB_HOST', 'host-production');
+}
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
