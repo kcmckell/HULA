@@ -66,6 +66,9 @@ function twentyeleven_theme_options_init() {
 
 	add_settings_field( 'link_color', __( 'Link Color',     'twentyeleven' ), 'twentyeleven_settings_field_link_color', 'theme_options', 'general' );
 	add_settings_field( 'layout',     __( 'Default Layout', 'twentyeleven' ), 'twentyeleven_settings_field_layout',     'theme_options', 'general' );
+    
+    add_meta_box('categorydiv', __('Categories'), 'post_categories_meta_box', 'page','side', 'core');
+    register_taxonomy_for_object_type('category', 'page');
 }
 add_action( 'admin_init', 'twentyeleven_theme_options_init' );
 
