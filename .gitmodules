@@ -1,3 +1,6 @@
 [submodule "wordpress"]
 	path = wordpress
 	url = git://github.com/WordPress/WordPress.git
+[submodule "wp-content/plugins/buddypress"]
+	path = wp-content/plugins/buddypress
+	url = git://github.com/buddypress/trunk.git
