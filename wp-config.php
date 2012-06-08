@@ -17,16 +17,21 @@
 /*
  * Customize directory structure.  Point to wordpress submodule.
  */
-
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
-define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+//$my_constant_array = array(
+//  'siteurl' => 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress',
+//  'home' => 'http://' . $_SERVER['SERVER_NAME'],
+//  'content_dir' => $_SERVER['DOCUMENT_ROOT'] . '/wp-content',
+//  'content_url' => 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content'
+//);
 
 if (file_exists(dirname(__FILE__) . '/local-config.php')) {
   include( dirname(__FILE__) . '/local-config.php' );
   define ('WP_LOCAL_DEV', true );
 } else {
+  define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+  define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
+  define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+  define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
   // ** MySQL settings - You can get this info from your web host ** //
   /** The name of the database for WordPress */
   define('DB_NAME', 'huladb-production');
