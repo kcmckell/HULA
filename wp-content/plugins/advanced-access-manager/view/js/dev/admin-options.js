@@ -140,11 +140,11 @@ aamObject.prototype.initMainMenuTab = function(){
                 }
             }
             _this.sort_status = 'passive';
-            _this.changeText(jQuery('.help-text', helper), aamLocal.LABEL_172);
+            _this.changeText(jQuery('.help1', helper), aamLocal.LABEL_172);
             _this.changeText(jQuery('.reorganize-menu', helper), aamLocal.LABEL_12);
             _this.initAccordion(jQuery('.main-menu-accordion'));
         }else{
-            _this.changeText(jQuery('.help-text', helper), aamLocal.LABEL_11);
+            _this.changeText(jQuery('.help1', helper), aamLocal.LABEL_11);
             _this.changeText(jQuery('.reorganize-menu', helper), aamLocal.LABEL_173);
             _this.initAccordion(jQuery('.main-menu-accordion'), true);
             _this.sort_status = 'active';
@@ -192,7 +192,7 @@ aamObject.prototype.initMetaboxTab = function(){
 
     jQuery('.refresh-metagox-list').bind('click', function(event){
         event.preventDefault();
-        jQuery('.metabox-help').hide();
+        jQuery('.mbox').hide();
         jQuery('#progressbar').progressbar({
             value: 0
         }).show();
@@ -203,7 +203,7 @@ aamObject.prototype.initMetaboxTab = function(){
         event.preventDefault();
         var val = jQuery('.initialize-url-text').val();
         if (jQuery.trim(val)){
-            jQuery('.metabox-help').hide();
+            jQuery('.mbox').hide();
             jQuery('#progressbar').progressbar({
                 value: 20
             }).show();
@@ -652,8 +652,8 @@ aamObject.prototype.initConfigPressTab = function(){
 
     this.editor = CodeMirror.fromTextArea(document.getElementById("access_config"), {
         mode: {
-            name: "ini",
-            htmlMode: true
+            name: "ini"
+         //   htmlMode: true
         },
         lineNumbers: true
     });
@@ -1034,7 +1034,6 @@ aamObject.prototype.deleteRole = function(role){
  * ****** MISCELANEOUS *******
  * ===========================
  */
-
 aamObject.prototype.addHook = function(zone, callback){
 
     this.hooks[zone].push(callback);
@@ -1117,6 +1116,7 @@ aamObject.prototype.initMainMetabox = function(){
     this.initConfigPressTab();
 
     this.triggerHooks();
+
 }
 
 aamObject.prototype.initAccordion = function(element, sortable){

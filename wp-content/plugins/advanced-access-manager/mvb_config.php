@@ -23,6 +23,7 @@ define('WPACCESS_PREFIX', 'wpaccess_');
 define('WPACCESS_BASE_DIR', dirname(__FILE__) . DIRECTORY_SEPARATOR);
 define('WPACCESS_DIRNAME', basename(WPACCESS_BASE_DIR));
 define('WPACCESS_AWM_WSDL', 'http://whimba.org/public/wsdl/awm.wsdl');
+define('WPACCESS_PRO_URL', 'http://whimba.org/get-pro/');
 
 define('WPACCESS_ERROR162_URL', 'http://whimba.org/forum/viewtopic.php?f=7&t=244');
 define('WPACCESS_ERROR164_URL', 'http://whimba.org/forum/viewtopic.php?f=7&t=246');

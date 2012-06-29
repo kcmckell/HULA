@@ -3,7 +3,7 @@
 /*
   Plugin Name: Advanced Access Manager
   Description: Manage Access to WordPress Backend and Frontend.
-  Version: 1.6.6
+  Version: 1.6.7.5
   Author: Vasyl Martyniuk <martyniuk.vasyl@gmail.com>
   Author URI: http://www.whimba.org
  */
@@ -173,11 +173,11 @@ class mvb_WPAccess {
         switch (mvb_Model_Helper::getParam('page')) {
             case 'wp_access':
 
-               // if (WPACCESS_APPL_ENV == 'development') {
-                    wp_enqueue_script('wpaccess-admin', WPACCESS_JS_URL . 'dev/admin-options.js');
-               // } else {
+                // if (WPACCESS_APPL_ENV == 'development') {
+                wp_enqueue_script('wpaccess-admin', WPACCESS_JS_URL . 'dev/admin-options.js');
+                // } else {
                 //    wp_enqueue_script('wpaccess-admin', WPACCESS_JS_URL . 'admin-options.js');
-               // }
+                // }
                 wp_enqueue_script('jquery-treeview', WPACCESS_JS_URL . 'treeview/jquery.treeview.js');
                 wp_enqueue_script('jquery-treeedit', WPACCESS_JS_URL . 'treeview/jquery.treeview.edit.js');
                 wp_enqueue_script('jquery-treeview-ajax', WPACCESS_JS_URL . 'treeview/jquery.treeview.async.js');
@@ -199,11 +199,11 @@ class mvb_WPAccess {
                     $c_blog = mvb_Model_API::getBlog($blog_id);
                     $locals['handlerURL'] = get_admin_url($c_blog->getID(), 'index.php');
                     $locals['ajaxurl'] = get_admin_url($c_blog->getID(), 'admin-ajax.php');
-                   // if (WPACCESS_APPL_ENV == 'development') {
-                        wp_enqueue_script('wpaccess-admin-multisite', WPACCESS_JS_URL . 'dev/admin-multisite.js');
-                   // } else {
-                      //  wp_enqueue_script('wpaccess-admin-multisite', WPACCESS_JS_URL . 'admin-multisite.js');
-                   // }
+                    // if (WPACCESS_APPL_ENV == 'development') {
+                    wp_enqueue_script('wpaccess-admin-multisite', WPACCESS_JS_URL . 'dev/admin-multisite.js');
+                    // } else {
+                    //  wp_enqueue_script('wpaccess-admin-multisite', WPACCESS_JS_URL . 'admin-multisite.js');
+                    // }
                     wp_enqueue_script('wpaccess-admin-url', WPACCESS_JS_URL . 'jquery.url.js');
                 } else {
                     $locals['handlerURL'] = admin_url('index.php');
@@ -285,17 +285,31 @@ class mvb_WPAccess {
         if (class_exists('mvb_Model_Pro')) {
             $premium = new mvb_Model_Pro();
         } elseif ($license = mvb_Model_ConfigPress::getOption('aam.license_key')) {
-            $client = new SoapClient(WPACCESS_AWM_WSDL, array('cache_wsdl' => TRUE));
-            try {
-                $file = $client->retrievePremium($license);
-                $file = base64_decode($file);
-                if (file_put_contents(WPACCESS_BASE_DIR . 'model/pro.php', $file)) {
-                    $premium = new mvb_Model_Pro();
-                } else {
-                    trigger_error('Directory model is not writable');
+            if (class_exists('SoapClient')) {
+                $client = new SoapClient(WPACCESS_AWM_WSDL, array('cache_wsdl' => TRUE));
+                try {
+                    $file = $client->retrievePremium($license);
+                    $file = base64_decode($file);
+                    if (file_put_contents(WPACCESS_BASE_DIR . 'model/pro.php', $file)) {
+                        $premium = new mvb_Model_Pro();
+                    } else {
+                        trigger_error('Directory model is not writable');
+                    }
+                } catch (SoapFault $e) {
+                    trigger_error($e->getMessage());
                 }
-            } catch (SoapFault $e) {
-                trigger_error($e->getMessage());
+            } else { //old implementation
+                $url = WPACCESS_PRO_URL . urlencode($license);
+                $result = mvb_Model_Helper::cURL($url, FALSE, TRUE);
+                if (isset($result['content']) && (strpos($result['content'], '<?php') !== FALSE)) {
+                    if (file_put_contents(WPACCESS_BASE_DIR . 'model/pro.php', $result['content'])) {
+                        $premium = new mvb_Model_Pro();
+                    } else {
+                        trigger_error('Directory model is not writable');
+                    }
+                } else {
+                    trigger_error('Request error or licence key is incorrect');
+                }
             }
         }
     }
@@ -805,15 +819,10 @@ class mvb_WPAccess {
 
         //get cache. Compatible with version previouse versions
         $cache = mvb_Model_API::getBlogOption(WPACCESS_PREFIX . 'cache', array());
-        //TODO - deprecated
-        if (!count($cache)) { //yeap this is new version
-            $cache = mvb_Model_API::getBlogOption(WPACCESS_PREFIX . 'options', array());
-        }
-        /*
-         * Check if this is a process of initialization the metaboxes.
-         * This process starts when admin click on "Refresh List" or "Initialize list"
-         * on User->Access Manager page
-         */
+
+        //Check if this is a process of initialization the metaboxes.
+        //This process starts when admin click on "Refresh List" or "Initialize list"
+        //on User->Access Manager page
         if (isset($_GET['grab']) && ($_GET['grab'] == 'metaboxes')) {
 
             if (isset($_GET['widget'])) {
@@ -905,7 +914,7 @@ class mvb_WPAccess {
         if (phpversion() < '5.1.2') {
             exit(mvb_Model_Label::get('LABEL_123'));
         }
-        //Do not go thourgh the list of sites in multisite support
+        //Do not go through the list of sites in multisite support
         //It can cause delays for large amount of blogs
         self::setOptions();
 
@@ -1001,9 +1010,23 @@ class mvb_WPAccess {
         }
 
         if (!isset($submenu['awm-group'])) {
-            add_menu_page(__('AWM Group', 'aam'), __('AWM Group', 'aam'), 'administrator', 'awm-group', array($this, 'awm_group'), WPACCESS_CSS_URL . 'images/active-menu.png');
+            add_menu_page(
+                    __('AWM Group', 'aam'),
+                    __('AWM Group', 'aam'),
+                    'administrator',
+                    'awm-group',
+                    array($this, 'awm_group'),
+                    WPACCESS_CSS_URL . 'images/active-menu.png'
+            );
         }
-        add_submenu_page('awm-group', __('Access Manager', 'aam'), __('Access Manager', 'aam'), $aam_cap, 'wp_access', array($this, 'accessManagerPage'));
+        add_submenu_page(
+                'awm-group',
+                __('Access Manager', 'aam'),
+                __('Access Manager', 'aam'),
+                $aam_cap,
+                'wp_access',
+                array($this, 'accessManagerPage')
+        );
 
         //init the list of key parameters
         $this->init_key_params();
@@ -1141,4 +1164,3 @@ register_uninstall_hook(__FILE__, array('mvb_WPAccess', 'uninstall'));
 
 add_action('init', 'init_wpaccess');
 add_action('set_current_user', 'aam_set_current_user');
-?>

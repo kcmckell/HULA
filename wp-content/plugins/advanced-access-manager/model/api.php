@@ -206,7 +206,7 @@ final class mvb_Model_API {
     public static function getUserAccessConfig($user_id, $force_roles = FALSE) {
 
         $config = mvb_Model_Cache::getCacheData('user', $user_id);
-        
+
         if ($force_roles || !$config) {
 
             $config = new mvb_Model_UserConfig($user_id);

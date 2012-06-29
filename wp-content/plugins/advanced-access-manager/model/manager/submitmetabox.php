@@ -19,7 +19,7 @@
 
 /**
  * Submit Metabox Manager
- * 
+ *
  * @package AAM
  * @subpackage Model
  */
@@ -32,7 +32,7 @@ class mvb_Model_Manager_SubmitMetabox {
      * @global array $submenu
      * @param string $tmpl
      * @param mvb_Model_Manager $parent
-     * @return string 
+     * @return string
      */
     public static function render($tmpl, $parent) {
 
@@ -48,7 +48,23 @@ class mvb_Model_Manager_SubmitMetabox {
                         'USER_LIST', self::renderUserSelector($content, $parent), $content
         );
 
+        $content = mvb_Model_Template::replaceSub(
+                        'SYNC_MULTISITE', self::renderSync($content, $parent), $content
+        );
+
         return $content;
+    }
+
+    public static function renderSync($tmpl){
+
+         if (mvb_Model_API::isNetworkPanel()
+                 || mvb_Model_ConfigPress::getOption('aam.multisite.complete_sync')) {
+             $tmpl = mvb_Model_Template::retrieveSub('SYNC_MULTISITE', $tmpl);
+         }else{
+             $tmpl = '';
+         }
+
+         return $tmpl;
     }
 
     public static function renderSiteSelector($tmpl) {
