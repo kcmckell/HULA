@@ -994,7 +994,5 @@ class mvb_Model_Ajax {
             }
         }
     }
-
 }
-
 ?>

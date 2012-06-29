@@ -1,8 +1,8 @@
 <div class="wrap" id="aam_wrap">
     <form action="###form_action###" method="post" id="aam-form">
-        <div class="plugin-logo"></div>
+        <div class="aacsprite aaclogo"><img title="logo" rel="logo" src="###site_url###/wp-content/plugins/advanced-access-manager/view/css/images/nothing.gif" /></div>
         <div class="plugin-title">
-			<h3>###LABEL_1###</h3>
+			<h2>###LABEL_1###</h2>
 			<!-- ###VERSION### begin-->
 				<!-- ###VERSION_BASIC### begin-->
 				<span class="version basic-type">
@@ -21,9 +21,10 @@
         </div>
         <br class="clear" />
         <div class="###message_class###">
-            <div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;">
-                <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-                    <span style="color:#006505;">###LABEL_6###!</span></p>
+            <div class="ui-state-highlight">
+                <div class="aacsprite aactinyicons infoicon">
+                    <span>###LABEL_6###!</span>
+                    </div>
             </div>
         </div>
         <br class="clear" />
@@ -52,9 +53,8 @@
                                 <!-- ###MAIN_MENU_TAB### begin-->
                                 <div id="tabs-1">
                                     <div class="helpbox postbox main-menu-help">
-                                        <div class="help-info"></div>
-                                        <div class="help-text">###LABEL_172###</div>
-                                        <a href="#" class="button reorganize-menu">###LABEL_12###</a>
+                                        <div class="aacsprite aacsmicons aachelp"><span class="help1">###LABEL_172###</span></div>
+                                            <a href="#" class="squarebutton reorganize-menu">###LABEL_12###</a>
                                         <br class="clear" />
                                     </div>
                                     <div class="main-menu-accordion">
@@ -85,18 +85,16 @@
                                 <!-- ###MAIN_MENU_TAB### end-->
                                 <!-- ###METABOX_TAB### begin-->
                                 <div id="tabs-2">
-                                    <div class="helpbox postbox metabox-help">
-                                        <div class="tooltip tooltip-large help-info"><span class="custom info"><img src="###info_image###" alt="Info" height="48" width="48" /><em>###LABEL_158###</em>###LABEL_14###</span></div>
-                                        <div style="float:left; width:80%;">
-                                            <input type="text" placeholder="###LABEL_15###" class="initialize-url-text" value="" />&nbsp;&nbsp;
-                                            <a href="#" class="button initialize-url" >###LABEL_16###</a>
+                                <div class="helpbox postbox">
+                                      <span class="aacsprite aacsmicons aachelp tooltip" alt="###LABEL_14###"><img title="meta" rel="meta" src="###site_url###/wp-content/plugins/advanced-access-manager/view/css/images/nothing.gif" /></span>
+                                        <div class="mbox">
+                                            <input type="text" placeholder="###LABEL_15###" class="initialize-url-text" value="" />
+                                            <a href="#" class="initialize-url lilsqbutton" >###LABEL_16###</a>
+                                            <a href="#" class="refresh-metagox-list squarebutton" >###LABEL_17###</a>
                                         </div>
-                                        <div style="float:right;margin-top:8px;">
-                                            <a href="#" class="refresh-metagox-list button" >###LABEL_17###</a>
-                                        </div>
+                                                <div id="progressbar"></div>
                                         <br class="clear" />
-                                    </div>
-                                    <div id="progressbar"></div>
+                                        </div>
                                     <div class="metabox-accordion">
                                         <!-- ###METABOX_LIST_ITEM### begin-->
                                         <div>
@@ -161,7 +159,7 @@
                                         <div class="ui-widget">
                                             <div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;">
                                                 <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-                                                    <span style="color:#D54E21;">###LABEL_22### <a href="#" class="refresh-metagox-list" >###LABEL_23###</a></span></p>
+                                                    <span>###LABEL_22### <a href="#" class="refresh-metagox-list" >###LABEL_23###</a></span></p>
                                             </div>
                                         </div>
                                         <!-- ###METABOX_LIST_EMPTY### end-->
@@ -170,9 +168,8 @@
                                 <!-- ###METABOX_TAB### end-->
                                 <!-- ###CAPABILITY_TAB### begin-->
                                 <div id="tabs-3">
-                                    <div class="helpbox postbox capability-help">
-                                        <div class="help-info"></div>
-                                        <span>###LABEL_169###</span>
+                                    <div class="helpbox postbox">
+                                        <div class="aacsprite aacsmicons aachelp"><span class="help1">###LABEL_169###</span></div>
                                         <br class="clear" />
                                     </div>
                                     <!-- ###CAPABILITY_LIST### begin-->
@@ -182,13 +179,12 @@
                                         <div>
                                             <!-- ###CAPABILITY_ITEM### begin-->
                                             <div class="capability-item ###premium###">
-                                                <div class="capability-name">
-                                                    <input type="checkbox" id="cap-###title###" name="wpaccess[advance][###title###]" value="1" ###checked### />
-                                                           &nbsp;&nbsp;<label for="cap-###title###" title="###cap_name_full###">###cap_name###</label>
+                                                <div>
+                                                    <input type="checkbox" id="cap-###title###" name="wpaccess[advance][###title###]" value="1" class="capability-name" ###checked### />
+                                                    <label for="cap-###title###" title="###cap_name_full###" class="tooltip" alt="###description###">###cap_name###</label>
                                                 </div>
-                                                <div class="tooltip icon-info"><span class="custom info"><img src="###info_image###" alt="Info" height="48" width="48" /><em>Info - ###cap_name_full###</em>###description###</span></div>
                                                 <!-- ###CAPABILITY_DELETE### begin-->
-                                                <div class="tooltip icon-delete" onclick="mObj.deleteCapability('###title###', '###cap_name###');"><span class="custom critical"><img src="###critical_image###" alt="Critical" height="48" width="48" /><em>###LABEL_118###</em>###LABEL_121###</span></div>
+                                                <div class="icon-delete" onclick="mObj.deleteCapability('###title###', '###cap_name###');"><img title="delete capability" rel="delete capability" src="###site_url###/wp-content/plugins/advanced-access-manager/view/css/images/nothing.gif" /></div>
                                                 <!-- ###CAPABILITY_DELETE### end-->
                                             </div>
                                             <!-- ###CAPABILITY_ITEM### end-->
@@ -206,15 +202,15 @@
                                     <br class="clear" />
                                     <div class="additional-panel">
                                         <div class="new-capability">
-                                            <a href="#" class="button" id="new-capability" title="###LABEL_26###">###LABEL_27###</a>
+                                            <a href="#" class="squarebutton" id="new-capability" title="###LABEL_26###">###LABEL_27###</a>
                                         </div>
                                         <div class="default-cap-set">
-                                            <a href="#" class="button" title="###LABEL_28###" id="radio1">###LABEL_29###</a>
-                                            <a href="#" class="button" title="###LABEL_30###" id="radio2">###LABEL_31###</a>
-                                            <a href="#" class="button" title="###LABEL_32###" id="radio3">###LABEL_33###</a>
-                                            <a href="#" class="button" title="###LABEL_34###" id="radio4">###LABEL_35###</a>
-                                            <a href="#" class="button" title="###LABEL_36###" id="radio5">###LABEL_37###</a>
-                                            <a href="#" class="button" title="###LABEL_38###" id="radio6">###LABEL_39###</a>
+                                            <a href="#" class="lilsqbutton" title="###LABEL_28###" id="radio1">###LABEL_29###</a>
+                                            <a href="#" class="lilsqbutton" title="###LABEL_30###" id="radio2">###LABEL_31###</a>
+                                            <a href="#" class="lilsqbutton" title="###LABEL_32###" id="radio3">###LABEL_33###</a>
+                                            <a href="#" class="lilsqbutton" title="###LABEL_34###" id="radio4">###LABEL_35###</a>
+                                            <a href="#" class="lilsqbutton" title="###LABEL_36###" id="radio5">###LABEL_37###</a>
+                                            <a href="#" class="lilsqbutton" title="###LABEL_38###" id="radio6">###LABEL_39###</a>
                                         </div>
                                         <br class="clear" />
                                     </div>
@@ -235,9 +231,8 @@
                                             </div>
                                         </div>
                                         <div class="message-passive" id="expire-success-message">
-                                            <div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;">
-                                                <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-                                                    <span style="color:#006505;">###LABEL_6###!</span></p>
+                                            <div class="ui-state-highlight ui-corner-all">
+                                                <span class="aacsprite aactinyicons infoicon"><span>###LABEL_6###!</span></span>
                                             </div>
                                         </div>
                                         <div id="post-date">
@@ -300,9 +295,9 @@
                                                 <tfoot>
                                                     <tr>
                                                         <td colspan="3">
-                                                            <a href="#" class="button restore-postinfo" title="###LABEL_171###">###LABEL_170###</a>&nbsp;
-                                                            <a href="#" class="button-primary save-postinfo" title="###LABEL_59###">###LABEL_60###</a>&nbsp;
-                                                            <a href="#" class="button-primary save-postinfo-all" title="###LABEL_61###">###LABEL_62###</a>
+                                                            <a href="#" class="lilsqbutton restore-postinfo" title="###LABEL_171###">###LABEL_170###</a>
+                                                            <a href="#" class="squarebutton save-postinfo" title="###LABEL_59###">###LABEL_60###</a>
+                                                            <a href="#" class="squarebutton save-postinfo-all" title="###LABEL_61###">###LABEL_62###</a>
                                                         </td>
                                                     </tr>
                                                 </tfoot>
@@ -384,18 +379,17 @@
                                                 <tfoot>
                                                     <tr>
                                                         <td colspan="3">
-                                                            <a href="#" class="button restore-postinfo" title="###LABEL_171###">###LABEL_170###</a>&nbsp;
-                                                            <a href="#" class="button-primary save-postinfo" title="###LABEL_59###">###LABEL_60###</a>&nbsp;
-                                                            <a href="#" class="button-primary save-postinfo-all" title="###LABEL_61###">###LABEL_62###</a>
+                                                            <a href="#" class="lilsqbutton restore-postinfo" title="###LABEL_171###">###LABEL_170###</a>&nbsp;
+                                                            <a href="#" class="squarebutton save-postinfo" title="###LABEL_59###">###LABEL_60###</a>&nbsp;
+                                                            <a href="#" class="squarebutton save-postinfo-all" title="###LABEL_61###">###LABEL_62###</a>
                                                         </td>
                                                     </tr>
                                                 </tfoot>
                                             </table>
                                             <!-- ###CATEGORY### end-->
                                             <!-- ###POST_INFORMATION### end-->
-                                            <div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;">
-                                                <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-                                                    <span>###LABEL_71###</span></p>
+                                            <div class="ui-state-highlight ui-corner-all">
+                                                <div class="aacsprite aactinyicons infoicon"><span>###LABEL_71###</span></div>
                                             </div>
                                         </div>
                                     </div>
@@ -404,11 +398,11 @@
                                 <!-- ###RESTRICTION_TAB### end-->
                                 <!-- ###CONFIG_PRESS_TAB### begin-->
                                 <div id="tabs-5">
-                                    <div class="helpbox postbox">
-                                        <div class="tooltip tooltip-large help-info" id="cp-ref"><span class="custom info"><img src="###info_image###" alt="Info" height="48" width="48" /><em>###LABEL_161###</em>###LABEL_156###</div>
-                                        <a href="###reference_url###?width=800&TB_iframe=true" class="thickbox" id="cp-ref-trigger"></a>
-                                        <span>###LABEL_157###</span>
-                                        <br class="clear" />
+                                <div class="helpbox postbox">
+                                    <a href="###reference_url###?width=800&TB_iframe=true" class="thickbox" id="cp-ref-trigger">
+                                    <span class="aacsprite aacsmicons aachelp tooltip" alt="###LABEL_161###"><img title="configpress" rel="configpress" src="###site_url###/wp-content/plugins/advanced-access-manager/view/css/images/nothing.gif" /></span>
+                                    </a>
+                                        <span class="help2">###LABEL_157###</span>
                                     </div>
                                     <textarea id="access_config" name="wpaccess[config_press]">###access_config###</textarea>
                                 </div>
@@ -443,7 +437,7 @@
                                                     <option value="###value###" ###selected### >###title###</option>
                                                     <!-- ###ROLE_LIST### end-->
                                                 </select>
-                                                <a href="#" class="hide-if-no-js button" id="site-ok">###LABEL_76###</a>
+                                                <a href="#" class="hide-if-no-js lilsqbutton" id="site-ok">###LABEL_76###</a>
                                                 <a href="#" class="hide-if-no-js" id="site-cancel">###LABEL_77###</a>
                                             </div>
                                         </div>
@@ -458,7 +452,7 @@
                                                     <option value="###value###" ###selected### >###title###</option>
                                                     <!-- ###ROLE_LIST### end-->
                                                 </select>
-                                                <a href="#" class="hide-if-no-js button" id="role-ok">###LABEL_76###</a>
+                                                <a href="#" class="hide-if-no-js lilsqbutton" id="role-ok">###LABEL_76###</a>
                                                 <a href="#" class="hide-if-no-js" id="role-cancel">###LABEL_77###</a>
                                             </div>
                                         </div>
@@ -472,19 +466,17 @@
                                                     <option value="###value###" ###selected### >###title###</option>
                                                     <!-- ###USER_LIST### end-->
                                                 </select>
-                                                <a href="#" class="hide-if-no-js button" id="user-ok">###LABEL_76###</a>
+                                                <a href="#" class="hide-if-no-js lilsqbutton" id="user-ok">###LABEL_76###</a>
                                                 <a href="#" class="hide-if-no-js" id="user-cancel">###LABEL_77###</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div id="major-publishing-actions">
-                                    <div class="additional-actions">
-                                        <div class="restore-conf" title="###LABEL_78###"></div>
-                                    </div>
-                                    <div class="save-action">
-                                        <img src="###site_url###/wp-admin/images/wpspin_light.gif" style="display:none;" id="ajax-loading" alt="###LABEL_81###">
-                                        <input name="save" id="save" class="button-primary" value="###LABEL_82###" tabindex="5" onclick="return mObj.submitForm();" type="submit" />
+                                        <div class="restore-conf aacsprite aacsmicons aacback" title="###LABEL_78###"><img title="back" rel="back" src="###site_url###/wp-content/plugins/advanced-access-manager/view/css/images/nothing.gif" /></div>
+                                            <div class="save-action">
+                                        <img src="###site_url###/wp-content/plugins/advanced-access-manager/view/css/images/load.gif" style="display:none;" id="ajax-loading" alt="###LABEL_81###">
+                                        <input name="save" id="save" class="lgsquarebutton" value="###LABEL_82###" tabindex="5" onclick="return mObj.submitForm();" type="submit" />
                                     </div>
                                     <br class="clear" />
                                 </div>
@@ -523,14 +515,14 @@
                                 </div>
                                 <div id="role_tab-2">
                                     <input type="text" value="" id="new-role-name" placeholder="###LABEL_87###" />
-                                    <a href="#" class="hide-if-no-js button" id="new-role-ok">###LABEL_88###</a>
+                                    <a href="#" class="hide-if-no-js lilsqbutton" id="new-role-ok">###LABEL_88###</a>
                                 </div>
                             </div>
                             <div id="new-role-message-ok">
                                 <div class="ui-widget">
                                     <div class="ui-state-highlight ui-corner-all" style="margin-top:5px; padding: 0 .7em;">
                                         <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-                                            <span style="color:#006505;">###LABEL_89###!</span></p>
+                                            <span>###LABEL_89###!</span></p>
                                     </div>
                                 </div>
                             </div>

@@ -75,20 +75,20 @@ class mvb_Model_Label {
         if (self::$gui_flag){ return FALSE;}
 
         self::$labels['LABEL_1'] = __('Advanced Access Manager', 'aam');
-        self::$labels['LABEL_2'] = __('Basic version does not allow a user setup more then %s restrictions. Please upgrade to Premium AAM. <a href="%s" target="_blank">More...</a>', 'aam');
+        self::$labels['LABEL_2'] = __('Basic version does not allow to setup more then %s restrictions. Please upgrade AAM. <a href="%s" target="_blank">More...</a>', 'aam');
         self::$labels['LABEL_3'] = __('Alert', 'aam');
         self::$labels['LABEL_6'] = __('Options updated successfully', 'aam');
         self::$labels['LABEL_7'] = __('Main Menu', 'aam');
         self::$labels['LABEL_8'] = __('Metaboxes & Widgets', 'aam');
         self::$labels['LABEL_9'] = __('Capabilities', 'aam');
         self::$labels['LABEL_10'] = __('Posts & Taxonomies', 'aam');
-        self::$labels['LABEL_11'] = __('<i>Drag and Drop</i> items as you like, then click <b>Save Order</b>', 'aam');
+        self::$labels['LABEL_11'] = __('Drag and Drop Menu in the List and click <b>Save Order</b>', 'aam');
         self::$labels['LABEL_12'] = __('Reorganize', 'aam');
         self::$labels['LABEL_13'] = __('Whole Branch', 'aam');
-        self::$labels['LABEL_14'] = __('To initialize a list of metaboxes manually, copy and paste the current URL (e.g. http://localhost/wp-admin/post.php?post=1&action=edit) into text field and click "Initiate URL". A list of new metaboxes will be created automatically.', 'aam');
+        self::$labels['LABEL_14'] = __('To initialize list of metaboxes manually, copy and paste the URL to edit screen page (e.g. http://localhost/wp-admin/post.php?post=1&action=edit) into text field and click "Initiate URL". List of all new metaboxes will be added automatically.', 'aam');
         self::$labels['LABEL_15'] = __('Enter Correct URL', 'aam');
         self::$labels['LABEL_16'] = __('Initialize URL', 'aam');
-        self::$labels['LABEL_17'] = __('Refresh', 'aam');
+        self::$labels['LABEL_17'] = __('Refresh List', 'aam');
         self::$labels['LABEL_18'] = __('ID', 'aam');
         self::$labels['LABEL_19'] = __('Priority', 'aam');
         self::$labels['LABEL_20'] = __('Position', 'aam');
@@ -118,7 +118,7 @@ class mvb_Model_Label {
         self::$labels['LABEL_60'] = __('Apply', 'aam');
         self::$labels['LABEL_61'] = __('Apply Restrictions for All Roles', 'aam');
         self::$labels['LABEL_62'] = __('Apply for All', 'aam');
-        self::$labels['LABEL_71'] = __('Select Post, Page, or Taxonomy.', 'aam');
+        self::$labels['LABEL_71'] = __('Select Post, Page or Taxonomy.', 'aam');
         self::$labels['LABEL_72'] = __('Click to toggle', 'aam');
         self::$labels['LABEL_73'] = __('General', 'aam');
         self::$labels['LABEL_74'] = __('Current Role', 'aam');
@@ -135,20 +135,19 @@ class mvb_Model_Label {
         self::$labels['LABEL_86'] = __('Delete', 'aam');
         self::$labels['LABEL_87'] = __('Enter New Role', 'aam');
         self::$labels['LABEL_88'] = __('Add', 'aam');
-        self::$labels['LABEL_89'] = __('New Role Created Successfully', 'aam');
-        self::$labels['LABEL_91'] = __('Role Cannot be Created', 'aam');
-        self::$labels['LABEL_95'] = __('Syntax error in ConfigPress', 'aam');
+        self::$labels['LABEL_89'] = __('New Role Created successfully', 'aam');
+        self::$labels['LABEL_91'] = __('Role can not be created', 'aam');
         self::$labels['LABEL_97'] = __('Delete Role?', 'aam');
-        self::$labels['LABEL_98'] = __('Please Confirm - Deleting Role %s', 'aam');
+        self::$labels['LABEL_98'] = __('Please confirm deleting Role %s', 'aam');
         self::$labels['LABEL_99'] = __('Save Menu Order', 'aam');
         self::$labels['LABEL_100'] = __('Save Menu Order <b>ONLY</b> for Role %s?', 'aam');
         self::$labels['LABEL_101'] = __('Delete Capability?', 'aam');
-        self::$labels['LABEL_102'] = __('Please Confirm - Deleting Capability - <b>%s</b>', 'aam');
+        self::$labels['LABEL_102'] = __('Please confirm deleting Capability - <b>%s</b>', 'aam');
         self::$labels['LABEL_103'] = __('Restore Default Settings?', 'aam');
-        self::$labels['LABEL_104'] = __('All Current Settings will be lost. Are you sure?', 'aam');
+        self::$labels['LABEL_104'] = __('All current settings will be lost. Are you sure?', 'aam');
         self::$labels['LABEL_105'] = __('Apply Setting for ALL Roles?', 'aam');
         self::$labels['LABEL_106'] = __('Do you really want to apply these settings for <b>ALL</b> Roles?', 'aam');
-        self::$labels['LABEL_107'] = __('Do not show this message again.', 'aam');
+        self::$labels['LABEL_107'] = __('Do not show me this message again.', 'aam');
         self::$labels['LABEL_112'] = __('Classname', 'aam');
         self::$labels['LABEL_113'] = __('Description', 'aam');
         self::$labels['LABEL_114'] = __('Upgrade functionality', 'aam');
@@ -159,17 +158,17 @@ class mvb_Model_Label {
         self::$labels['LABEL_122'] = __('Advanced Access Manager requires WordPress 3.2 or newer. <a href="http://codex.wordpress.org/Upgrading_WordPress">Update now!</a>', 'aam');
         self::$labels['LABEL_123'] = __('Advanced Access Manager requires PHP 5.1.2 or newer', 'aam');
         self::$labels['LABEL_124'] = __('Empty Capability', 'aam');
-        self::$labels['LABEL_125'] = __('Current Capability Cannot be Deleted', 'aam');
+        self::$labels['LABEL_125'] = __('Current Capability can not be deleted', 'aam');
         self::$labels['LABEL_126'] = __('Super Admin', 'aam');
         self::$labels['LABEL_127'] = __('Unauthorized Action', 'aam');
         self::$labels['LABEL_128'] = __('Options List', 'aam');
         self::$labels['LABEL_130'] = __('Yes', 'aam');
         self::$labels['LABEL_131'] = __('Apply for All', 'aam');
         self::$labels['LABEL_132'] = __('Add Capability', 'aam');
-        self::$labels['LABEL_133'] = __('Error appeared during Metabox Initialization!', 'aam');
+        self::$labels['LABEL_133'] = __('Error appeared during Metabox initialization!', 'aam');
         self::$labels['LABEL_134'] = __('Delete Role', 'aam');
         self::$labels['LABEL_135'] = __('Restore', 'aam');
-        self::$labels['LABEL_136'] = __('Current Role Cannot be Restored!', 'aam');
+        self::$labels['LABEL_136'] = __('Current Role can not be restored!', 'aam');
         self::$labels['LABEL_137'] = __('Apply All', 'aam');
         self::$labels['LABEL_138'] = __('Error during information grabbing!', 'aam');
         self::$labels['LABEL_140'] = __('Premium', 'aam');
@@ -178,17 +177,17 @@ class mvb_Model_Label {
         self::$labels['LABEL_143'] = __('Change Role', 'aam');
         self::$labels['LABEL_144'] = __('Current Site', 'aam');
         self::$labels['LABEL_145'] = __('cURL library returned empty result. Contact your system administrator to fix this issue.', 'aam');
-        self::$labels['LABEL_146'] = __('You are not an active user for the current blog. Please click <a href="#" id="add-user-toblog">here</a> to add yourself to current blog as an Administrator', 'aam');
+        self::$labels['LABEL_146'] = __('You are not an active user for current blog. Please click <a href="#" id="add-user-toblog">here</a> to add yourself to current blog as Administrator', 'aam');
         self::$labels['LABEL_147'] = __('<p><span style="color: #FF0000;">PLEASE READ THIS!</span> You entered <b>Advanced Access Manager</b> Option Page.</p>
-        <p>This graphic interface allows you to control access to your WordPress Blog. <b>DO NOT</b> change settings if you are unsure what you are doing! If you have problems or questions, <b>PLEASE</b> refer to this <a href="http://wordpress.org/extend/plugins/advanced-access-manager/faq/" target="_blank">FAQ</a> prior to contacting us for support.</p>
-        <p>For your safety, after you press <b>OK</b> button, Super Admin Role will be created specifically for <b>your</b> user.</p>
-        <p>Users already defined as Super Admin will be deprived of it and replaced with Administrator Role</p>
-        <p>If you have a <i>Multi-Site Setup</i>, you will see the same message again for each new Blog you have entered or created.</p>', 'aam');
-        self::$labels['LABEL_148'] = __('You have the basic version of AAM. Settings can only be applied for first ' . WPACCESS_APPLY_LIMIT . ' blogs. Please upgrade to Premium AAM at <a href="http://whimba.org/advanced-access-manager" target="_blank">whimba.org/advanced-access-manager</a>', 'aam');
+        <p>This graphic interface allows you to control access to your WordPress Blog. <b>DO NOT</b> try to change settings if you are not sure what you are doing! If you have problems or questions, or just found something weird in a system\'s behavior, <b>PLEASE</b> take a look to <a href="http://wordpress.org/extend/plugins/advanced-access-manager/faq/" target="_blank">FAQ</a> section before asking for support.</p>
+        <p>For your safety, after you press <b>OK</b> button, Super Admin Role will be created specifically for your user.</p>
+        <p>Users with already defined Super Admin Role will be deprived of it and replaced with Administrator Role</p>
+        <p>If you have Multi-Site Setup, you will see the same message again for each new Blog you entered or created.</p>', 'aam');
+        self::$labels['LABEL_148'] = __('You have a basic version of AAM. Settings applied only for first ' . WPACCESS_APPLY_LIMIT . ' blogs. Please upgrade AAM by following the <a href="http://whimba.org/advanced-access-manager" target="_blank">link</a>', 'aam');
         self::$labels['LABEL_149'] = __('Basic', 'aam');
-        self::$labels['LABEL_152'] = __('Visit Whimba.org for more info', 'aam');
+        self::$labels['LABEL_152'] = __('Visit whimba.org for more information', 'aam');
         self::$labels['LABEL_153'] = __('empty', 'aam');
-        self::$labels['LABEL_154'] = __('Administrator Added Successfully', 'aam');
+        self::$labels['LABEL_154'] = __('Administrator added Successfully', 'aam');
         self::$labels['LABEL_155'] = __('Failed to add new Administrator', 'aam');
         self::$labels['LABEL_156'] = __('Click for more information', 'aam');
         self::$labels['LABEL_80'] = __('ConfigPress', 'aam');
@@ -196,20 +195,20 @@ class mvb_Model_Label {
         self::$labels['LABEL_120'] = __('All Users', 'aam');
         self::$labels['LABEL_121'] = __('Delete current capability', 'aam');
         self::$labels['LABEL_157'] = __('ConfigPress is a flexible way to configure your Access Manager. For more information please check reference or follow the <a href="http://whimba.org/support#viewforum.php?f=4" target="_blank">support link</a>.', 'aam');
-        self::$labels['LABEL_161'] = __('ConfigPress reference', 'aam');
+        self::$labels['LABEL_161'] = __('Click Here for The ConfigPress Reference Notes', 'aam');
         self::$labels['LABEL_162'] = __('Config File is not Writable.', 'aam');
         self::$labels['LABEL_164'] = __('Module Directory is not Writable.', 'aam');
         self::$labels['LABEL_166'] = __('JavaScript Error Appeared on Page. <a href="%s" target="_blank">Ream more...</a>', 'aam');
-        self::$labels['LABEL_167'] = __('Only applied to first 5 posts.', 'aam');
+        self::$labels['LABEL_167'] = __('Only first 5 blog applied.', 'aam');
         self::$labels['LABEL_168'] = __('Read more...', 'aam');
-        self::$labels['LABEL_169'] = __('For more information about Capabilities in WordPress, please read about <a href="http://codex.wordpress.org/Roles_and_Capabilities" target="_blank">Roles and Capabilities</a> in the Wordpress Codex. For any further questions, send me an email or simply visit <a href="http://whimba.org/support" target="_blank">my forum</a>.', 'aam');
+        self::$labels['LABEL_169'] = __('For more information about Capabilities in WordPress, please read the topic <a href="http://codex.wordpress.org/Roles_and_Capabilities" target="_blank">Roles and Capabilities</a>.', 'aam');
         self::$labels['LABEL_170'] = __('Restore', 'aam');
         self::$labels['LABEL_171'] = __('Restore Default Settings', 'aam');
-        self::$labels['LABEL_172'] = __('Check Menu or Submenu to partially restrict. Check <b>Whole Branch</b> to restrict an entire menu.', 'aam');
+        self::$labels['LABEL_172'] = __('Check Menu or Submenu to restrict or <b>Whole Branch</b> to restrict whole menu.', 'aam');
         self::$labels['LABEL_173'] = __('Save Order', 'aam');
-        self::$labels['LABEL_174'] = __('Only Latin letters, numbers, and space are allowed. All other symbols will be filtered.<br/>New Capability will be added to Super Admin and Admin Roles automatically.', 'aam');
+        self::$labels['LABEL_174'] = __('Only Latin letters, numbers and space are allowed. All other symbols will be filtered.<br/>New Capability will be added to Super Admin and Admin Roles automatically.', 'aam');
         self::$labels['LABEL_175'] = __('Enter New Capability', 'aam');
-        self::$labels['LABEL_176'] = __('Would you like to <b>Restore Default Restrictions</b>?', 'aam');
+        self::$labels['LABEL_176'] = __('Would you like to restore default restrictions?', 'aam');
         self::$labels['LABEL_177'] = __('Restore Restrictions', 'aam');
         self::$labels['LABEL_178'] = __('Posts in %s', 'aam');
         self::$labels['LABEL_158'] = __('Information', 'aam');
@@ -230,6 +229,7 @@ class mvb_Model_Label {
          * These labels where deleted in previous release so you can use them
          * to define new labels
 
+          self::$labels['LABEL_95'] = __('', 'aam');
           self::$labels['LABEL_96'] = __('', 'aam');
           self::$labels['LABEL_90'] = __('', 'aam');
           self::$labels['LABEL_63'] = __('', 'aam');
@@ -277,93 +277,36 @@ class mvb_Model_Label {
         if (self::$cap_flag){ return FALSE;}
 
         self::$labels = array_merge(self::$labels, array(
-            'switch_themes' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Appearance
-					- Appearance > Themes', 'aam'),
-            'edit_themes' => __('Since 2.0
-				Allows access to Appearance > Theme Editor to edit theme files.', 'aam'),
-            'edit_theme_options' => __('Since 3.0
-				Allows access to Administration Panel options:
-					- Appearance > Background
-					- Appearance > Header
-					- Appearance > Menus
-					- Appearance > Widgets
-					- Also allows access to Theme Options pages if they are included in the Theme', 'aam'),
-            'edit_published_posts' => __('Since 2.0
-				User can edit their published posts. This capability is off by default.
-				The core checks the capability edit_posts, but on demand this check is changed to edit_published_posts.
-				If you do not want a user to be able edit his published posts, remove this capability.', 'aam'),
-            'edit_others_posts' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Manage > Comments (Lets user delete and edit every comment, see edit_posts above)
-					- user can edit other posts through function get_others_drafts()
-					- user can see other images in inline-uploading', 'aam'),
-            'manage_options' => __('Since 2.0
-				Allows access to Administration Panel options:
-                    - Settings > General
-                    - Settings > Writing
-                    - Settings > Writing
-                    - Settings > Reading
-                    - Settings > Discussion
-                    - Settings > Permalinks
-                    - Settings > Miscellaneous', 'aam'),
-            'install_themes' => __('Since 2.0
-				Allows access to Administration Panel option:
-					- Appearance > Add New Themes', 'aam'),
-            'activate_plugins' => __('Since 2.0
-				Allows access to Administration Panel option:
-					- Plugins', 'aam'),
-            'edit_plugins' => __('Since 2.0
-				Allows access to Administration Panel option:
-					- Plugins > Plugin Editor', 'aam'),
-            'install_plugins' => __('Since 2.0
-				Allows access to Administration Panel option:
-					- Plugins > Add New', 'aam'),
-            'edit_users' => __('Since 2.0
-				Allows access to Administration Panel option:
-					- Users', 'aam'),
-            'edit_files' => __('Since 2.0
-				Note: No longer used.', 'aam'),
-            'moderate_comments' => __('Since 2.0
-				Allows users to moderate comments from the Comments SubPanel (although a user needs the edit_posts Capability in order to access this)', 'aam'),
-            'manage_categories' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Posts > Categories
-					- Links > Categories', 'aam'),
-            'manage_links' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Links
-					- Links > Add New', 'aam'),
-            'upload_files' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Media
-					- Media > Add New', 'aam'),
-            'import' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Tools > Import
-					- Tools > Export', 'aam'),
-            'unfiltered_html' => __('Since 2.0
-				Allows user to post HTML markup or even JavaScript code in pages, posts, and comments.
-				Note: Enabling this option for untrusted users may result in their posting malicious or poorly formatted code.', 'aam'),
-            'edit_posts' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Posts
-					- Posts > Add New
-					- Comments
-					- Comments > Awaiting Moderation', 'aam'),
-            'publish_posts' => __('Since 2.0
-				See and use the "publish" button when editing their post (otherwise they can only save drafts)
-				Can use XML-RPC to publish (otherwise they get a "Sorry, you can not post on this weblog or category.")', 'aam'),
-            'edit_pages' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Pages
-					- Pages > Add New', 'aam'),
-            'read' => __('Since 2.0
-				Allows access to Administration Panel options:
-					- Dashboard
-					- Users > Your Profile
-				Used nowhere in the core code except the menu.php', 'aam'),
+            'switch_themes' => __('Since 2.0 - Allows access to Administration Panel options: Appearance // Appearance > Themes', 'aam'),
+            'edit_themes' => __('Since 2.0 - Allows access to Appearance > Theme Editor to edit theme files.', 'aam'),
+            'edit_theme_options' => __('Since 3.0 - Allows access to Administration Panel options:  Appearance > Background // Appearance > Header // Appearance > Menus // Appearance > Widgets // Also allows access to Theme Options pages if they are included in the Theme', 'aam'),
+            'update_themes' => __('Since 2.0', 'aam'),
+            'edit_published_posts' => __('Since 2.0 - User can edit their published posts (off by default). The core checks the capability edit_posts, but on demand this check is changed to edit_published_posts. If you do not want a user to be able edit his published posts, remove this capability.', 'aam'),
+            'edit_others_posts' => __('Since 2.0 - Allows access to Administration Panel options:  Manage > Comments (Lets user delete and edit every comment, see edit_posts above) // User can edit other posts through function get_others_drafts()  // User can see other images in inline-uploading', 'aam'),
+            'manage_options' => __('Since 2.0 - Allows access to Administration Panel options:  Settings > General // Settings > Writing // Settings > Writing // Settings > Reading // Settings > Discussion // Settings > Permalinks // Settings > Miscellaneous', 'aam'),
+            'install_themes' => __('Since 2.0 - Allows access to Administration Panel option: Appearance > Add New Themes', 'aam'),
+            'activate_plugins' => __('Since 2.0 - Allows access to Administration Panel option: Plugins', 'aam'),
+            'edit_plugins' => __('Since 2.0 - Allows access to Administration Panel option:  Plugins > Plugin Editor', 'aam'),
+            'install_plugins' => __('Since 2.0 - Allows access to Administration Panel option: Plugins > Add New', 'aam'),
+            'edit_users' => __('Since 2.0 - Allows access to Administration Panel option:  Users', 'aam'),
+            'edit_files' => __('Since 2.0 - Note: No longer used.', 'aam'),
+            'moderate_comments' => __('Since 2.0 - Allows users to moderate comments from the Comments SubPanel (although a user needs the edit_posts Capability in order to access this)', 'aam'),
+            'reply_comment' => __('Since 2.0', 'aam'),
+            'quick_edit_comment' => __('Since 2.0', 'aam'),
+            'unapprove_comment' => __('Since 2.0', 'aam'),
+            'unspam_comment' => __('Since 2.0', 'aam'),
+            'untrash_comment' => __('Since 2.0', 'aam'),
+			'manage_categories' => __('Since 2.0 - Allows access to Administration Panel options: Posts > Categories // Links > Categories', 'aam'),
+            'manage_links' => __('Since 2.0 - Allows access to Administration Panel options:  Links // Links > Add New', 'aam'),
+            'upload_files' => __('Since 2.0 - Allows access to Administration Panel options: Media // Media > Add New', 'aam'),
+            'import' => __('Since 2.0 - Allows access to Administration Panel options:  Tools > Import // Tools > Export', 'aam'),
+            'unfiltered_html' => __('Since 2.0 - Allows user to post HTML markup or even JavaScript code in pages, posts, and comments. Note: Enabling this option for untrusted users may result in their posting malicious or poorly formatted code.', 'aam'),
+            'edit_posts' => __('Since 2.0 - Allows access to Administration Panel options:  Posts - Posts > Add New // Comments // Comments > Awaiting Moderation', 'aam'),
+            'publish_posts' => __('Since 2.0 - See and use the PUBLISH button when editing their post (otherwise they can only save drafts).  Can use XML-RPC to publish (otherwise they get a… Sorry, you can not post on this weblog or category.)', 'aam'),
+            'publish_pages' => __('Since 2.1', 'aam'),
+            'edit_pages' => __('Since 2.0 - Allows access to Administration Panel options: Pages - Pages > Add New', 'aam'),
+            'edit_permalink' => __('Since 2.1', 'aam'),
+            'read' => __('Since 2.0 - Allows access to Administration Panel options:  Dashboard - Users > Your Profile // Used only in menu.php', 'aam'),
             'edit_others_pages' => __('Since 2.1', 'aam'),
             'edit_published_pages' => __('Since 2.1', 'aam'),
             'edit_published_pages_2' => __('Since 2.1', 'aam'),
@@ -393,18 +336,10 @@ class mvb_Model_Label {
             'delete_themes' => __('Since 3.0', 'aam'),
             'export' => __('Since 3.0', 'aam'),
             'edit_comment' => __('Since 3.1', 'aam'),
-            'manage_sites' => __('Since 3.0
-				Multi-site only
-				Allows access to Network Sites menu
-				Allows user to add, edit, delete, archive, unarchive, activate, deactivate, spam and unspam new site/blog in the network', 'aam'),
-            'manage_network_users' => __('Since 3.0
-				Multi-site only
-				Allows access to Network Users menu', 'aam'),
-            'manage_network_themes' => __('Since 3.0
-				Multi-site only
-				Allows access to Network Themes menu', 'aam'),
-            'manage_network_options' => __('Since 3.0
-				Multi-site only
+            'manage_sites' => __('Since 3.0 - Multi-site only.  Allows access to Network Sites menu // Allows user to add, edit, delete, archive, unarchive, activate, deactivate, spam and unspam new site/blog in the network', 'aam'),
+            'manage_network_users' => __('Since 3.0 - Multi-site only. Allows access to Network Users menu', 'aam'),
+            'manage_network_themes' => __('Since 3.0 - Multi-site only. Allows access to Network Themes menu', 'aam'),
+            'manage_network_options' => __('Since 3.0 - Multi-site only
 				Allows access to Network Options menu', 'aam'),
             'level_0' => __('User Level 0 converts to Subscriber', 'aam'),
             'level_1' => __('User Level 1 converts to Contributor', 'aam'),
@@ -446,74 +381,68 @@ class mvb_Model_Label {
         self::$labels['LABEL_6'] = __('Backend Section', 'aam');
         self::$labels['LABEL_7'] = __('Frontend Section', 'aam');
         self::$labels['LABEL_8'] = __('Select a topic from Guide Reference Tree', 'aam');
-        self::$labels['LABEL_9'] = __('[p]ConfigPress originally was designed to avoid frequent code changes and give ability for administrator, easy and fast configure plugin behavior.[/p][p]Configuration is based on INI
-            format which is quite popular and easy to learn.[/p][p]For any questions or concerns please visit my forum at http://whimba.org[/p]', 'aam');
-        self::$labels['LABEL_10'] = __('[p]There are three major configuration parts you will deal with: comments, sections and parameters[/p]
+        self::$labels['LABEL_9'] = __('ConfigPress originally was designed to
+            avoid frequent code changes and give ability for administrator, easy
+            and fast configure plugin behavior. Configuration is based on INI
+            format which is quite popular and easy to learn. For any questions
+            or concerns please visit our forum at Whimba.org', 'aam');
+        self::$labels['LABEL_10'] = __('There are three major configuration parts
+            you will deal with: comments, sections and parameters
         [b]Comments[/b]
-        It is good practice to leave some comments about parameters and values you specified.
+        It is good practice to leave some comments about parameters and values you specified. That is why comments are very important part
         Comment starts from semicolon [b];[/b] and ends in the end of line:
         [section][aam][/section]
             [comment];specify callback function to check if user has access to delete capabilities[/comment]
             delete_capabilities.userFunc = [value]"checkUser::hasDeleteCap"[/value]
-        [p][b]Sections[/b]
+        [b]Sections[/b]
         All ConfigPress parameters are grouped by section. Section starts from open [b][[/b] and ends by closing [b]][/b]
         [section][aam][/section]
-        [section][backend][/section][/p]
+        [section][backend][/section]
         [b]Parameters[/b]
         Each Parameter should belong to section and it allows to have only alphanumeric symbols, underscore or dash. Also all parameters follow the same logic. It means you can define userFunc for anyone.
-        [section][aam][/section]
-        error_reporting = [value]"true"[/value]', 'aam');
-        self::$labels['LABEL_11'] = __('[p]AAM is a section for configuring the way plugin\'s core works. Something like caching, error reporting or modifying Access Manager Option page.[/p]', 'aam');
-        self::$labels['LABEL_12'] = __('[p]Advanced Access Manager has internal caching for User\'s and Role\'s configurations. By default caching is turned on.[/p]
-        [section][aam][/section]
-        caching = [value]"true"[/value]', 'aam');
-        self::$labels['LABEL_13'] = __('[p]This is additional protection layout in fact capabilities are the most important part of access management in WordPress. By default it is false.[/p]
-        [section][aam][/section]
-        delete_capabilities = [value]"false"[/value]', 'aam');
-        self::$labels['LABEL_14'] = __('[p][b]Deprecated and Removed in release 1.6.5.1 (Beta)[/b][/p][p]Use Advanced Access Manager error reporting feature and log all errors, related to this plugin to internal error log. By default is false.[/p]
-        [section][aam][/section]
-        error_reporting = [value]"true"[/value]', 'aam');
-        self::$labels['LABEL_15'] = __('[p]Group of settings for multisite support[/p]', 'aam');
-        self::$labels['LABEL_16'] = __('[p]If you have a lot of sites on multisite setup, you have possibility to apply configurations to all sites. It\'ll duplicate Admin Menu, Menu Order, Metaboxes and Widgets, Capabilities and User Roles.[/p][p]Please notice that this feature is limited for basic version of Advanced Access Manager. By default it is false.[/p]
-        [section][aam][/section]
-        multisite.apply_all = [value]"false"[/value]', 'aam');
-        self::$labels['LABEL_17'] = __('[p]Group Pages into Categories.[/p][p]It works the same way as Post\'s Categories. This option is working ONLY for Premium version of Advanced Access Manager. Default value is false.[/p]
-        [section][aam][/section]
-        page_category = [value]"false"[/value]', 'aam');
-        self::$labels['LABEL_18'] = __('[p]If you have purchased premium version of Advanced Access Manager, you have to receive a license key.[/p]
-        [section][aam][/section]
-        license_key = [value]"2337eb1b9e4c9e8374ffaaf5b5735f9a7c983a26"[/value]', 'aam');
-        self::$labels['LABEL_19'] = __('[p]Section to specify Advanced Access Manager behavior in Backend.[/p]', 'aam');
-        self::$labels['LABEL_20'] = __('[p]Group of settings for resource access.[/p]', 'aam');
-        self::$labels['LABEL_21'] = __('[p]Group of settings for access denied behavior to resource.[/p]', 'aam');
-        self::$labels['LABEL_22'] = __('[p]Define redirect if access is denied for specific resource.[/p][p]This will enforce the redirect to specified URL or if it is userFunc it\'ll execute this function.[/p][p]PLEASE NOTICE! Custom userFunc should die an application or redirect to some URL by sending header, otherwise the application will through the Exception "Unauthorized Action"
+        [section][aam][/section]error_reporting = [value]"true"[/value]', 'aam');
+        self::$labels['LABEL_11'] = __('AAM is a section for configuring the way plugin\'s core works. Something like caching, error reporting or modifying Access Manager Option page', 'aam');
+        self::$labels['LABEL_12'] = __('Advanced Access Manager has internal caching for User\'s and Role\'s configurations. By default caching is turned on.
+        [section][aam][/section]caching = [value]"true"[/value]', 'aam');
+        self::$labels['LABEL_13'] = __('This is additional protection layout in fact capabilities are the most important part of access management in WordPress. By default it is false
+        [section][aam][/section]delete_capabilities = [value]"false"[/value]', 'aam');
+        self::$labels['LABEL_14'] = __('Deprecated and Removed in release 1.6.5.1 (Beta)
+        Use Advanced Access Manager error reporting feature and log all errors, related to this plugin to internal error log. By default is false
+        [section][aam][/section]error_reporting = [value]"true"[/value]', 'aam');
+        self::$labels['LABEL_15'] = __('Group of settings for multisite support', 'aam');
+        self::$labels['LABEL_16'] = __('If you have a lot of sites on multisite setup, you have possibility to apply configurations to all sites. It\'ll duplicate Admin Menu, Menu Order, Metaboxes and Widgets, Capabilities. Please notice that this feature is limited for basic version of Advanced Access Manager. By default it is false.
+        [section][aam][/section]multisite.apply_all = [value]"false"[/value]', 'aam');
+        self::$labels['LABEL_17'] = __('Group Pages into Categories. It works the same way as Post\'s Categories. This option is working ONLY for Premium version of Advanced Access Manager. Default value is false.
+        [section][aam][/section]page_category = [value]"false"[/value]', 'aam');
+        self::$labels['LABEL_18'] = __('If you have purchased premium version of Advanced Access Manager, you have to receive a license key.
+        [section][aam][/section]license_key = [value]"2337eb1b9e4c9e8a64ffddf5b5735f9a7c983a26"[/value]', 'aam');
+        self::$labels['LABEL_19'] = __('Section to specify Advanced Access Manager behavior in Backend', 'aam');
+        self::$labels['LABEL_20'] = __('Group of settings for resource access', 'aam');
+        self::$labels['LABEL_21'] = __('Group of settings for access denied behavior to resource', 'aam');
+        self::$labels['LABEL_22'] = __('Specify redirect if access is denied for specific resource. This will enforce the redirect to specified URL or if it is userFunc it\'ll execute this function.
+            PLEASE NOTICE! Custom userFunc should die an application or redirect to some URL by sending header, otherwise the application will through the Exception "Unauthorized Action"
             If redirect is valid URL then it\'ll redirect to that URL
             If redirect is number, it\'ll try to redirect to page or post with that ID by using WordPress function get_permalink
-            If redirect has property userFunc it\'ll execute the userFunc[/p]
-        [section][backend][/section]
-        access.deny.redirect = [value]"5"[/value]', 'aam');
-        self::$labels['LABEL_23'] = __('[p]Specify the restriction message if access is denied.[/p]
-        [section][backend][/section]
-        access.deny.message = [value]"You are not allowed to view this page"[/value]', 'aam');
-        self::$labels['LABEL_24'] = __('[p]Section to specify Advanced Access Manager behavior on Frontend.[/p]', 'aam');
-        self::$labels['LABEL_25'] = __('[p]Holder for default behavior.[/p]', 'aam');
-        self::$labels['LABEL_26'] = __('[p]Holder for taxonomy configurations.[/p]', 'aam');
-        self::$labels['LABEL_27'] = __('[p]Holder for post configurations.[/p]', 'aam');
-        self::$labels['LABEL_28'] = __('[p]Specify default listing. It means allow or deny listing post or taxonomy[/p]
-        [section][backend][/section]
-        access.taxonomy.default.list = [value]"deny"[/value]', 'aam');
-        self::$labels['LABEL_29'] = __('[p]Not commented yet.[/p]', 'aam');
-        self::$labels['LABEL_30'] = __('[p]Not commented yet.[/p]', 'aam');
-        self::$labels['LABEL_31'] = __('[p]Not commented yet.[/p]', 'aam');
-        self::$labels['LABEL_32'] = __('[p]Not commented yet.[/p]', 'aam');
-        self::$labels['LABEL_33'] = __('[p]Not commented yet.[/p]', 'aam');
-        self::$labels['LABEL_34'] = __('[p]Not commented yet.[/p]', 'aam');
-        self::$labels['LABEL_35'] = __('[p]Not commented yet.[/p]', 'aam');
+            If redirect has property userFunc it\'ll execute the userFunc
+        [section][backend][/section]access.deny.redirect = [value]"5"[/value]', 'aam');
+        self::$labels['LABEL_23'] = __('Specify the restriction message if access is denied.
+        [section][backend][/section]access.deny.message = [value]"You are not allowed to view this page"[/value]', 'aam');
+        self::$labels['LABEL_24'] = __('Section to specify Advanced Access Manager behavior on Frontend', 'aam');
+        self::$labels['LABEL_25'] = __('Holder for default behavior', 'aam');
+        self::$labels['LABEL_26'] = __('Holder for taxonomy configurations', 'aam');
+        self::$labels['LABEL_27'] = __('Holder for post configurations', 'aam');
+        self::$labels['LABEL_28'] = __('Specify default listing. It means allow or deny listing post or taxonomy
+        [section][backend][/section]access.taxonomy.default.list = [value]"deny"[/value]', 'aam');
+        self::$labels['LABEL_29'] = __('Not commented yet.', 'aam');
+        self::$labels['LABEL_30'] = __('Not commented yet.', 'aam');
+        self::$labels['LABEL_31'] = __('Not commented yet.', 'aam');
+        self::$labels['LABEL_32'] = __('Not commented yet.', 'aam');
+        self::$labels['LABEL_33'] = __('Not commented yet.', 'aam');
+        self::$labels['LABEL_34'] = __('Not commented yet.', 'aam');
+        self::$labels['LABEL_35'] = __('Not commented yet.', 'aam');
         self::$labels['LABEL_36'] = __('Collapse All', 'aam');
         self::$labels['LABEL_37'] = __('Expand All', 'aam');
-        self::$labels['LABEL_38'] = __('[p]You can specify which site will be default setting holder for new create site in Multisite Network pannel.[/p]
-            [section][aam][/section]
-            multisite.default_site = [value]"1"[/value]', 'aam');
+        self::$labels['LABEL_38'] = __('Not commented yet.', 'aam');
     }
 
     /**

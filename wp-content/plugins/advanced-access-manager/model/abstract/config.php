@@ -365,7 +365,7 @@ abstract class mvb_Model_Abstract_Config {
                     if (is_array($cat_list)) {
                         $cat_list = array_reverse($cat_list);
                         foreach ($cat_list as $cat_id) {
-                            if ( $r = $this->getRestriction('taxonomy', $cat_id)) {
+                            if ($r = $this->getRestriction('taxonomy', $cat_id)) {
                                 if (isset($r['post_in_category'])) {
                                     foreach ($r as $key => $value) {
                                         if (strpos($key, '_post_')) {
@@ -378,10 +378,10 @@ abstract class mvb_Model_Abstract_Config {
                         }
                     }
                 }
-            }elseif($type == 'taxonomy'){
+            } elseif ($type == 'taxonomy') {
                 $taxonomy = mvb_Model_Helper::getTaxonomyByTerm($id);
-                foreach(get_ancestors($id, $taxonomy) as $ans){
-                    if ($this->hasRestriction('taxonomy', $ans)){
+                foreach (get_ancestors($id, $taxonomy) as $ans) {
+                    if ($this->hasRestriction('taxonomy', $ans)) {
                         $result = $this->getRestriction('taxonomy', $ans);
                         break;
                     }
@@ -390,10 +390,12 @@ abstract class mvb_Model_Abstract_Config {
 
             //update restriction by configPress
             if (is_null($result)) {
-                $result = $this->populateRestriction($type);
+                $result = $this->populateRestriction(
+                        $type, $this->getType(), $this->getID()
+                );
             }
 
-            if (!is_null($result)){
+            if (!empty($result)) {
                 $this->addRestriction($type, $id, $result); //cache result
             }
         }
@@ -406,7 +408,11 @@ abstract class mvb_Model_Abstract_Config {
         $result = array();
 
         if (mvb_Model_Helper::isPremium()) {
-            $result = mvb_Model_Pro::populateRestriction($type);
+            $result = mvb_Model_Pro::populateRestriction(
+                    $type,
+                    $this->getType(),
+                    $this->getID()
+            );
         }
 
         return $result;
@@ -421,9 +427,9 @@ abstract class mvb_Model_Abstract_Config {
      */
     public function updateRestriction($type, $id, $data) {
 
-        if (!$this->hasRestriction($type, $id)){
+        if (!$this->hasRestriction($type, $id)) {
             $this->addRestriction($type, $id, $data);
-        }else{
+        } else {
             $this->restrictions[$type][$id] = $data;
         }
     }
@@ -435,9 +441,9 @@ abstract class mvb_Model_Abstract_Config {
      * @param type $id
      * @param type $data
      */
-    public function addRestriction($type, $id, $data){
+    public function addRestriction($type, $id, $data) {
 
-        if (!isset($this->restrictions[$type])){
+        if (!isset($this->restrictions[$type])) {
             $this->restrictions[$type] = array();
         }
 
