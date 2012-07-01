@@ -1,0 +1,22 @@
+/*
+Theme Name:     Sample Child
+Description:    Sample for child themes, specifically children of the Responsive theme. 
+Author:         K. Clay McKell
+Author URI:     http://ee.hawaii.edu/~mckell
+Template:       responsive
+Version:        0.1.0
+*/
+
+/* 
+* Note: The only two required lines above are the "Theme Name" and the "Template" (which must match the case-sensitive directory of the parent theme).
+*/
+
+/* 
+* Also, please be careful: If you don't import the parent's styles, this style sheet COMPLETELY overrides the parent's styles.
+* So, leave the following line intact unless you are sure you know what you are doing!
+*/
+@import url("../responsive/style.css");
+
+/*************************************** 
+* Include your custom child styles below.
+****************************************/
