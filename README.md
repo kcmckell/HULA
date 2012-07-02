@@ -15,7 +15,7 @@ Fork this repository and clone a copy to your local machine.
 
 ### Edit
 
-Edit your local copy.  Ideally, you'll have an (X)AMP environment ready on your machine (where X stands for W[indows], M[ac], or [L]inux).
+Edit your local copy.  Ideally, you'll have an (X)AMP environment ready on your machine (where X stands for [W[indows]](http://www.easyphp.org/), [M[ac]](http://www.mamp.info/en/index.html), or [L]inux).
 If you would like a copy of the latest development database, email @kcmckell for a copy.
 
 ### Ask to be included
