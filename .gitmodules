@@ -4,3 +4,6 @@
 [submodule "wp-content/plugins/buddypress"]
 	path = wp-content/plugins/buddypress
 	url = git://github.com/buddypress/trunk.git
+[submodule "wp-content/plugins/bp-template-pack"]
+	path = wp-content/plugins/bp-template-pack
+	url = git://github.com/boonebgorges/bp-template-pack.git
