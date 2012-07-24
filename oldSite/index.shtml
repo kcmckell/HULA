@@ -23,179 +23,146 @@
           </div>
           <div id=hula_content>
             <div id=hula_blog>
-              <div id=hula_blog_header>What's been happenin'with HULA</div>
+              <div id=hula_blog_header>What's been happenin' with HULA</div>
               <div id=hula_blog_text>
 
               <!--News.asp (in 'include' directory) contains the text for this panel.  archives are dated-->
 		<!--#include virtual="/include/News.asp"-->
 
                 
-                  </div>
-                  <div id=hula_blog_footer>&nbsp;</div>
-                </div>
-                <div id=hula_events>
-                  <div id=hula_events_header>Events</div>
-                  <div id=hula_events_text>
-                    
-
+              </div>
+              <div id=hula_blog_footer>&nbsp;</div>
+            </div>
+            <div id=hula_events>
+              <div id=hula_events_header>Events</div>
+              <div id=hula_events_text>
 				<p>---- Current and Upcoming Events ----</p>
 					<!--#include virtual="/include/CurrentEvents.asp"-->
-				    
 				<p>---- Recent Events ----</p>
 					<!--#include virtual="/include/RecentEvents.asp"-->
-
-
-                                          <br>
-                                          <br><br>
-                                                                </div>
-                                                                <div id=hula_events_footer>&nbsp;</div>
-                                                              </div>
+                <br>
+                <br><br>
+              </div>
+              <div id=hula_events_footer>&nbsp;</div>
+            </div>
                                                               
-                                                              <div id=hula_blog>
-                                                                <div id=hula_blog_header>Board of Directors</div>
-                                                                <div id=hula_blog_text>
-                                                                  <div id=hula_imagebox>
-                                                                    <div id=hula_imagebox_controls>
-                                                                      <p><a href="javascript:hula_imagebox_prev();">prev</a>
-                                                                        <span id=curr_image></span>&nbsp;of&nbsp;<span id=num_images></span>
-                                                                        <a href="javascript:hula_imagebox_next();">next</a>
-                                                                      </div>
-                                                                      <div id=hula_imagebox_pics>
-                                                                           <div class=image_div id=1>
-                                                                          <p><img src="/faces/MondoChun.jpg" width="150" height="200"></p>
-
-                                                                            <p class=caption>Mondo Chun</p>
-
-                                                                          </div>
-                                                                          <div class=image_div id=2>
-                                                                            <p><img src="/faces/MaggieDesmond.jpg" width="150" height="200"></p>
-
-                                                                              <p class=caption>Maggie Desmond</p>
-
-                                                                            </div>
-                                                                            <div class=image_div id=3>
-                                                                              <p><img src="/faces/JackWade.jpg" width="150" height="200"></p>
-
-                                                                                <p class=caption>Jack Wade</p>
-
-                                                                              </div>
-                                                                              <div class=image_div id=4>
-                                                                                <p><img src="/faces/SteveFleischer.jpg" width="150" height="200"></p>
-
-                                                                                  <p class=caption>Steve Fleischer</p>
-
-                                                                                </div>
-                                                                                <div class=image_div id=5>
-                                                                                   <p><img src="/faces/DaveStrang.jpg" width="150" height="200"></p>
-
-                                                                                     <p class=caption>Dave Strang</p>
-
-                                                                                </div>
-
-                                                                                <div class=image_div id=6>
-                                                                                   <p><img src="/faces/Blank.jpg" width="150" height="200"></p>
-
-                                                                                     <p class=caption>Chris Garth</p>
-
-                                                                                      </div>
-
-                                                                                  <div class=image_div id=7>
-                                                                                    <p><img src="/faces/Blank.jpg" width="150" height="200"></p>
-
-                                                                                      <p class=caption>Laura Stevens</p>
-
-                                                                                    </div>
-                                                                                    
-                                                                                      <div class=image_div id=8>
-                                                                                        <p><img src="/faces/ChrisStevens.jpg" width="150" height="200"></p>
-
-                                                                                          <p class=caption>Chris Stevens</p>
-
-                                                                                        </div>
-                                                                                        <div class=image_div id=9>
-                                                                                          <p><img src="/faces/MichelleSwan.jpg" width="150" height="200"></p>
-
-                                                                                            <p class=caption>Michelle Swan</p>
-
-                                                                                          </div>
-                                                                                          <div class=image_div id=10>
-                                                                                            <p><img src="/faces/KimUmeda.jpg" width="150" height="200"></p>
-
-                                                                                              <p class=caption>Kim Fleischer</p>
-
-                                                                                            </div>
-                                                                                            
-
-                                                                                              
-                                                                                            </div>
-                                                                                          </div>
-                                                                                          
-                                                                                            <p> The current HULA Board of Directors includes...
-                                                                                              <ul>
-                                                                                                <li>Mondo Chun (Treasurer)</li>
-                                                                                                <li>Kim Fleischer</li>
-                                                                                                <li>Steve Fleischer</li>
-                                                                                                <li>Mike Layden (League Liason)</li>
-                                                                                                <li>Micki Ream (Secretary)</li>
-                                                                                                <li>Chris Stevens (Small Events Coordinator)</li>
-                                                                                                <li>Laura Stevens (President)</li>
-                                                                                                <li>Dave Strang</li>
-                                                                                                <li>Michelle Swan (Vice President)</li>
-                                                                                                <li>Jack Wade</li>
-                                                                                                <li>Matt "Slip" Wilensky (Secretary)</li>
-                                                                                              </ul>
-                                                                                                                    
-
-                                                                                                                  </div>
-                                                                                                                                                                                                                             </div>
-                                                                                                                <div id=hula_blog>
-                                                                                                                  <div id=hula_blog_header>Calendar</div>
-                                                                                                                  <div id=hula_blog_text>
-                                                                                                                    <p>Interested in seeing what other events are happening? Check out the NEW (8/22/2011) <a href="https://www.google.com/calendar/embed?src=397jfh4qpamkmp5theal5bq7fk%40group.calendar.google.com&ctz=Pacific/Honolulu" target="blank">HULA Calendar</a>
-                                                                                                                    </div>
-                                                                                                                    <div id=hula_blog_footer>&nbsp;</div>
-                                                                                                                  </div>
-                                                                                                                  <div id=hula_blog>
-                                                                                                                    <div id=hula_blog_header>Email Lists</div>
-                                                                                                                    <div id=hula_blog_text>
-                                                                                                                      <p>HULA is moving into the future with GOOGLE. With our old yahoo accounts failing to serve our purposes any longer, we're retiring the yahoo accounts AT THE END OF AUGUST. So to get the most up-to-date info, please sign up for the googlegroups below.
-                                                                                                                        <ul>
-                                                                                                                          <li> <a href="http://groups.google.com/group/hawaii-ultimate-league-association" target="blank">hawaii-ultimate-league-association</a>
-                                                                                                                            - (a.k.a. Hulamail) MOST IMPORTANT LIST, official disc-related announcements, mainly for O`ahu (googlegroup)
-                                                                                                                            <li> <a href="http://groups.google.com/group/hula-generalmail" target="blank">Generalmail</a>
-                                                                                                                              - community announcements, non-ultimate such as parties, for sale, etc. (googlegroup)
-                                                                                                                              <li> <a href="http://groups.google.com/group/hula-wahinemail" target="blank">Wahinemail</a>
-                                                                                                                                - women's events/discussion (googlegroup)
-																					  <li> <a href="http://groups.google.com/group/hula-kanemail" target="blank">Kanemail</a>
-																 					    - men's events/discussion (googlegroup)
-																   					    <li><a href="http://www.facebook.com/group.php?gid=2516052186" target="blank">Hawaii Ultimate Facebook Group</a>
-
-                                                                                                                              </ul>
-                                                                                                                              <!-- Google CSE Search Box Begins  -->
-                                                                                                                              <!--
-                                                                                                                              <form id="searchbox_016047565924279138555:zzewgxdvoxa" action="http://google.com/cse">
-                                                                                                                                <input type="hidden" name="cx" value="016047565924279138555:zzewgxdvoxa" />
-                                                                                                                                <input type="hidden" name="cof" value="FORID:0" />
-                                                                                                                                <input name="q" type="text" size="40" />
-                                                                                                                                <input type="submit" name="sa" value="Search" />
-                                                                                                                              </form>
-                                                                                                                              <script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_016047565924279138555%3Azzewgxdvoxa"></script>
-                                                                                                                              -->
-                                                                                                                              <!-- Google CSE Search Box Ends -->
-                                                                                                                            </div>
-                                                                                                                            <div id=hula_blog_footer>&nbsp;</div>
-                                                                                                                          </div>
-                                                                                                                        </div>
-                                                                                                                        <!--#include file="/include/hulabottom.inc"-->
-                                                                                                                      </div>
-                                                                                                                    </div>
-                                                                                                                  </center>
-                                                                                                                  <script type="text/javascript">
+			<div id=hula_blog>
+				<div id=hula_blog_header>Board of Directors</div>
+				<div id=hula_blog_text>
+					<div id=hula_imagebox>
+						<div id=hula_imagebox_controls>
+							<p><a href="javascript:hula_imagebox_prev();">prev</a>
+							<span id=curr_image></span>&nbsp;of&nbsp;<span id=num_images></span>
+							<a href="javascript:hula_imagebox_next();">next</a>
+						</div>
+						<div id=hula_imagebox_pics>
+						<!-- TODO: Renumber ID's !!!!!!!!!!!!!!!!!!!!!-->
+							<div class=image_div id=1>
+								<p><img src="/faces/MondoChun.jpg" width="150" height="200"></p>
+								<p class=caption>Mondo Chun</p>
+							</div>
+							<div class=image_div id=2>
+								<p><img src="/faces/KimUmeda.jpg" width="150" height="200"></p>
+								<p class=caption>Kim Fleischer</p>
+							</div>
+							<div class=image_div id=3>
+								<p><img src="/faces/SteveFleischer.jpg" width="150" height="200"></p>
+								<p class=caption>Steve Fleischer</p>
+							</div>
+							<div class=image_div id=4>
+								<p><img src="/faces/Blank.jpg" width="150" height="200"></p>
+								<p class=caption>Mike Layden</p>
+							</div>
+							<div class=image_div id=5>
+								<p><img src="/faces/Blank.jpg" width="150" height="200"></p>
+								<p class=caption>Micki Ream</p>
+							</div>
+							<div class=image_div id=6>
+								<p><img src="/faces/ChrisStevens.jpg" width="150" height="200"></p>
+								<p class=caption>Chris Stevens</p>
+							</div>
+							<div class=image_div id=7>
+								<p><img src="/faces/Blank.jpg" width="150" height="200"></p>
+								<p class=caption>Laura Stevens</p>
+							</div>
+							<div class=image_div id=8>
+								<p><img src="/faces/DaveStrang.jpg" width="150" height="200"></p>
+								<p class=caption>Dave Strang</p>
+							</div>
+							<div class=image_div id=9>
+								<p><img src="/faces/MichelleSwan.jpg" width="150" height="200"></p>
+								<p class=caption>Michelle Swan</p>
+							</div>
+							<div class=image_div id=10>
+								<p><img src="/faces/JackWade.jpg" width="150" height="200"></p>
+								<p class=caption>Jack Wade</p>
+							</div>
+							<div class=image_div id=11>
+								<p><img src="/faces/Blank.jpg" width="150" height="200"></p>
+								<p class=caption>Matt "Slip" Wilensky</p>
+							</div>
+						</div>
+					</div>
+										  
+					<p> The current HULA Board of Directors includes...
+						<ul>
+							<li>Mondo Chun (Treasurer)</li>
+							<li>Kim Fleischer</li>
+							<li>Steve Fleischer</li>
+							<li>Mike Layden (League Liason)</li>
+							<li>Micki Ream (Secretary)</li>
+							<li>Chris Stevens (Small Events Coordinator)</li>
+							<li>Laura Stevens (President)</li>
+							<li>Dave Strang</li>
+							<li>Michelle Swan (Vice President)</li>
+							<li>Jack Wade</li>
+							<li>Matt "Slip" Wilensky (Secretary)</li>
+						</ul>
+				</div>
+			</div>
+			<div id=hula_blog>
+				<div id=hula_blog_header>Calendar</div>
+				<div id=hula_blog_text>
+					<p>Interested in seeing what other events are happening? Check out the NEW (8/22/2011) <a href="https://www.google.com/calendar/embed?src=397jfh4qpamkmp5theal5bq7fk%40group.calendar.google.com&ctz=Pacific/Honolulu" target="blank">HULA Calendar</a>
+				</div>
+				<div id=hula_blog_footer>&nbsp;</div>
+			</div>
+			<div id=hula_blog>
+				<div id=hula_blog_header>Email Lists</div>
+					<div id=hula_blog_text>
+						<p>HULA is moving into the future with GOOGLE. With our old yahoo accounts failing to serve our purposes any longer, we're retiring the yahoo accounts AT THE END OF AUGUST. So to get the most up-to-date info, please sign up for the googlegroups below.
+							<ul>
+								<li> <a href="http://groups.google.com/group/hawaii-ultimate-league-association" target="blank">hawaii-ultimate-league-association</a> - (a.k.a. Hulamail) MOST IMPORTANT LIST, official disc-related announcements, mainly for O`ahu (googlegroup)</li>
+								<li> <a href="http://groups.google.com/group/hula-generalmail" target="blank">Generalmail</a> - community announcements, non-ultimate such as parties, for sale, etc. (googlegroup)</li>
+								<li> <a href="http://groups.google.com/group/hula-wahinemail" target="blank">Wahinemail</a> - women's events/discussion (googlegroup)</li>
+								<li> <a href="http://groups.google.com/group/hula-kanemail" target="blank">Kanemail</a> - men's events/discussion (googlegroup)</li>
+								<li><a href="http://www.facebook.com/group.php?gid=2516052186" target="blank">Hawaii Ultimate Facebook Group</a></li>
+							</ul>
+							  <!-- Google CSE Search Box Begins  -->
+							  <!--
+							  <form id="searchbox_016047565924279138555:zzewgxdvoxa" action="http://google.com/cse">
+								<input type="hidden" name="cx" value="016047565924279138555:zzewgxdvoxa" />
+								<input type="hidden" name="cof" value="FORID:0" />
+								<input name="q" type="text" size="40" />
+								<input type="submit" name="sa" value="Search" />
+							  </form>
+							  <script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_016047565924279138555%3Azzewgxdvoxa"></script>
+							  -->
+							  <!-- Google CSE Search Box Ends -->
+					</div>
+					<div id=hula_blog_footer>&nbsp;</div>
+				</div>
+			</div>
+			<!--#include file="/include/hulabottom.inc"-->
+		</div>
+	</div>
+</center>
+<script type="text/javascript">
 	function LoadFunctions() {
-		InitializeImages();
+	InitializeImages();
 	}
 	window.onload = LoadFunctions;
-                                                                                                                  </script>
-                                                                                                                </body>
-                                                                                                              </html>
+</script>
+</body>
+</html>
 
