@@ -1,0 +1,46 @@
+----------------------------------------------------------------
+
+ RED TEAM             GREEN TEAM          WHITE TEAM
+ --------             ----------          ----------
+ Asad Ghiasuddin      Adam Dengler        Alexandra Polderman
+ Buffy Cushman*       Andrew Schaper      Anthony Bender
+ Chris Jones          Daniel Inouye       Barbara Bruno
+ Dave Strang          Frank Dabrosky      Bartlett Durand
+ Drew Baltensperger   Gregory Fleming     Corey Tyrrell
+ Gary Huang           Heather Gregory     Geoff Keenan*
+ Jenny Whitton        Henry Hsieh         Jamie Leonard*
+ Katie Fagan          Joe Paradise        Jeremiah Johnson
+ Kelly Molnar         Joshua White        Jeremy Kim
+ Kenny Amazaki        Kaveh Kardan        Larry Smart
+ Kim Umeda            Kevin Bartholomew   Laura Skopec
+ Laura Lott           Laura Gilda         Leilani Durand
+ Lucas Dunklee        Lynn Lotti          Mike Wysong
+ Matt Dunlap          Melanie Curtin      Mike Ward
+ Nancy Faraj          Patrick Carroll     Mike Gallagher
+ Patrick Shamberger   Raymond Chun        Sachiyo Freund
+ Rob Whitton          Rebecca Eldredge    Thuy La
+ Todd Ericksen*       Sara Simmons        Will Freund
+                      Sara Ragsdale  
+
+ ALOHA TEAM           BLUE TEAM           YELLOW TEAM
+ ----------           ---------           -----------
+ Adam Kane            Adam Jacobstein     Alex Globerson
+ Ariel C. Rivera      Andy Currivan       Andrzej Piotrowski*
+ Becca Thoreson       Ben Owen            Carrie Keller
+ Craig Tamamoto       BJ Philmus          Dale Kocevski
+ David Moore          Blue Kaanehe        Dan Sailer
+ Eiko Alexander       Cathleen Brown      David Arliss
+ Gumby Dammit         Chris Hurwitz*      Dayna Hillcrest
+ Jason Sickmiller     Chris Smith         Elizabeth McGrath
+ Jess Kaneshiro       Erin Sagucio        Jena Kline
+ Justine Hura*        Greg Smith          Jodi Lui
+ Kevin Kelly          Heather Mitchell    John Hillcrest
+ Leigh Jerome         Kaily Lam           Jon Eldon
+ Mari Oshrio          Kendra Isbell       Keane Nishimoto
+ Mark Alexander       Nancy J. Lacuesta   Leif Force
+ Orion Carlisle       Patrick Riehle      Mitchell Townsend
+ Ozzie Thoreson       Scott Sheppard      Sara Abercrombie
+ Rick Mogle           Stephen Korow       Tom Hintnaus
+ Sam Suen             Steve Gee           Willaim Rems
+
+----------------------------------------------------------------

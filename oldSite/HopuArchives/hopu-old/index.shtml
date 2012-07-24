@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hopu Ka Lewa</title>
+
+<link href="/hopu/hopu.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/potlatch-ie.css" />
+<![endif]-->
+
+</head>
+
+<body>
+<center>
+<div id=hopu_body>
+
+  <!--#include file="/hopu/include/hopulogo.inc"-->
+  <!--#include file="/hopu/include/hopumenu.inc"-->
+
+  <div id=hopu_content>
+
+   <div id=hopu_title>
+     Welcome to Hopu Ka Lewa 10
+   </div>
+
+   <div id=hopu_text>
+    <div id=hopu_text_left>
+
+     <h1>Kamp Ka Lewa</h1>
+
+     When: Saturday, November 8th - Monday, November 10th, 2008 <br>
+     Where: Waimanalo, Hawaii <br>
+     What: A two day field ultimate tournament, followed by a one day beach tournament.
+    </div>
+
+    <div id=hopu_text_right>
+     <img src="/hopu/hopu_catch.gif" alt="hopu catch"
+width="200" height="400" border="0" align="right">
+    </div>
+   </div>
+
+  </div>
+
+   <!--#include file="/hopu/include/hopuseparator.inc"-->
+   <!--#include file="/hopu/include/hopufooter.inc"-->
+
+</div>
+
+</center>
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE> </TITLE>
+</HEAD>
+<BODY  background="art/sand00.gif">
+<SCRIPT>
+                if (document.images) {// Active Images
+                img1on = new Image();
+            img1on.src = "art/sun2.gif";
+
+                img2on = new Image();
+            img2on.src = "art/gecko2.gif";
+
+                img3on = new Image();
+            img3on.src = "art/turtle2.gif";
+
+                img4on = new Image();
+            img4on.src = "art/sail2.gif";
+
+                img5on = new Image();
+            img5on.src = "art/warrior2.gif";
+
+                img6on = new Image();
+            img6on.src = "art/kahuna2.gif";
+
+
+                 img1off = new Image();
+            img1off.src = "art/sun1.gif";
+
+                img2off = new Image();
+            img2off.src = "art/gecko1.gif";
+
+                img3off = new Image();
+            img3off.src = "art/turtle1.gif";
+
+                img4off = new Image();
+            img4off.src = "art/sail1.gif";
+
+                img5off = new Image();
+            img5off.src = "art/warrior1.gif";
+
+                img6off = new Image();
+            img6off.src = "art/kahuna1.gif";}
+
+// Function to 'activate' images.
+function imgOn(imgName) {if (document.images) {document[imgName].src = eval(imgName + "on.src");}}
+
+// Function to 'deactivate' images.
+function imgOff(imgName) {if (document.images) {document[imgName].src = eval(imgName + "off.src");}}
+//--
+</SCRIPT>
+                        <A href="home.html" target="main" onMouseOver="imgOn('img1')" onMouseOut="imgOff('img1')"><IMG name="img1"  border="0" src="art/sun1.gif" alt="Kaimana 14 Home Page."></A><BR>
+
+                        <A href="greeting.html" TARGET="main" onMouseOver="imgOn('img6')" onMouseOut="imgOff('img6')"><IMG name="img6"  border="0"src="art/kahuna1.gif" alt="Director's Greeting"></A><BR>
+
+                        <A href="teams.html" TARGET="main" onMouseOver="imgOn('img5')" onMouseOut="imgOff('img5')"><IMG name="img5"  border="0"src="art/warrior1.gif" alt="Expected Teams"></A><BR>
+
+                        <A href="events.html" target="main" onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><IMG name="img2"  border="0" src="art/gecko1.gif" alt="Player and Team Fees"></A><BR>
+
+                        <A href="travel.html" target="main" onMouseOver="imgOn('img4')" onMouseOut="imgOff('img4')"><IMG name="img4"  border="0"src="art/sail1.gif" alt="Travel Tips"></A><BR>
+
+                        <A href="history.html" target="main" onMouseOver="imgOn('img3')" onMouseOut="imgOff('img3')"><IMG name="img3"  border="0"src="art/turtle1.gif" alt="Kaimana history"></A><BR>
+<br>
+ <a href="../../index.html" align="bottom" TARGET="_top" >HULA<br>Homepage</a>
+ 
+</BODY>
+</HTML>

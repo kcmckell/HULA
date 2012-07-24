@@ -1,0 +1,14 @@
+----------------------------------------------------------------
+     Last
+Rank Week Team            Captain(s)             Won  Lost  Tied
+---- ---- ----            ----------             ---  ----  ----
+  1    1  Aqua Teens      A.Rosa/J.Lillie ......  0     0     0
+  2    2  Autobots        L.Dunklee ............  0     0     0
+  3    3  G.I. Joe        K.Bartholomew ........  0     0     0
+  4    4  Incredibles     R.Whitton/C.Wilson ...  0     0     0
+  5    5  Justice League  M.Chun/K.Howard ......  0     0     0
+  6    6  Ninja Turtles   J.Puritz/M.McNeil ....  0     0     0
+  7    7  Thundercats     K.Kardan/D.Dey .......  0     0     0
+  8    8  X-Men           F.Ajo ................  0     0     0
+----------------------------------------------------------------
+

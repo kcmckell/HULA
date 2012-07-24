@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hawaii Ultimate League Association - League Payment</title>
+    <script src="/include/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <link href="/include/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" tonClickype="ext/css" />
+    <link href="/styles/hula.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/hula_imagebox.js"></script>
+  </head>
+  <body>
+    <center>
+      <div id=hula_body>  
+        <div id=hula_inner>
+          <!--#include file="/include/hulalogo.inc"-->
+          <!--#include file="/include/hulamenu.inc"-->
+          <div id=hula_menu_image>
+            <img src="/images/hula_menu_image_main.gif" width="680" height="120" />
+          </div>
+          <div id=hula_content>
+<BR><BR><BR><BR>
+<strong>Please click the "Pay Now" button below to send $20 to the Summer League Commissioners.</strong>
+<p>
+  Again, please remember to include the following in the message box at the final confirmation page:
+  <ul style="list-style: none; margin: 0; padding: 0;">
+    <li>Your name</li>
+    <li>Your team name</li>
+    <li>The text: "Summer League Reg"</li>
+  </ul>
+</p>
+<p>
+  Thanks so much!
+</p>
+<BR><BR>  
+    
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<BR><BR>
+Back to <a href="http://www.hawaiiultimate.com/wiki/index.php?title=Summer2012">Summer League 2012</a><BR><BR><BR>
+
+	    </div>
+     </center>
+    </body>
+</html>
+

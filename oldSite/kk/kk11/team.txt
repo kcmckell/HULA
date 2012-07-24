@@ -1,0 +1,20 @@
+From: webmaster@lava.net ([Last_Name] via cgiemail)
+To: rodbell@hawaii.edu Island-tech@msn.com mroman@lava.net
+Subject: Kaimana XI Sign-Up
+Errors-To: webmaster@lava.net
+
+Team Name: [TeamName]
+Team's City: [TeamCity]
+Contact Name: [ContactName]
+E-mail: [Email]
+Telephone: [Phone]
+Address: [Mailaddress]
+City State Zip: [CSZ]
+Men's/Women's: [MenWomen]   
+Expected #: [PlayerGuest]
+Questions: [Questions]
+
+
+------END-------
+
+

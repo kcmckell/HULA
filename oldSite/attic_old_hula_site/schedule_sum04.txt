@@ -1,0 +1,32 @@
+----------------------------------------------------------------
+                           Field 1          Field 2
+Fri, Jul 9   6:45-8:00 PM  Yellow v. Aloha  White v. Red
+ Kapaolono   8:15-9:30 PM  Aloha v. White   Blue v. Green
+----------------------------------------------------------------
+                           Field 1          Field 2
+Fri, Jul 16  6:45-8:00 PM  Yellow v. Green  White v. Blue
+ Kapaolono   8:15-9:30 PM  Yellow v. Blue   Aloha v. Red
+----------------------------------------------------------------
+                           Field 1          Field 2
+Fri, Jul 23  6:45-8:00 PM  Aloha v. Green   Red v. Blue
+ Kapaolono   8:15-9:30 PM  Red v. Green     Yellow v. White
+----------------------------------------------------------------
+                           Field 1          Field 2
+Fri, Jul 30  6:45-8:00 PM  Yellow v. Red    Aloha v. Blue 
+ Kapaolono   8:15-9:30 PM  Yellow v. Aloha  White v. Green
+----------------------------------------------------------------
+                           Field 1          Field 2
+Fri, Aug 6   6:45-8:00 PM  Aloha v. White   Red v. Green
+ Kapaolono   8:15-9:30 PM  White v. Red     Yellow v. Blue
+----------------------------------------------------------------
+                           Field 1          Field 2
+Fri, Aug 13  6:45-8:00 PM  Yellow v. Green  White v. Blue
+ Kapaolono   8:15-9:30 PM  Blue v. Green    Aloha v. Red
+----------------------------------------------------------------
+                           Field 1      Field 2     Field 3
+Fri, Aug 20  6:45-8:00 PM  Yellow-White Aloha-Green Red-Blue
+ Kapaolono   8:15-9:30 PM  Yellow-Red   Aloha-Blue  White-Green
+----------------------------------------------------------------
+Sat, Aug 28            FINALS: 10:00 AM pronto! to 6:00 PM
+ Location TBA          Beach BBQ to follow 
+----------------------------------------------------------------

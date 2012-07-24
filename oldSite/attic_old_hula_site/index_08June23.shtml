@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hawaii Ultimate League Association</title>
+
+<script src="/include/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="/include/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" tonClickype="ext/css" />
+<link href="/styles/hula.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/js/hula_imagebox.js"></script>
+
+</head>
+
+<body>
+<center>
+<div id=hula_body>
+ <div id=hula_inner>
+
+
+<!--#include file="/include/hulalogo.inc"-->
+<!--#include file="/include/hulamenu.inc"-->
+
+  <div id=hula_menu_image>
+   <img src="/images/hula_menu_image_main.gif" width="680" height="120" />
+  </div>
+  <div id=hula_location>
+   Your Location: <a href="#">Home/</a>
+  </div>
+
+
+  <div id=hula_content>
+
+
+
+   <div id=hula_blog>
+    <div id=hula_blog_header>Spring League and Loco Moco</div>
+    <div id=hula_blog_text>
+       Spring League 2008 is wrapping up! <a href="/wiki/index.php?title=Spring2008">Click here</a> to check out the schedule, players, and scores. <a href="/wiki/index.php?title=LocoMoco">Loco Moco</a> is coming Labor Day weekend.
+    </div>
+    <div id=hula_blog_footer>&nbsp;</div>
+</div>
+
+
+   <div id=hula_events>
+    <div id=hula_events_header>Events</div>
+    <div id=hula_events_text>
+
+       <p>---- Current and Upcoming Events ----</p>
+ <a href="/wiki/index.php?title=Spring2008">Spring League</a><br>
+         <span>* (started March 14th, Kapaolono, Oahu)</span><br>
+         <span>* <a href="/play/register_league.asp">registration closed</a></span><br><br> 
+
+<a href="/wiki/index.php?title=LocoMoco">Loco Moco Interisland Tourney</a><br>
+         <span>* (Aug 30-31, 2008 Kapiolani Park, Oahu)</span><br><br>
+         
+     <a href="/hopu/">Hopu Ka Lewa IX Tourney</a><br>
+         <span>* (Nov 8-10, 2008 Waimanalo, Oahu)</span><br><br>
+
+       <p>---- Recent Events ----</p>
+
+
+    <a href="http://hiloultimate.com/default.aspx">Post-Kaimana Hilo Hat Draw</a><br>
+         <span>* (February 23-24, 2008 Hilo, Big Island)</span><br><br>
+
+       <a href="/kk/">Kaimana Klassik 21 Tourney</a><br>
+         <span>* (Feb 16-18, 2008 Oahu)</span><br>
+         <span>* <a href="/forums/viewforum.php?f=2">bulletin board</a></span><br><br>
+
+       <a href="/wiki/index.php?title=WahineWeekend">Wahine Weekend</a><br>
+         <span>* (Jan 12-13, 2008 Oahu)</span><br><br>
+
+
+
+    </div>
+    <div id=hula_events_footer>&nbsp;</div>
+   </div>
+
+   <div id=hula_blog>
+    <div id=hula_blog_header>Recent Bulletin Board Postings</div>
+    <div id=hula_blog_text>
+      <table border=0>
+       <tr><td>Wed Aug 01</td>
+           <td><a href="/forums/viewtopic.php?t=149">facebook group</a></td></tr>
+       <tr><td>Fri Jun 29</td>
+           <td><a href="/forums/viewtopic.php?t=147">Hopu 2007 Disc Design Contest</a></td></tr>
+       <tr><td>Thu May 24</td>
+           <td><a href="/forums/viewtopic.php?t=146">Goaltimate on MAUI!!!</a></td></tr>
+      </table>
+    </div>
+    <div id=hula_blog_footer>&nbsp;</div>
+   </div>
+
+   <div id=hula_blog>
+    <div id=hula_blog_header>2007 Board of Directors</div>
+    <div id=hula_blog_text>
+
+        <div id=hula_imagebox>
+         <div id=hula_imagebox_controls>
+           <p><a href="javascript:hula_imagebox_prev();">prev</a>
+              <span id=curr_image></span>&nbsp;of&nbsp;<span id=num_images></span>
+              <a href="javascript:hula_imagebox_next();">next</a>
+         </div>
+         <div id=hula_imagebox_pics>
+           <div class=image_div id=1>
+             <p><img src="/faces/MondoChun.jpg" width="150" height="200"></p>
+             <p class=caption>Mondo Chun</p>
+           </div>
+           <div class=image_div id=2>
+             <p><img src="/faces/LauraGilda.jpg" width="150" height="200"></p>
+             <p class=caption>Laura Gilda</p>
+           </div>
+           <div class=image_div id=3>
+             <p><img src="/faces/JenaKline.jpg" width="150" height="200"></p>
+             <p class=caption>Jena Kline</p>
+           </div>
+           <div class=image_div id=4>
+             <p><img src="/faces/FrancesAjo.jpg" width="150" height="200"></p>
+             <p class=caption>Frances Ajo</p>
+           </div>
+<!--
+           <div class=image_div id=5>
+             <p><img src="/faces/no_photo.gif" width="150" height="200"></p>
+             <p class=caption>Caroline Wilson</p>
+           </div>
+-->
+           <div class=image_div id=6>
+             <p><img src="/faces/JessKaneshiro.jpg" width="150" height="200"></p>
+             <p class=caption>Jess Kaneshiro</p>
+           </div>
+         </div>
+        </div>
+
+ 	 <p><a href="/wiki/index.php?title=HULABoard">Board of Directors</a> Update:  
+            Elections will be held at league finals for two-year terms. Contact Laura Gilda for nominations.
+         <p>Current members of the board are...
+           <ul>
+            <li>Mondo Chun
+            <li>Laura Gilda
+            <li>Jena Kline
+            <li>Frances Ajo
+            <li>Caroline Wilson
+            <li>Kim Weersing
+            <li>Dave Strang
+            <li>BJ Philmus	
+            <li>Buffy Cushman
+            <li>Jess Kaneshiro
+      
+          </ul>
+         <p> Mahalo to Caroline Wilson, who will be moving to the mainland. Among other contributions to HULA, Caroline directed Tweedle Beetle last summer (and made an awesome tourney soundtrack). We'll miss you Caroline!</p>
+    </div>
+    <div id=hula_blog_footer>[Posted 18-Jul-2007]</div>
+   </div>
+
+   <div id=hula_blog>
+    <div id=hula_blog_header>Calendar</div>
+    <div id=hula_blog_text>
+      <p>Interested in seeing what other events are happening? Check out the full <a href="http://calendar.yahoo.com/mondochun2003">HULA Calendar</a>
+    </div>
+    <div id=hula_blog_footer>&nbsp;</div>
+   </div>
+
+   <div id=hula_blog>
+    <div id=hula_blog_header>Email Lists</div>
+    <div id=hula_blog_text>
+      <p>Moving to Hawaii soon or already here? Want to sign up for one or all of HULA's email 
+         lists? Click below for more information or to subscribe.
+      <ul>
+       <li> <a href="http://groups.yahoo.com/group/hulamail">hulamail</a>
+             - official disc-related announcements
+       <li> <a href="http://groups.yahoo.com/group/hula_generalmail">generalmail</a>
+             - community announcements
+       <li> <a href="http://groups.yahoo.com/group/hula_wahinemail">wahinemail</a>
+             - women's events/discussion
+      </ul>
+
+      <!-- Google CSE Search Box Begins  -->
+<!--
+      <form id="searchbox_016047565924279138555:zzewgxdvoxa" action="http://google.com/cse">
+       <input type="hidden" name="cx" value="016047565924279138555:zzewgxdvoxa" />
+       <input type="hidden" name="cof" value="FORID:0" />
+       <input name="q" type="text" size="40" />
+       <input type="submit" name="sa" value="Search" />
+      </form>
+      <script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_016047565924279138555%3Azzewgxdvoxa"></script>
+-->
+      <!-- Google CSE Search Box Ends -->
+    </div>
+    <div id=hula_blog_footer>&nbsp;</div>
+   </div>
+
+  </div>
+<!--#include file="/include/hulabottom.inc"-->
+
+ </div>
+</div>
+</center>
+
+<script type="text/javascript">
+	function LoadFunctions() {
+		InitializeImages();
+	}
+	window.onload = LoadFunctions;
+</script>
+
+</body>
+</html>
+
+
+
+
+
+

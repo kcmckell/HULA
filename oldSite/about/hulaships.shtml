@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HULA - HULAships</title>
+
+<script src="/include/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="/include/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link href="/styles/hula.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<center>
+<div id=hula_body>
+ <div id=hula_inner>
+
+<!--#include file="/include/hulalogo.inc"-->
+<!--#include file="/include/hulamenu.inc"-->
+
+  <div id=hula_menu_image>
+   <img src="/images/hula_menu_image_about.gif" width="680" height="120" />
+  </div>
+  <div id=hula_location>
+   Your Location: <a href="/">Home/</a> <a href="/about">About/</a> <a href="/about/hulaships.shtml">HULAships</a>
+  </div>
+
+  <div id=hula_content>
+
+   <div id=hula_story>
+    <div id=hula_story_header>HULAships</div>
+    <div id=hula_story_text>
+      <p>The Hawaii Ultimate League Association announces the establishment of the HULAship Program, which is designed to lend financial assistance to individuals who are interested in playing in the Kaimana Klassik or Hopu Ka Lewa. Since we are not the IRS, and therefore not privy to your personal financial information, we ask that only those who genuinely need assistance apply.
+    </div>
+    <div id=hula_story_footer>&nbsp;</div>
+   </div>
+
+   <div id=hula_story>
+    <div id=hula_story_header>HULAship Process</div>
+    <div id=hula_story_text>
+      <ul>
+        <li>The deadline for applications is 2 months prior to a tournament. Applications must be postmarked no later than 2 months prior if they are mailed. Emailed applications are also acceptable, as are hand deliveries.
+
+         <ul>
+           <li>For US mail, send to:<br>
+               &nbsp; <b>Mondo Chun</b><br>
+               &nbsp; <b>PO Box 240638</b><br>
+               &nbsp; <b>Honolulu, HI 96824-0638</b><br>
+           <li> For email, send to: <b>treasurer@hawaiiultimate.com</b>
+           <li> For hand deliveries, give to: <b>Mondo Chun</b>
+         </ul>
+        <li> HULAships are restricted to current dues-paying HULA members (within the past 2 league seasons). An exception to this dues-paying stipulation is made for neighbor island players. Former HULA members may also apply, but they will be considered only under special circumstances (which must be cited).
+
+        <li> Financial need must be described in narrative form. While you are not obligated to disclose personal financial data, be aware that the more information we (the committee) have, the better we are able to assess your true financial need.
+
+        <li>If a HULAship is granted, we expect that you will be able to volunteer in some fashion during the tournament. 
+      </ul>
+
+    </div>
+    <div id=hula_story_footer>&nbsp;</div>
+   </div>
+
+   <div id=hula_story>
+    <div id=hula_story_header>HULAship Application</div>
+    <div id=hula_story_text>
+      <p>Your application should consist of three paragraphs and/or sections (the length of which you can choose), addressing the following topics:
+
+      <ul>
+        <li>Why do you need financial assistance?
+        <li>How much financial assistance do you need? (Full=$120, Partial=?)
+        <li>Include a statement pertaining to ultimate (i.e. a funny story, what it means to you, what is the meaning of the game, etc.)
+      </ul>
+
+      <p>Be sure to include your name and contact information.
+    </div>
+    <div id=hula_story_footer>&nbsp;</div>
+   </div>
+
+   <div id=hula_story>
+    <div id=hula_story_header>HULAship Awards</div>
+    <div id=hula_story_text>
+      <p>After all applications are received, HULAship selection committee members will review applications during a period of two weeks. All applicants will be notified 30 days prior to the tournament as to their HULAship award status.
+
+      <p>A total of $1,000 has been allotted to the Hulaship program. The number and value of awards given will, of course, depend upon the number of applicants. 
+    </div>
+    <div id=hula_story_footer>&nbsp;</div>
+   </div>
+
+
+  </div>
+
+<!--#include file="/include/hulabottom.inc"-->
+
+ </div>
+</div>
+</center>
+</body>
+</html>
+
+

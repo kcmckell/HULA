@@ -1,0 +1,11 @@
+----------------------------------------------------------------
+      Last
+Rank  Week   Team    Captain(s)              Wins  Loss  Ties
+----  ----   ----    ----------              ----  ----  ----
+  1     1    Aloha   Justine Hura ..........   0     0     0
+  1     1    Blue    Chris Hurwitz .........   0     0     0
+  1     1    Green   Joe Paradis ...........   0     0     0
+  1     1    Red     Buffy C. & Todd E. ....   0     0     0
+  1     1    White   Geoff K. & Jaime L. ...   0     0     0
+  1     1    Yellow  Andrzej Piotrowski ....   0     0     0
+----------------------------------------------------------------

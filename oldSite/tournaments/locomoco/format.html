@@ -1,0 +1,95 @@
+<head>
+<STYLE TYPE="text/css">
+body {
+   scrollbar-face-color: bisque;
+   scrollbar-shadow-color: #001122;
+   scrollbar-highlight-color: gold;
+   scrollbar-3dlight-color: ivory;
+   scrollbar-darkshadow-color: brick;
+   scrollbar-track-color: "#050500";
+   scrollbar-arrow-color: black;
+}</STYLE>
+
+<style type="text/css" media=screen><!--
+  A:link { text-decoration:none; color: coral}
+  A:visited { text-decoration:none; color: coral}
+  A:hover {text-decoration:none; color: red}
+  -->
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// convert decimal value (0 - 255) to hexadecimal
+// (use .toString(16) method supported by IE)
+function toHex(dec) {
+        // create list of hex characters
+        var hexCharacters = "0123456789ABCDEF"
+        // if number is out of range return limit
+        if (dec < 0)
+                return "FF"
+        if (dec > 255)
+                return "00"
+        // decimal equivalent of first hex character in converted number
+        var i = Math.floor(dec / 16)
+
+        // decimal equivalent of second hex character in converted number
+        var j = dec % 16
+
+        // return hexadecimal equivalent
+        return hexCharacters.charAt(i) + hexCharacters.charAt(j)
+}
+
+
+// set background color to specified descriptors
+function setbgColor(red, green, blue) {
+         document.bgColor = "#" + toHex(red) + toHex(green) +
+toHex(blue)
+
+}
+
+// fade from start to end descriptors (increase step to increase transition speed)
+
+
+function fade(sred, sgreen, sblue, ered, egreen, eblue, step) {
+        // loop to create fade effect
+        for(var i = 0; i <= step; ++i) {
+                // set current red descriptor
+                var red = Math.floor(sred * ((step - i) / step) + ered
+* (i / step))
+                // set current green descriptor
+                var green = Math.floor(sgreen * ((step - i) / step) +
+egreen * (i / step))
+                // set current green descriptor
+                var blue = Math.floor(sblue * ((step - i) / step) +
+eblue * (i / step))
+                // set background color according to descriptors
+                setbgColor(red, green, blue)
+        }
+}
+// -->
+</SCRIPT>
+</head>
+<body bgcolor="#000000" text="#FFFFFF">
+<font face="arial, helvetica" size="-1">
+<font color=ivory>
+<font color=coral size=+1>All right, here's the info.
+<br>We're only gonna tell you once so listen up.</font>
+<hr>
+<b><font color=bisque><u>Date/Time</u>:</font></b> July 20th, 2002. Captain's meeting at 9:00, first game at 9:30. We're not talking Hawaii time or Ultimate time. Please be punctual, and expect to have 7 on the line at 9:30. If you show up late, it will mean fewer games for your team.
+<hr>
+<b><font color=bisque><u>Format</u>:</font></b> Co-ed 4-3 (5-2), the number of games will depend on how many teams we get, but we hope to have at least 4 per team, with a fifth game for the finalists.
+<hr>
+<b><font color=bisque><u>Teams</u>:</font></b> We are going to cap all teams to a maximum size of 14 players.
+<hr>
+<b><font color=bisque><u>Location</u>:</font></b> Central Oahu Regional Park. 
+<hr>
+<b><font color=bisque><u>Rules</u>:</font></b> We will be using the <a href="http://www.wfdf.org/2001ultirulesrev.htm" target="_top">WFDF rulebook</a>.
+<hr>
+<b><font color=bisque><u>Spirit</u>:</font></b> Just playing ultimate is a big fat hairy festivity with a honking red nose. Ultimate is about spirit. Believe it! We do and our prizes reflect it. You may lose the game but you can still win the bottle. Be a freak. You're allowed. Just be sure to call it spirit.
+<hr>
+<b><font color=bisque><u>Party</u>:</font></b> Evan and Ryan have offered they're place on the North Shore. Details on how to get there will follow. 
+<hr>
+<b><font color=bisque><u>Cost</u>:</font></b> As cheap as we can manage. Right now we're thinking $40 for a team. Money will go to prizes and tourney expenses. Any leftover money will be spent at Magoo's at the end of the day.
+<hr><br>
+</body>
+</head>

@@ -1,0 +1,37 @@
+
+body
+{
+ background: #999999;
+ color: #777;
+}
+
+.thumbnail
+{
+ cursor: default;
+ list-style: none;
+}
+
+.thumbnail a
+{
+ cursor: default;
+ color: #CFF;
+}
+
+.thumbnail a .preview
+{
+ display: none;
+}
+
+.thumbnail a:hover .preview
+{
+ display: block;
+ position:absolute;
+ background-color: transparent;
+ z-index: 50;
+}
+
+.thumbnail .preview
+{
+ border-color: #000;
+}
+

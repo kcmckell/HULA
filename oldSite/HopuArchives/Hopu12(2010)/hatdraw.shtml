@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hopu Ka Lewa</title>
+
+<link href="/hopu/hopu.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/hopu/hopu_ie.css" />
+<![endif]-->
+
+</head>
+
+<body>
+<center>
+<div id=hopu_body>
+
+  <!--#include file="/hopu/include/hopulogo.inc"-->
+  <!--#include file="/hopu/include/hopumenu.inc"-->
+
+  <div id=hopu_content>
+
+   <div id=hopu_title>
+Registration Now Open!
+   </div>
+	<div id=hopu_text>
+
+<BR><BR>
+<form method="POST" action="https://www.vaxys.com/https/regform3">
+  <div align="center"><center><p><input type="submit" value="Sign Me Up!" name="Submit"
+  style="font-family: Maiandra GD,Century Gothic; font-size: 10pt; background-color: rgb(255,235,217); text-decoration: blink; text-align: center"><font
+  color="#800000"> <br>
+  </p>
+  </center></div>
+
+</form>
+<form method="POST" action="https://www.vaxys.com/https/playlist">
+  <div align="center"><center><p><input type="submit" value="Who's Registered" name="Submit"
+  style="font-family: Maiandra GD,Century Gothic; font-size: 10pt; background-color: rgb(255,235,217); text-decoration: blink; text-align: center"><font
+  color="#800000"> <br>
+  </p>
+  </center></div>
+</form><BR>
+
+Hawi Hat Tourney, Nov. 19 -21st, 2010, Big Island of Hawaii, Camping, Refreshments.<BR>
+Regular Registration $50<BR>
+Late Registration $60<BR>
+There is a cap of 70 players (we will accept more players but they will not get a disc)</b><BR>
+Directions at bottom of this page<BR>
+<BR>
+Where: Hawi, North Kohala, Big Island of Hawaii<BR>
+Camping: Mahukona Beach Park<BR>
+Hotel Option: <a href="http://www.kohalavillageinn.com/Kohala_Village_Inn_Hotel_Vacation.html" target="blank">Kohala Village Inn</a> (ask for the Ultimate Frisbee group discount!)<BR>
+Fields at Kamehameha Park<BR>
+54-3853 Akoni Pule Hwy<BR>
+Kapa`au, HI 96755<BR>
+<BR>
+Questions?  Email PJ at hawihat<img src=/images/at.gif>hawaiiultimate.com<BR>
+<BR>
+
+ 
+<br>
+<center>
+<img src="Hawi.jpg" width="600">
+</center>
+	
+<BR><BR><BR>
+<B>Directions and Maps</B><BR>
+<a href="http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=108839272045979641262.00048827eede718eb37b0&f=d&daddr=Kamehameha+Park+%4020.234335,-155.79942&ll=20.23506,-155.803299&spn=0.023999,0.03931&z=15&iwloc=00048827f9aa5bfbea548" target="blank">
+Map to Fields
+</a><BR>
+<BR>
+Getting there from Kona:<BR>
+
+Drive north on Queen Ka`ahumanu Hwy (19) to Kawaihae Road intersection. Turn left. After 1 mile, veer right onto Hwy 270 (Akoni Pule Highway) for the 20-mile coast drive to Hawi and Kapa`au.
+<BR><BR>
+Getting there from Hilo:<BR>
+Drive north on the Mamalahoa Hwy (19) through Waimea. Veer right onto the Kohala Mountain Road (250) for the 20-mile mountain drive to Hawi or Kapa`au.<BR>
+<BR>
+Directions to Campground:
+<BR>(which is 9 miles before fields)<BR><BR>
+<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Mahukona+Park+address&sll=20.236134,-155.800331&sspn=0.044374,0.086775&ie=UTF8&hq=Mahukona+Park&hnear=&ll=20.209529,-155.850849&spn=0.088762,0.17355&z=13&iwloc=A" target="blank">
+Map to Campgrounds
+</a><BR><BR>
+<a href="http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=108839272045979641262.00048827eede718eb37b0&f=d&daddr=Kamehameha+Park+%4020.234335,-155.79942&ll=20.23506,-155.803299&spn=0.023999,0.03931&z=15&iwloc=00048827f9aa5bfbea548" target="blank">
+Map between campground and fields
+</a><BR><BR>
+<a href="http://maps.google.com/maps?f=d&source=s_d&saddr=Kamehameha+Park,+Kapaau,+Hawaii+96755&daddr=Blue+Dragon+Coastal+Cuisine+and+Musiquarium,+61-3616+Kawaihae+Road,+Kamuela,+HI+96743&geocode=&hl=en&mra=ls&sll=20.044966,-155.746307&sspn=0.169648,0.347099&ie=UTF8&ll=20.130089,-155.847931&spn=0.355229,0.694199&z=11" target="blank">Map to the Blue Dragon PARTY!
+<a><BR><BR>
+
+</div>
+   </div>
+
+  <!--#include file="/hopu/include/hopuseparator.inc"-->
+  <!--#include file="/hopu/include/hopufooter.inc"-->
+
+
+</div>
+
+</center>
+
+</body>
+</html>

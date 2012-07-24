@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hawaii Ultimate League Association</title>
+    <script src="/include/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <link href="/include/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" tonClickype="ext/css" />
+    <link href="/styles/hula.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/hula_imagebox.js"></script>
+  </head>
+  <body>
+    <center>
+      <div id=hula_body>  
+        <div id=hula_inner>
+          <!--#include file="/include/hulalogo.inc"-->
+          <!--#include file="/include/hulamenu.inc"-->
+          <div id=hula_menu_image>
+            <img src="/images/hula_menu_image_main.gif" width="680" height="120" />
+          </div>
+          <div id=hula_location>
+            Your Location: <a href="#">Home/</a>
+          </div>
+          <div id=hula_content>
+            <div id=hula_blog>
+              <div id=hula_blog_header>What's been happenin'with HULA</div>
+              <div id=hula_blog_text>
+
+              <!--News.asp (in 'include' directory) contains the text for this panel.  archives are dated-->
+		<!--#include virtual="/include/News.asp"-->
+
+                
+                  </div>
+                  <div id=hula_blog_footer>&nbsp;</div>
+                </div>
+                <div id=hula_events>
+                  <div id=hula_events_header>Events</div>
+                  <div id=hula_events_text>
+                    
+
+                                 <p>---- Current and Upcoming Events ----</p>
+                            <a href="wiki/index.php?title=Pickup">Thursday Pickup Update</a> 8/6/09<br> 
+		            <span> Thrusday Pickup has moved back to its traditional home at Kapiolani Park</span><br><br>
+                            
+                            <a href="wiki/index.php?title=TweedleBeetle2009">Tweedle Beetle Beach Battle 2009</a><br>
+		            <span> August 8-9 (Sat-Sun), spearheaded by Kim Umeda</span><br><br>
+
+                            <a href="wiki/index.php?title=LocoMoco2009">Loco Moco 2009</a><br>
+		            <span> Loco Moco is back! With Loco Mocos!!!  Sept. 5-6 (Sat-Sun)</span><br><br>
+
+                            <a href="wiki/index.php?title=RecNight">Rec Night moved!</a><br>
+		            <span> 2nd Tuesday of every month, led by Liv Wheeler</span><br><br>
+
+                                 <p>---- Recent Events ----</p>
+                            <a href="/wiki/index.php?title=Spring2009">Spring League 2009</a><br>
+		            <span>* (ended June 2009)</span><br><br>
+
+                            <a href="/wiki/index.php?title=RecNight">Rec Night Revival!</a><br>
+		            <span>* (ongoing)</span><br><br>
+
+                            <a href="/wiki/index.php?title=Pickup">Thursday Pickup revival!</a><br>
+		            <span>* (ongoing, successful)</span><br><br> 
+
+		            <a href="/wiki/index.php?title=Pickup">Tuesday pickup revival at Ala Moana Beach Park</a><br>
+			    <span>* (ongoing, successful)</span><br><br>				    
+
+                            <a href="/kk/kk22/index.html">Kaimana Klassik 22</a><br>
+                            <span>* (Feb 14-16, 2009 - Waimanalo, Oahu)</span><br><br>
+
+                            <a href="http://mauiultimate.com/hat2009.html">Post Kaimana Maui Hat Draw</a><br>
+                            <span>* (Feb 21-22, 2009 Maui)</span><br><br>
+                            
+			    <a href="/wiki/index.php?title=Fall2008">Cross Culture Clash Fall League 2008</a><br>
+                            <span>* (Starts Sat nights, Sept. 20, 2008)</span><br><br>
+                            
+		            <a href="/hopu/">Hopu Ka Lewa X Tourney</a><br>
+                            <span>* (Nov 8-10, 2008 Waimanalo, Oahu)</span><br><br>
+
+                            <a href="/hopu/hatdraw.shtml">Post Hopu Kauai Hat Draw</a><br>
+                            <span>* (Nov 15, 2008 Kauai)</span><br><br>
+
+                            <a href="/wiki/index.php?title=RaucousCaucus">Raucous Caucus Interisland Tourney</a><br>
+                            <span>* (Aug 30-31, 2008 Kapiolani, Oahu)</span><br><br>
+			            
+                            Tweedle Beedle Beach Tourney<br>		            
+                            <span>* (July 5, 2008 Oahu)</span><br><br>
+                                      
+                            <a href="/wiki/index.php?title=Spring2008">Spring League 2008</a><br>
+                            <span>* Fuzzy Navels (orange) Champions.</span><br>
+                                          <br>
+                                          <br><br>
+                                                                </div>
+                                                                <div id=hula_events_footer>&nbsp;</div>
+                                                              </div>
+                                                              
+                                                              <div id=hula_blog>
+                                                                <div id=hula_blog_header>2009 Board of Directors</div>
+                                                                <div id=hula_blog_text>
+                                                                  <div id=hula_imagebox>
+                                                                    <div id=hula_imagebox_controls>
+                                                                      <p><a href="javascript:hula_imagebox_prev();">prev</a>
+                                                                        <span id=curr_image></span>&nbsp;of&nbsp;<span id=num_images></span>
+                                                                        <a href="javascript:hula_imagebox_next();">next</a>
+                                                                      </div>
+                                                                      <div id=hula_imagebox_pics>
+                                                                           <div class=image_div id=1>
+                                                                          <p><img src="/faces/MondoChun.jpg" width="150" height="200"></p>
+
+                                                                            <p class=caption>Mondo Chun</p>
+
+                                                                          </div>
+                                                                          <div class=image_div id=2>
+                                                                            <p><img src="/faces/BuffyCushman2_s.jpg" width="150" height="200"></p>
+
+                                                                              <p class=caption>Buffy Cushman-Patz</p>
+
+                                                                            </div>
+                                                                            <div class=image_div id=3>
+                                                                              <p><img src="/faces/JenaKline.jpg" width="150" height="200"></p>
+
+                                                                                <p class=caption>Jena Kline</p>
+
+                                                                              </div>
+                                                                              <div class=image_div id=4>
+                                                                                <p><img src="/faces/SteveFleischer.jpg" width="150" height="200"></p>
+
+                                                                                  <p class=caption>Steve Fleischer</p>
+
+                                                                                </div>
+                                                                                <div class=image_div id=5>
+                                                                                  <p><img src="/faces/MarkSlivka.jpg" width="150" height="200"></p>
+
+                                                                                    <p class=caption>Mark Slivka</p>
+
+                                                                                </div>
+                                                                                
+									        <div class=image_div id=6>
+                                                                                   <p><img src="/faces/DaveStrang.jpg" width="150" height="200"></p>
+
+                                                                                     <p class=caption>Dave Strang</p>
+
+                                                                                </div>
+
+                                                                                <div class=image_div id=7>
+                                                                                   <p><img src="/faces/ChrisCook.jpg" width="150" height="200"></p>
+
+                                                                                     <p class=caption>Chris Cook</p>
+
+                                                                                      </div>
+
+                                                                                  <div class=image_div id=8>
+                                                                                    <p><img src="/faces/DukesMcKell.jpg" width="150" height="200"></p>
+
+                                                                                      <p class=caption>Clay "Dukes" McKell</p>
+
+                                                                                    </div>
+                                                                                    
+                                                                                      <div class=image_div id=9>
+                                                                                        <p><img src="/faces/ChrisStevens.jpg" width="150" height="200"></p>
+
+                                                                                          <p class=caption>Chris Stevens</p>
+
+                                                                                        </div>
+                                                                                        <div class=image_div id=10>
+                                                                                          <p><img src="/faces/MeganGrimshaw.jpg" width="150" height="200"></p>
+
+                                                                                            <p class=caption>Megan Grimshaw</p>
+
+                                                                                          </div>
+                                                                                          <div class=image_div id=11>
+                                                                                            <p><img src="/faces/BillVoss.jpg" width="150" height="200"></p>
+
+                                                                                              <p class=caption>BillVoss</p>
+
+                                                                                            </div>
+                                                                                            
+
+                                                                                              
+                                                                                            </div>
+                                                                                          </div>
+                                                                                          <p><a href="/wiki/index.php?title=HULABoard">Board of Directors</a>
+                                                                                            2009 elections were held at spring league finals for two-year terms.
+                                                                                            <p> The current HULA Board of Directors includes...
+                                                                                              <ul>
+                                                                                                <li>Mondo Chun
+                                                                                                  <li>Buffy Cushman-Patz
+                                                                                                    <li>Jena Kline
+                                                                                                      <li>Steve Fleischer
+                                                                                                        <li>Mark Slivka
+                                                                                                          <li>Dave Strang
+                                                                                                            <li>Chris Cook
+                                                                                                              <li>Clay "Dukes" McKell
+                                                                                                                <li>Chris Stevens
+                                                                                                                  <li>Megan Grimshaw
+                                                                                                                    <li>Bill Voss
+                                                                                                                    </ul>
+                                                                                                                    <p> Mahalo to departing members Laura Gilda, Jess Kaneshiro, Kim Weersing and Frances Ajo for their services on the HULA Board.</p>
+
+                                                                                                                  </div>
+                                                                                                                  <div id=hula_blog_footer>[Posted 6-Jul-2009]</div>
+                                                                                                                </div>
+                                                                                                                <div id=hula_blog>
+                                                                                                                  <div id=hula_blog_header>Calendar</div>
+                                                                                                                  <div id=hula_blog_text>
+                                                                                                                    <p>Interested in seeing what other events are happening? Check out the full <a href="http://calendar.yahoo.com/mondochun2003">HULA Calendar</a>
+                                                                                                                    </div>
+                                                                                                                    <div id=hula_blog_footer>&nbsp;</div>
+                                                                                                                  </div>
+                                                                                                                  <div id=hula_blog>
+                                                                                                                    <div id=hula_blog_header>Email Lists</div>
+                                                                                                                    <div id=hula_blog_text>
+                                                                                                                      <p>Moving to Hawaii soon or already here? Want to sign up for one or all of HULA's email
+                                                                                                                        lists? Click below for more information or to subscribe.  Group membership requires a yahoo or gmail account, respectively (both free).
+                                                                                                                        <ul>
+                                                                                                                          <li> <a href="http://groups.yahoo.com/group/hulamail">hulamail</a>
+                                                                                                                            - official disc-related announcements for OAHU ONLY (yahoogroup)
+                                                                                                                            <li> <a href="http://groups.yahoo.com/group/hula_generalmail">generalmail</a>
+                                                                                                                              - community announcements (yahoogroup)
+                                                                                                                              <li> <a href="http://groups.yahoo.com/group/hula_wahinemail">wahinemail</a>
+                                                                                                                                - women's events/discussion (yahoogroup)
+																<li> <a href="http://sports.groups.yahoo.com/group/kanemail/">Kanemail</a>
+																 - men's events/discussion (yahoogroup)
+																   <li> <a href="http://groups.google.com/group/hawaiiultimate">HawaiiUltimate</a>
+                                                                                                                                     - Statewide discussions (google group)<BR>
+																	<li><a href="/forums/viewtopic.php?t=149">facebook group</a>
+
+                                                                                                                              </ul>
+                                                                                                                              <!-- Google CSE Search Box Begins  -->
+                                                                                                                              <!--
+                                                                                                                              <form id="searchbox_016047565924279138555:zzewgxdvoxa" action="http://google.com/cse">
+                                                                                                                                <input type="hidden" name="cx" value="016047565924279138555:zzewgxdvoxa" />
+                                                                                                                                <input type="hidden" name="cof" value="FORID:0" />
+                                                                                                                                <input name="q" type="text" size="40" />
+                                                                                                                                <input type="submit" name="sa" value="Search" />
+                                                                                                                              </form>
+                                                                                                                              <script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_016047565924279138555%3Azzewgxdvoxa"></script>
+                                                                                                                              -->
+                                                                                                                              <!-- Google CSE Search Box Ends -->
+                                                                                                                            </div>
+                                                                                                                            <div id=hula_blog_footer>&nbsp;</div>
+                                                                                                                          </div>
+                                                                                                                        </div>
+                                                                                                                        <!--#include file="/include/hulabottom.inc"-->
+                                                                                                                      </div>
+                                                                                                                    </div>
+                                                                                                                  </center>
+                                                                                                                  <script type="text/javascript">
+	function LoadFunctions() {
+		InitializeImages();
+	}
+	window.onload = LoadFunctions;
+                                                                                                                  </script>
+                                                                                                                </body>
+                                                                                                              </html>
+

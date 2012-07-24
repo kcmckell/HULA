@@ -1,0 +1,33 @@
+h1 {  font-family: arial, verdana, sans-serif; font-size: 14px; text-align: center; font-weight: bold; color: #0054A6}
+h2 {  font-family: arial, verdana, sans-serif; font-size: 14px; font-weight: bold; color: #00ADEF}
+h3 {  font-family: arial, verdana, sans-serif; font-size: 12px; color: #00ADEF}
+h4 {  font-family: arial, verdana, sans-serif; font-size: 14px; font-variant: small-caps; font-weight: bold; color: #1DA832}
+span {  font-family: arial, verdana, sans-serif; font-size: 12px; color: #0054A6}
+span.h1s {  font-family: arial, verdana, sans-serif; font-size: 11px; font-weight: bold; color: #0054A6}
+span.h1 {  font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: bold; color: #0054A6}
+span.h2 {  font-family: arial, verdana, sans-serif; font-size: 11px; font-weight: bold; color: #0054A6}
+span.h2b {  font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: bold; color: #0054A6}
+span.boxhead {  font-family: arial, verdana, sans-serif; font-size: 10px; font-weight: bold; color: #00ADEF}
+span.box {  font-family: arial, verdana, sans-serif; font-size: 10px; color: #0054A6}
+p {  font-family: arial, verdana, sans-serif; font-size: 12px; color: #0054A6; text-align: justicfy}
+p.announce {  font-family: tahoma, sans-serif; font-size: 12px; color: #1DA832}
+p.center {  font-family: arial, verdana, sans-serif; font-size: 12px; text-align: center; color: #0054A6}
+p.footercontact { font-family: arial, verdana, sans-serif; font-size: 10px; color: #0054A6}
+p.form {  font-family: arial, verdana, sans-serif; font-size: 12px; color: #1DA832}
+p.topnav {  font-family: arial, verdana, sans-serif; font-size: 11px; color: #0054A6}
+li {  font-family: arial, verdana, sans-serif; font-size: 12px; color: #0054A6}
+a:link {  font-family: arial, verdana, sans-serif; font-size: 12px; color: #0054A6}
+a:visited { font-family: arial, verdana, sans-serif; font-size: 12px; color: #0054A6}
+a.footercontact:link {  font-family: arial, verdana, sans-serif; font-size: 10px; color: #0054A6}
+a.footercontact:visited { font-family: arial, verdana, sans-serif; font-size: 10px; color: #008EAF}
+a.m:link {  font-family: arial, verdana, sans-serif; font-size: 11px; color: #008EAF}
+a.m:visited { font-family: arial, verdana, sans-serif; font-size: 11px; color: #008EAF}
+a.sm:link {  font-family: arial, verdana, sans-serif; font-size: 10px; color: #008EAF}
+a.sm:visited { font-family: arial, verdana, sans-serif; font-size: 10px; color: #008EAF}
+a.strong:link { font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: bold; color: #008EAF}
+a.strong:visited { font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: bold; color: #008EAF}
+a.topnav:link {  font-family: arial, verdana, sans-serif; font-size: 11px; font-weight: bold; text-decoration: none; color: #00ADEF}
+a.topnav:visited { font-family: arial, verdana, sans-serif; font-size: 11px; font-weight: bold; text-decoration: none; color: #00ADEF}
+a.topnav:hover { font-family: arial, verdana, sans-serif; font-size: 11px; font-weight: bold; text-decoration: none; color: #0054A6}
+a.darkstrong:link { font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: bold; color: #ffffff}
+a.darkstrong:visited { font-family: arial, verdana, sans-serif; font-size: 12px; font-weight: bold; color: #ffffff}

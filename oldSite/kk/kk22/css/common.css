@@ -1,0 +1,64 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12;
+	color: #000000;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12;
+	color: #000000;
+}
+
+.caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10;
+	color: #000000;
+}
+
+/* --== links ==--   */
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13;
+	text-decoration:underline;
+	color: #006600;		
+}
+	
+a:hover{
+	text-decoration:underline;
+	color: #009900;
+}
+
+a:visited{
+
+}
+   
+a.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13;
+	text-decoration:underline;
+	color: #006600;		
+}
+	
+a.footer:hover{
+	text-decoration:underline;
+	color: #009900;
+}
+
+a.footer:visited{
+
+}
+/* --== page elements ==--   */
+ 
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18;
+	font-weight: bold;
+	text-decoration:none;
+	color: #006600;
+}
+
+.img_border {
+	border-color: #000000;		
+}

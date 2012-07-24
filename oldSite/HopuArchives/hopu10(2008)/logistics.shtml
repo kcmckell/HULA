@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hopu Ka Lewa</title>
+
+<link href="/hopu/hopu.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/hopu/hopu_ie.css" />
+<![endif]-->
+
+</head>
+
+<body>
+<center>
+<div id=hopu_body>
+
+  <!--#include file="/hopu/include/hopulogo.inc"-->
+  <!--#include file="/hopu/include/hopumenu.inc"-->
+
+  <div id=hopu_content>
+
+   <div id=hopu_title>
+     "Kamp Details"
+   </div>
+
+   <div id=hopu_text>
+
+<h3>Hopu Ka Lewa 10 Logistics</h3>
+
+<b>Kickoff:</b> Registration will occur at Waimanalo Polo Fields Friday evening between 6 pm and 9 pm. Field is on the mountain side of Kalanianaole Highway across from Bellows Beach. 
+
+<p>
+<b>Games:</b> Fields are at the Waimanalo Polo Fields. 
+<ul>
+ <li>Friday Night - Dinner and Opening Ceremony will be Friday night, November 7th.
+ <li>Saturday games 8:30am - roughly 5pm. 
+ <li>Sunday games 8:30am - roughly 5pm (including field semi's and finals)
+ <li>Monday - pool play on the beach
+</ul>
+
+<p>
+<b>Food:</b> Breakfast and dinner will be provided for you at the fields. 
+
+<ul>
+ <li>Breakfast will be served 7-8am , pretty much continental fare. 
+Lunch is on your own; however, there will be a couple of local vendors at the fields for convenience. Bring money. Other options are in Waimanalo, a five minute drive. 
+ <li>Dinner will be served at 6:30 pm, and second servings will begin at 7:15 pm to allow for slow shower(s) to ensure they are fed. 
+ <li>Entertainment will follow both evenings. 
+</ul>
+
+<p>
+<b>Camping:</b> Provided from Friday through Monday nights at Waimanalo Bay Recreation Area, directly across the street from the fields (a 2 minute walk). You may shower at the campgrounds. 
+
+
+<hr>
+
+ 
+<h3>Travel Details </h3>
+
+<p>
+Rental cars are available at the airport. 
+
+<p>
+If you prefer not to camp, rental options are available, but you are on your own to secure them. Search near/under 'Waimanalo'. Honolulu is a 45 minute drive. 
+
+<p>
+If you need assistance with housing before or after the tournament, please contact us and we will try to find floor space, yard space, or direct you to great camping. 
+
+
+
+   </div>
+
+  </div>
+
+  <!--#include file="/hopu/include/hopuseparator.inc"-->
+  <!--#include file="/hopu/include/hopufooter.inc"-->
+
+</div>
+
+</center>
+
+</body>
+</html>
+
+
+
+
+
+
+

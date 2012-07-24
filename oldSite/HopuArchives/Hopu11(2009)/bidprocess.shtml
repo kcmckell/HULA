@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hopu Ka Lewa</title>
+
+<link href="/hopu/hopu.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/hopu/hopu_ie.css" />
+<![endif]-->
+
+</head>
+
+<body>
+<center>
+<div id=hopu_body>
+
+  <!--#include file="/hopu/include/hopulogo.inc"-->
+  <!--#include file="/hopu/include/hopumenu.inc"-->
+
+  <div id=hopu_content>
+
+   <div id=hopu_title>
+     Hopu Ka Lewa 10 Bid Process and Fees
+   </div>
+
+   <div id=hopu_text>
+
+    <p><i>A form to submit your Team Bid will be made available here shortly.</i>
+
+     <p>Price per player $99 before August 31st
+
+     <p>Team Bids- $300 (which covers 3 players) due by Sept 3
+
+     <p>Team bids can be sent to:<br>
+        Megan Grimshaw<br>
+        3518 McCorriston St<br>
+        Honolulu, HI 96815<br>
+
+   </div>
+
+  </div>
+
+  <!--#include file="/hopu/include/hopuseparator.inc"-->
+  <!--#include file="/hopu/include/hopufooter.inc"-->
+
+</div>
+
+</center>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

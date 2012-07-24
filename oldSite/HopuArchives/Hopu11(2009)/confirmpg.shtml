@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Hopu Ka Lewa Registration THANK YOU!</title>
+
+<link href="/hopu/hopu.css" rel="stylesheet" type="text/css" />
+   
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/hopu/hopu_ie.css" />
+<![endif]-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<center>
+<div id=hopu_body>
+
+  <!--#include file="/hopu/include/hopulogo.inc"-->
+  <!--#include file="/hopu/include/hopumenu.inc"-->
+
+  <div id=hopu_content>
+
+   <div id=hopu_title>
+     Hopu Ka Lewa 10 Individual Registration
+   </div>
+
+   <div id=hopu_text>
+
+ <p class="title"><font color="#0054A6">Thank you for your Payment!</font></p><p>Your payment has been accepted.</p>
+<p>Please fill out the quick exit survey below to ensure that we can correlate our records.  If you have not yet done your individual registration, you will be direct there after the payment exit survey below, but PLEASE DO THE EXIT SURVEY FIRST!</p>
+<p>Feel free to contact us if you have any further questions!</p>
+<center>
+<iframe src="http://spreadsheets.google.com/embeddedform?key=t0Nuae7jqd5ilXix4__bIRg" width="740" height="350" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</center>
+<p>See you on the fields!</p>
+
+
+		<p><em>Comments or questions?<br>
+	    Contact <a href="mailto:hopu@hawaiiultimate.com"><font color="#0054A6">hopu@hawaiiultimate.com</font></a></em></p>
+
+   </div>
+
+  </div>
+
+   <!--#include file="/hopu/include/hopuseparator.inc"-->
+   <!--#include file="/hopu/include/hopufooter.inc"-->
+
+</div>
+
+</center>
+
+</body>
+</html>
+
+
+
+

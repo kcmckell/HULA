@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /attic_old_hula_site/
+Disallow: /hopu10/
+Disallow: /wiki/

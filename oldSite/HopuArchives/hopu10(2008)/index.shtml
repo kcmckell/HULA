@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hopu Ka Lewa</title>
+
+<link href="/hopu/hopu.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/hopu/hopu_ie.css" />
+<![endif]-->
+
+</head>
+
+<body>
+<center>
+<div id=hopu_body>
+
+  <!--#include file="/hopu/include/hopulogo.inc"-->
+  <!--#include file="/hopu/include/hopumenu.inc"-->
+
+  <div id=hopu_content>
+
+   <div id=hopu_title>
+     <h2>Hopu Ka Lewa <font size=-1>welcomes you to,</font></h2>
+     <h1>"Kamp Ka Lewa"</h1>
+   </div>
+
+   <div id=hopu_text>
+    <div id=hopu_text_left>
+
+     <h3>Kamp Ka Lewa</h3>
+
+     <b> Who: </b>
+       You and up to 16 spirited co-ed teams<br>
+     <b> What: </b>
+       A two day field ultimate tournament, followed by a one day beach tournament.<br>
+     <b> When: </b>
+       November 8-10, 2008<br>
+     <b> Where: </b>
+       <a href="http://www.google.com/maps?f=q&hl=en&q=+Kalanianaole+Hwy+%26+Ehukai+St,+waimanalo+hawaii&ie=UTF8&z=15&ll=21.33839,-157.70299&spn=0.026063,0.048966&om=1">Waimanalo Polo Fields</a>, Oahu, Hawai'i     <br>
+     <b> Why: </b>
+       What's more fun than going to Kamp with a couple hundred "ultimate" friends, and catching some rays while all your friends are bored out of their minds?<br>
+
+<p>
+Join us for another fun awesome tournament!
+
+
+<hr>
+
+
+<H3>Kauai Hat Draw</h3>
+
+<p>
+A <a href="/hopu/hatdraw.shtml">Hat Draw tournament</a> will be held the weekend after Hopu, November 15-16
+
+
+
+<hr>
+
+<H3>Kamp Details</h3>
+
+<b>Team Bid Deadline:</b> Team bids will be due on <a href="/hopu/bid_hopu.asp">September 15th, 2008</a>.<br>
+<b>Team Bid Deposit:</b> $297, which is credited towards three (3) individual registration fees. <br>
+<b>Individual Registration Fees:</b> <br>
+On or Before <a href="/hopu/register_hopu.asp">October 15th, 2008</a>: $99 <br>
+After October 15th, 2008: $125 <br>
+<b>Guest Registration Fees:</b> $60 per guest. Guest fee includes breakfasts & dinners, entertainment and player pack minus disc. Disc can be purchased at tournament if desired. <br>
+<b>Refunds:</b> Team and Individual Refunds will only be given if applied for before October 30th, 2008.<br>
+
+
+    </div>
+
+    <div id=hopu_text_right>
+     <img src="/hopu/hopu_catch.gif" alt="hopu catch"
+width="200" height="400" border="0" align="right">
+    </div>
+   </div>
+
+  </div>
+
+   <!--#include file="/hopu/include/hopuseparator.inc"-->
+   <!--#include file="/hopu/include/hopufooter.inc"-->
+
+</div>
+
+</center>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

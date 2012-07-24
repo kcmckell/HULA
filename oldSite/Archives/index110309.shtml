@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hawaii Ultimate League Association</title>
+    <script src="/include/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <link href="/include/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" tonClickype="ext/css" />
+    <link href="/styles/hula.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/hula_imagebox.js"></script>
+  </head>
+  <body>
+    <center>
+      <div id=hula_body>  
+        <div id=hula_inner>
+          <!--#include file="/include/hulalogo.inc"-->
+          <!--#include file="/include/hulamenu.inc"-->
+          <div id=hula_menu_image>
+            <img src="/images/hula_menu_image_main.gif" width="680" height="120" />
+          </div>
+          <div id=hula_location>
+            Your Location: <a href="#">Home/</a>
+          </div>
+          <div id=hula_content>
+            <div id=hula_blog>
+              <div id=hula_blog_header>What's been happenin'with HULA</div>
+              <div id=hula_blog_text>
+
+              <!--News.asp (in 'include' directory) contains the text for this panel.  archives are dated-->
+		<!--#include virtual="/include/News.asp"-->
+
+                
+                  </div>
+                  <div id=hula_blog_footer>&nbsp;</div>
+                </div>
+                <div id=hula_events>
+                  <div id=hula_events_header>Events</div>
+                  <div id=hula_events_text>
+                    
+
+				<p>---- Current and Upcoming Events ----</p>
+					<!--#include virtual="/include/CurrentEvents.asp"-->
+				    
+				<p>---- Recent Events ----</p>
+					<!--#include virtual="/include/RecentEvents.asp"-->
+
+
+                                          <br>
+                                          <br><br>
+                                                                </div>
+                                                                <div id=hula_events_footer>&nbsp;</div>
+                                                              </div>
+                                                              
+                                                              <div id=hula_blog>
+                                                                <div id=hula_blog_header>2010 Board of Directors</div>
+                                                                <div id=hula_blog_text>
+                                                                  <div id=hula_imagebox>
+                                                                    <div id=hula_imagebox_controls>
+                                                                      <p><a href="javascript:hula_imagebox_prev();">prev</a>
+                                                                        <span id=curr_image></span>&nbsp;of&nbsp;<span id=num_images></span>
+                                                                        <a href="javascript:hula_imagebox_next();">next</a>
+                                                                      </div>
+                                                                      <div id=hula_imagebox_pics>
+                                                                           <div class=image_div id=1>
+                                                                          <p><img src="/faces/MondoChun.jpg" width="150" height="200"></p>
+
+                                                                            <p class=caption>Mondo Chun</p>
+
+                                                                          </div>
+                                                                          <div class=image_div id=2>
+                                                                            <p><img src="/faces/MaggieDesmond.jpg" width="150" height="200"></p>
+
+                                                                              <p class=caption>Maggie Desmond</p>
+
+                                                                            </div>
+                                                                            <div class=image_div id=3>
+                                                                              <p><img src="/faces/JackWade.jpg" width="150" height="200"></p>
+
+                                                                                <p class=caption>Jack Wade</p>
+
+                                                                              </div>
+                                                                              <div class=image_div id=4>
+                                                                                <p><img src="/faces/SteveFleischer.jpg" width="150" height="200"></p>
+
+                                                                                  <p class=caption>Steve Fleischer</p>
+
+                                                                                </div>
+                                                                                <div class=image_div id=5>
+                                                                                  <p><img src="/faces/Blank.jpg" width="150" height="200"></p>
+
+                                                                                    <p class=caption>Sumner Handy</p>
+
+                                                                                </div>
+                                                                                
+									        <div class=image_div id=6>
+                                                                                   <p><img src="/faces/DaveStrang.jpg" width="150" height="200"></p>
+
+                                                                                     <p class=caption>Dave Strang</p>
+
+                                                                                </div>
+
+                                                                                <div class=image_div id=7>
+                                                                                   <p><img src="/faces/Blank.jpg" width="150" height="200"></p>
+
+                                                                                     <p class=caption>Chris Garth</p>
+
+                                                                                      </div>
+
+                                                                                  <div class=image_div id=8>
+                                                                                    <p><img src="/faces/Blank.jpg" width="150" height="200"></p>
+
+                                                                                      <p class=caption>Laura Stevens</p>
+
+                                                                                    </div>
+                                                                                    
+                                                                                      <div class=image_div id=9>
+                                                                                        <p><img src="/faces/ChrisStevens.jpg" width="150" height="200"></p>
+
+                                                                                          <p class=caption>Chris Stevens</p>
+
+                                                                                        </div>
+                                                                                        <div class=image_div id=10>
+                                                                                          <p><img src="/faces/MeganGrimshaw.jpg" width="150" height="200"></p>
+
+                                                                                            <p class=caption>Megan Grimshaw</p>
+
+                                                                                          </div>
+                                                                                          <div class=image_div id=11>
+                                                                                            <p><img src="/faces/BillVoss.jpg" width="150" height="200"></p>
+
+                                                                                              <p class=caption>BillVoss</p>
+
+                                                                                            </div>
+                                                                                            
+
+                                                                                              
+                                                                                            </div>
+                                                                                          </div>
+                                                                                          <p><a href="/wiki/index.php?title=HULABoard">Board of Directors</a>
+                                                                                            2010 elections were held at spring league finals for two-year terms.
+                                                                                            <p> The current HULA Board of Directors includes...
+                                                                                              <ul>
+                                                                                                <li>Mondo Chun
+                                                                                                  <li>Maggie Desmond	
+                                                                                                    <li>Jack Wade
+                                                                                                      <li>Steve Fleischer
+                                                                                                        <li>Sumner Handy
+                                                                                                          <li>Dave Strang
+                                                                                                            <li>Chris Garth
+                                                                                                              <li>Laura Stevens
+                                                                                                                <li>Chris Stevens
+                                                                                                                  <li>Megan Grimshaw
+                                                                                                                    <li>Bill Voss
+                                                                                                                    </ul>
+                                                                                                                    <p> Mahalo to departing members Chris Cook, Clay "Dukes" McKell, Mark Slivka, Jena Kline, and Buffy Cushman for their services on the HULA Board.</p>
+
+                                                                                                                  </div>
+                                                                                                                  <div id=hula_blog_footer>[Posted 6-Jul-2009]</div>
+                                                                                                                </div>
+                                                                                                                <div id=hula_blog>
+                                                                                                                  <div id=hula_blog_header>Calendar</div>
+                                                                                                                  <div id=hula_blog_text>
+                                                                                                                    <p>Interested in seeing what other events are happening? Check out the full <a href="http://calendar.yahoo.com/mondochun2003">HULA Calendar</a>
+                                                                                                                    </div>
+                                                                                                                    <div id=hula_blog_footer>&nbsp;</div>
+                                                                                                                  </div>
+                                                                                                                  <div id=hula_blog>
+                                                                                                                    <div id=hula_blog_header>Email Lists</div>
+                                                                                                                    <div id=hula_blog_text>
+                                                                                                                      <p>Moving to Hawaii soon or already here? Want to sign up for one or all of HULA's email
+                                                                                                                        lists? Click below for more information or to subscribe.  Group membership to yahoogroups require a yahoo account (free).
+                                                                                                                        <ul>
+                                                                                                                          <li> <a href="http://groups.yahoo.com/group/hulamail">HULAMAIL</a>
+                                                                                                                            - official disc-related announcements, maily for O`ahu (yahoogroup)
+                                                                                                                            <li> <a href="http://groups.yahoo.com/group/hula_generalmail" target="blank">Generalmail</a>
+                                                                                                                              - community announcements (yahoogroup)
+                                                                                                                              <li> <a href="http://groups.yahoo.com/group/hula_wahinemail" target="blank">Wahinemail</a>
+                                                                                                                                - women's events/discussion (yahoogroup)
+																					  <li> <a href="http://sports.groups.yahoo.com/group/kanemail/" target="blank">Kanemail</a>
+																 					    - men's events/discussion (yahoogroup)
+																   					    <li><a href="http://www.facebook.com/group.php?gid=2516052186" target="blank">Hawaii Ultimate Facebook Group</a>
+
+                                                                                                                              </ul>
+                                                                                                                              <!-- Google CSE Search Box Begins  -->
+                                                                                                                              <!--
+                                                                                                                              <form id="searchbox_016047565924279138555:zzewgxdvoxa" action="http://google.com/cse">
+                                                                                                                                <input type="hidden" name="cx" value="016047565924279138555:zzewgxdvoxa" />
+                                                                                                                                <input type="hidden" name="cof" value="FORID:0" />
+                                                                                                                                <input name="q" type="text" size="40" />
+                                                                                                                                <input type="submit" name="sa" value="Search" />
+                                                                                                                              </form>
+                                                                                                                              <script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_016047565924279138555%3Azzewgxdvoxa"></script>
+                                                                                                                              -->
+                                                                                                                              <!-- Google CSE Search Box Ends -->
+                                                                                                                            </div>
+                                                                                                                            <div id=hula_blog_footer>&nbsp;</div>
+                                                                                                                          </div>
+                                                                                                                        </div>
+                                                                                                                        <!--#include file="/include/hulabottom.inc"-->
+                                                                                                                      </div>
+                                                                                                                    </div>
+                                                                                                                  </center>
+                                                                                                                  <script type="text/javascript">
+	function LoadFunctions() {
+		InitializeImages();
+	}
+	window.onload = LoadFunctions;
+                                                                                                                  </script>
+                                                                                                                </body>
+                                                                                                              </html>
+

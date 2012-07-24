@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0066CC url('/hopu/hopu_bg.gif') top center repeat-y;
+  color: #333;
+  font-family: arial,helvetica,clean,sans-serif;
+  font-size: 0.8em;
+}
+
+a {
+  color: #689;
+}
+
+img {
+  border: 0;
+}
+
+#hopu_body {
+  width: 780px;
+  margin: auto;
+}
+
+#hopu_logo {
+  width: 780px;
+  height: 100px;
+  float: left;
+  border-width: 0;
+}
+
+#hopu_menubar {
+  margin: 0;
+  padding: 0;
+  background: #cccccc;
+  width: 100%;
+}
+
+#hopu_menu {
+  float: left;
+  width: 780px;
+  background: #9ff;
+  line-height: normal;
+}
+
+#hopu_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#hopu_menu li {
+  float: left;
+  margin: 0;
+}
+
+#hopu_menu a:link,
+#hopu_menu a:visited,
+#hopu_menu a:active {
+  display: block;
+  background: #9ff;
+  padding: 6px 15px;
+  border-right: 1px solid #999;
+  border-bottom: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+#hopu_menu a:hover {
+  background: #3ff;
+}
+
+#hopu_title {
+  float: left;
+  width: 780px;
+  background-color: #eee;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#hopu_content {
+  width: 780px;
+}
+
+#hopu_text {
+  float: left;
+  width: 740px;
+  background-color: #eee;
+  text-align: left;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#hopu_text_left {
+  float: left;
+  width: 460px;
+  background-color: #eee;
+  text-align: left;
+}
+
+#hopu_text_right {
+  float: right;
+  width: 280px;
+  background-color: #eee;
+  text-align: left;
+}
+
+#hopu_text_separator {
+  float: left;
+  width: 740px;
+  background-color: #eee;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#hopu_footer {
+  width: 740px;
+  text-align: center;
+  color: #060; 
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#history_table {
+  width: 700px;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+caption {
+  padding: 0 0 5px 0;
+  text-align: right;
+  font-style: italic;
+}
+
+th {
+  border: 1px solid;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 6px 6px 6px 12px;
+  background: #eff;
+  color: #339;
+}
+
+td {
+  border: 1px;
+  padding: 2px 2px 2px 4px;
+}
+
+tr.even {
+ background: #fff;
+ color: #036;
+}
+
+tr.odd {
+  background: #eef;
+  color #630;
+}
+
+hr {
+  color: #06c;
+  background-color: #06c;
+  text-align: center;
+  width: 60%;
+  height: 3px;
+}

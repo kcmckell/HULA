@@ -1,0 +1,127 @@
+----------------------------------------------------------------
+
+                            Field 1          Field 2
+
+Fri, Sep 17  6:45-8:00 PM   White - 9        <b>Blue - 15</b>
+ Kapaolono                  <b>Black - 14</b>       Gray - 9
+
+             8:15-9:30 PM   <b>Red - 15</b>         <b>Green - 15</b>
+                            Yellow - 9       Orange - 12
+
+----------------------------------------------------------------
+
+                            Field 1          Field 2
+Fri, Sep 24  6:45-8:00 PM   <b>White - 12</b>       Blue - 7
+ Kapaolono                  Gray - 10        <b>Yellow - 15</b>
+
+             8:15-9:30 PM   <b>Red - 15</b>         Green - 10
+                            Orange - 4       <b>Black - 14</b>
+
+----------------------------------------------------------------
+
+Sat, Oct 2 - Waipio Soccer Complex
+
+           Field 1       Field 2      Field 3       Field 4
+10:30 AM   White - 5     <b>Blue - 15</b>    Red - 8       <b>Green - 11</b>
+           <b>Yellow - 15</b>   Orange - 7   <b>Black - 12</b>    Gray - 9
+
+12:30 PM   <b>White - 13</b>    <b>Blue - 8</b>     <b>Red - 12</b>      Green - 7
+           Orange - 6    Black - 6    Gray - 10     <b>Yellow - 15</b>
+
+ 2:30 PM   White - 10    Blue - 9     <i>Black - 11</i>    Gray - 8
+           <b>Red - 13</b>      <b>Green - 15</b>   <i>Yellow - 11</i>   <b>Orange - 15</b>
+
+----------------------------------------------------------------
+
+                            Field 1          Field 2
+Fri, Oct 08  6:45-8:00 PM   <b>White - 13</b>       Blue - 9
+ Kapaolono                  Green - 12       <b>Red - 15</b>
+
+             8:15-9:30 PM   <b>Black - 15</b>       Gray - 4
+                            Orange - 5       <b>Yellow - 15</b>
+
+----------------------------------------------------------------
+
+                            Field 1          Field 2
+Fri, Oct 15  6:45-8:00 PM   White - 10       <b>Green - 14</b>
+ Kapaolono                  <b>Blue - 11</b>        Red - 13
+
+             8:15-9:30 PM   <b>Black - 13</b>       Orange - 9
+                            Gray - 9         <b>Yellow - 13</b>
+
+----------------------------------------------------------------
+
+                            Field 1          Field 2
+Fri, Oct 22  6:45-8:00 PM   White - 10       <b>Blue - 14</b>
+ Kapaolono                  <b>Black - 11</b>       Gray - 13
+
+             8:15-9:30 PM   Red - 13         <b>Green - 14</b>
+                            <b>Yellow - 14</b>      Orange - 10
+
+----------------------------------------------------------------
+
+Fri, Oct 29        Bok Choy Tournament - No League Games
+
+----------------------------------------------------------------
+
+Fri, Nov 05        Rain Cancellation - No League Games
+
+----------------------------------------------------------------
+
+Fri, Nov 12 - Kapaolono
+
+                Field 1        Field 2        Field 3
+6:45-8:00 PM    <b>Red - 15</b>       Blue - 5       <b>Green - 14</b>
+                Orange - 13    <b>Black - 14</b>     Gray - 10
+
+8:15-9:30 PM    White - 7      <b>Blue - 13</b>      Red - 7
+                <b>Yellow - 15</b>    Orange - 8     <b>Black - 14</b>
+
+----------------------------------------------------------------
+
+Sat, Nov 20 - Central Oahu Regional Park
+
+           Field 1          Field 2          Field 3
+10:00 AM   <b>White - 14</b>       <b>Red - 14</b>         Green - 8
+           Orange - 10      Gray - 10        <b>Black - 13</b>
+
+11:00 AM   Blue - 6         <i>Gray - 9</i>         Green - 8
+           <b>Yellow - 15</b>      <i>Orange - 9</i>       <b>Red - 12</b>
+
+ 1:00 PM   <b>White - 8</b>        <b>Blue - 15</b>        Black - 9
+           Red - 7          Green - 8        <b>Yellow - 10</b>
+
+ 2:30 PM   White - 9        <b>Black - 11</b>       Orange - 0
+           <b>Blue - 11</b>        Gray - 7         <b>Yellow - 15</b>
+
+----------------------------------------------------------------
+
+Fri, Nov 26              Thanksgiving - No Games
+
+----------------------------------------------------------------
+
+Fri, Dec 03 - Kapaolono
+
+               Field 1          Field 2          Field 3
+6:45-8:00 PM   <b>White - 10</b>       Gray - 5         Blue - 3
+               Green - 8        <b>Yellow - 9</b>       <b>Red - 13</b>
+
+8:15-9:30 PM   Green - 13       <b>Black - 11</b>       White - 8
+               <b>Yellow - 14</b>      Orange - 9       <b>Gray - 10</b>
+
+----------------------------------------------------------------
+
+Sat, Dec 11 - Finals - Waipio Soccer Complex
+
+Seedings based on final regular season standings:
+ Pool A: Yellow (1), Blue (4), White (5), Gray (8)
+ Pool B: Black (2), Red (3), Green (6), Orange (7)
+
+                --- Pool A ---             --- Pool B ---
+10:00 AM   Yellow-Gray  Blue-White    Black-Orange Red-Green
+11:45 AM   Yellow-White Blue-Gray     Black-Green  Red-Orange
+ 1:30 PM   Yellow-Blue  White-Gray    Black-Red    Green-Orange
+
+ 3:15 PM   Championship Finals (winners of each pool)
+
+----------------------------------------------------------------

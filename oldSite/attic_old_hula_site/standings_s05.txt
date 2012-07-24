@@ -1,0 +1,14 @@
+----------------------------------------------------------------
+     Last
+Rank Week Team        Captain(s)                Won  Lost  Tied
+---- ---- ----        ----------                ---  ----  ----
+  1    1  Cornflower  Matt D. / Chloe W. ...... 10     2     0
+  2    1  Ivory       Eiko A. / Mark A. .......  9     3     0
+  3    4  Coral       Don N. / Nancy F. .......  6     5     1
+  4*   3  Brick       Frank D. / Josh W. ......  6     6     0
+  5    5  Ebony       Ariel Rivera ............  6     6     0
+  6    6  Chartreuse  Andrzej P. / Kelly M. ...  3     8     1
+  7    7  Wisteria    Barb B. / Jason S. ......  1    11     0
+----------------------------------------------------------------
+* won tie-break against Ebony (head to head point differential)
+----------------------------------------------------------------

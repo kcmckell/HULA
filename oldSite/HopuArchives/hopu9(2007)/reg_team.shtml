@@ -1,0 +1,429 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <title>
+         Hopu Ka Lewa
+      </title>
+      <meta name="description" content="9th Annual Ultimate Tournament held in beautiful Waimanalo, Hawaii.">
+      <meta name="keywords" content="Ultimate, Frisbee, Tournament, Hawaii, Oahu, Honolulu, Waimanalo, Bellows, Hat Draw">
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <link rel="stylesheet" href="/hopu9/hopu.css" type="text/css">
+   </head>
+
+   <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#0054A6">
+
+      <!-- begin outside table -->
+      <table width="775" border="0" cellspacing="0" cellpadding="0" bgcolor="#0054A6" align="center" valign="top">
+         <tr>
+            <td width="775" border="0" bgcolor="#0054A6">
+
+               <!-- begin body -->
+
+               <table width="743" border="0" cellspacing="0" cellpadding="0" bgcolor="#0054A6" align="left" valign="top">
+   <tr>
+      <!-- begin first column -->
+<td width="151" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc" align="left" valign="top">
+
+   <table width="151" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc" align="left" valign="top">
+      <tr>
+
+         <td width="151" border="0" colspan="2" bgcolor="#cccccc" align="left" valign="top">
+            <img alt="" src="images/hopu_top_left.jpg" width="151" height="198" align="left" valign="top">
+         </td>
+      </tr>
+      <tr>
+         <td width="151" border="0" colspan="2" bgcolor="#cccccc" align="left" valign="top">
+            <img alt="" src="images/hopu_left_joe2.jpg" width="151" align="left" valign="top">
+         </td>
+      </tr>
+      <tr>
+         <td width="15" border="0" bgcolor="#cccccc">
+            <img alt="" src="images/blank.gif" width="15" height="850" align="left" valign="top">
+         </td>
+         <td width="136" border="0" bgcolor="#cccccc">
+            <img src="images/blank.gif" width="136" height="850">
+         </td>
+      </tr>
+
+<tr>
+<td width="151" border="0" bgcolor="#cccccc" align="center" valign="middle">
+</td>
+</tr>
+   </table>
+</td>
+
+                     <!-- end first column -->
+
+                     <!-- begin second column -->
+                     
+  <td width="442" border="0" bgcolor="#cccccc" align="center" valign="top">
+
+   <table width="442" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc" align="left" valign="top">
+      <tr>
+         <td>
+            <table width="442" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc" align="left" valign="top">
+               <tr>
+                  <td width="89" align="left" valign="top" bgcolor="#cccccc">
+                     <img src="images/hopu_top_middle1.jpg" width="89" height="198" align="left" valign="top">
+                  </td>
+
+                  <td width="353" align="left" valign="top" bgcolor="#cccccc">
+                     <img src="images/hopu_top_middle2.gif" width="353" height="198" align="left" valign="top">
+                  </td>
+               </tr>
+               <tr>
+                  <td width="442" colspan="2" align="left" valign="top" bgcolor="#00ADEF">
+                     <img src="images/blank2.jpg" width="442" height="2" align="left" valign="top">
+                  </td>
+               </tr>
+
+
+            </table>
+         </td>
+      </tr>
+      <!-- begin links, rule row -->
+      <tr>
+         <td>
+           <!--#include file="/hopu9/include/hopumenu.inc"-->
+         </td>
+      </tr>
+      <!-- end links, rule row -->
+
+      <!-- start rule row -->
+      <tr>
+         <td>
+            <table width="442" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc" align="left" valign="top">
+               <tr>
+                  <td width="30" align="left" valign="top" bgcolor="#cccccc">
+                     <img src="images/blank.gif" width="30" height="20" alt=" ">
+                  </td>
+                  <td width="412" align="left" height="5" valign="top" bgcolor="#cccccc">
+                     <img src="images/blank3.gif" valign="top" align="center" width="412" height="2" alt=" ">
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+      <!-- end rule row -->
+
+      <!-- start main body text -->
+      <tr>
+         <td>
+    
+<table width="442" border="0" cellspacing="0" cellpadding="0" bgcolor="#cccccc" align="left" valign="top">
+                        <tr>
+                              <td width="30" align="left" valign="top" bgcolor="#cccccc">
+                              <img src="images/blank.gif" width="30" border="0" alt=" "></td>
+                              <td width="410" align="left" valign="top" bgcolor="#cccccc">
+
+  <h1>We are accepting Team Bids for Hopu Ka Lewa 9!</h1>
+
+<p align="left">
+   <h2>
+      
+         Captain Instructions:
+      
+   </h2>
+   <ol>
+      <li>Complete letter of introduction and team roster in form below.
+      </li>
+      <li>Print the completed form.
+      <li>Mail $315 team deposit (payable to <strong>"Hawaii Coed Ultimate"</strong>) to:<br>
+<b>
+ Hopu Ka Lewa<br>
+ c/o Kevin Kelly<br>
+ 914 20th Ave.<br>
+ Honolulu HI 96816<br>
+</b>
+</li>
+      <li>Remind your teammates to complete 
+      <a href="register_hopu.asp">
+         individual registration.
+         </a>
+      </ol>
+   </p>
+
+   <hr color="#1DA832" cols="30">
+
+      <p align="left">
+         <h4>
+            team registration form
+         </h4>
+      </p>
+
+      <form action="php/reg_team.php" method="post">
+
+         <p class="form">
+            <strong>
+               Team Name 
+            </strong>
+            (psuedonyms, pen names, or aliases accepted):
+            <input type="text" name="TeamName">
+               </p>
+
+                  <p class="form">
+                     <strong>
+                        Email Address
+                     </strong>
+                     (a real one that we can send a confirmation letter to):
+                     <input type="text" name="TeamEmail">
+                        </p>
+
+
+                           <p class="form">
+                              <strong>
+                                 Letter of Introduction
+                              </strong>
+                           <br>
+                              We strongly encourage creativity. Tell us how your team contributes to competitive play yet still maintains outstanding spirit. 
+                              Please limit your creative energies to space provided (press enter to advance between lines).
+                           </p>
+
+                         
+                              <textarea name ="TeamLetter" rows="30" cols="45"></textarea>
+                              <br>
+
+                                 <p class="form">
+                                    <strong>
+                                       Team Roster
+                                    </strong>
+                                 </font>
+                                 <br>
+                                    Keep it organized folks! We try to always play 4m/3w, please be prepared. The better idea you have of who is playing on your team, the better tournament we can organize.
+                                 </p>
+
+                                 <p class="form">
+                                    <strong>
+                                       (Co-)Captain:
+                                    </strong>
+                                    <input type="text" name="Player1" value="">
+                                    <br>
+                                       <strong>
+                                          (Co-)Captain:
+                                       </strong>
+                                       <input type="text" name="Player2" value="">
+                                          </p>
+                                          <p class="form" align="center">
+                                                                              <strong>
+ Players:
+                                    </strong><br>
+                                             <input type="text" name="Player3" value="">
+                                                <input type="text" name="Player4" value="">
+                                                   <input type="text" name="Player5" value="">
+                                                      <input type="text" name="Player6" value="">
+                                                         <input type="text" name="Player7" value="">
+                                                            <input type="text" name="Player8" value="">
+                                                               <input type="text" name="Player9" value="">
+                                                                  <input type="text" name="Player10" value="">
+                                                                     <input type="text" name="Player11" value="">
+                                                                        <input type="text" name="Player12" value="">
+                                                                           <input type="text" name="Player13" value="">
+                                                                              <input type="text" name="Player14" value="">
+                                                                                 <input type="text" name="Player15" value="">
+                                                                                    <input type="text" name="Player16" value="">
+                                                                                       <input type="text" name="Player17" value="">
+                                                                                          <input type="text" name="Player18" value="">
+                                                                                             <input type="text" name="Player19" value="">
+                                                                                                <input type="text" name="Player20" value="">
+                                                                                                </p>
+                                                                                              
+                                                       
+                                                       <center><input type="submit" value="Submit Team Bid"></center>         </form>                                  
+<hr color="#1DA832" cols="30">
+                                                                                                   
+ <p align="center">
+<strong>   
+You must mail team deposit of $315 (payable to "Hawaii Coed Ultimate") to complete your bid. Mail it to...
+</strong></p>
+<p align="center">
+<b>
+ Hopu Ka Lewa<br>
+ c/o Kevin Kelly<br>
+ 914 20th Ave.<br>
+ Honolulu HI 96816<br>
+<br>
+ (NOTE: your team deposit pays for three individual registrations)<br>
+</b>
+</p>
+</form>
+</td>
+</tr>
+
+
+</table>
+
+
+
+
+
+      </td>
+   </tr>
+       <tr>
+                         
+                              <td width="410" align="right">
+                                 <img src="images/blank.gif" width="410" height="10">
+                              </td>
+
+                           </tr>
+                           
+                            <tr>
+                         
+                              <td width="410" align="right">
+                                 <img src="images/blank2.gif" width="410" height="2" align="right">
+                              </td>
+
+                           </tr>
+                           <tr>
+                           <td width="410" align="center" valign="bottom">
+<p class="announce">Hopu Ka Lewa is sponsored by <a href="http://www.hawaiiultimate.com">HULA</a>, Hawaii Ultimate League Association.
+Questions? Email
+<script language="JavaScript">
+<!--
+      var username = "hopu";
+ var domain = "hawaiiultimate.com";
+ document.write ('<a href=\"mailto:' + username + '@' + domain + '\">');
+ document.write (username + '@' + domain + '</a>');
+//-->
+</script>
+<noscript><b>hopu<img src=/images/at.gif>hawaiiultimate.com</b>
+</noscript>
+</p>
+
+</td>
+</tr>
+</table>
+<!-- end main body text -->
+
+</td>
+
+<!-- end second column -->
+
+<!-- begin third column -->                  
+<td width="15" bgcolor="#cccccc" align="left" valign="top" border="0">
+
+   <table width="15" border="0" cellspacing="0" cellpadding="0" valign="top" align="left" bgcolor="#cccccc">
+      <tr>
+         <td width="15" align="left" valign="top" border="0">
+            <img src="images/hopu_top_right_01.gif" width="15" height="198" alt=" " border="0">
+         </td>
+      </tr>
+      <tr>
+         <td width="15" height="2" align="left" valign="top" border="0" bgcolor="#cccccc">
+            <img src="images/blank.gif" height="2" width="15" border="0" valign="top" bgcolor="#cccccc">
+         </td>
+      </tr>
+   </table>
+
+</td>
+
+
+                                                    
+                        
+ <!-- end third column -->
+                  
+                  <!-- begin fourth column -->
+             <td width="135" bgcolor="#cccccc" align="left" valign="top" border="0">
+
+   <table width="135" border="0" cellspacing="0" cellpadding="0" valign="top" align="left">
+      <tr>
+         <td width="135" align="left" valign="top" cellspacing="0" border="0">
+
+
+            <table width="135" border="0" bgcolor="#cccccc" cellspacing="0" cellpadding="0" valign="top" align="left">
+               <tr>
+                  <td width="135" align="left" valign="top" border="0" bgcolor="#0054A6">
+                     <img alt=" " src="images/hopu_top_right_02.gif" width="135" height="198" valign="top" align="left" border="0" bgcolor="#0054A6">
+                  </td>
+               </tr>
+
+               <tr>
+                  <td width="135" align="left" valign="top" border="0">
+                     <img src="images/blank.gif" width="135" height="24">
+                  </td>
+               </tr>
+
+            </table>
+         </td>
+      </tr>
+
+      <!-- begin fourth box -->
+      
+<tr>
+   <td border="0" bgcolor="00ADEF" width="135">
+      <table width="135" border="0" cellspacing="0" border="0" cellpadding="0" valign="top" align="left" bgcolor="#cccccc">
+
+<tr>
+<td border="0" bgcolor="#cccccc" width="135">
+<img src="images/blank.gif" height="15">
+</td>
+</tr>
+
+<tr>
+<td border="0" bgcolor="#cccccc" width="135">
+<img src="images/Andj2.jpg" width="135" border="0" bgcolor="#cccccc">
+</td>
+</tr>
+
+<tr>
+<td border="0" bgcolor="#cccccc" width="135">
+<img src="images/blank.gif" height="15">
+</td>
+</tr>
+
+<tr>
+<td border="0" bgcolor="#cccccc" width="135">
+<img src="images/chk_hammer.jpg" width="135"">
+</td>
+</tr>
+
+<tr>
+<td border="0" bgcolor="#cccccc" width="135">
+<img src="images/blank.gif" height="15">
+</td>
+</tr>
+
+<tr>
+<td border="0" bgcolor="#cccccc" width="135">
+<img src="images/deb.jpg" width="135"">
+</td>
+</tr>
+
+
+   </table>
+   
+</td>
+</tr>
+
+      
+      
+      
+      
+      
+      
+      
+
+</td>
+
+
+                  <!-- end fourth column -->
+                  
+             
+                  
+
+
+               </tr>
+            </table>
+            <!-- end body -->
+
+            <!-- end outside table -->
+
+
+         </td>
+      </tr>
+   </table>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111 url('/hopu/Compass_Border.GIF') top center repeat-y;
+  color: #333;
+  font-family: arial,helvetica,clean,sans-serif;
+  font-size: 0.8em;
+}
+
+a {
+  color: #689;
+}
+
+img {
+  border: 0;
+}
+
+#hopu_body {
+  width: 780px;
+  margin: auto;
+}
+
+#hopu_logo {
+  width: 780px;
+  height: 150px;
+  float: left;
+  border-width: 0;
+}
+
+#hopu_menubar {
+  margin: 0;
+  padding-left: 0;
+  background: #900;
+  width: 100%;
+}
+
+#hopu_menu {
+  float: left;
+  width: 780px;
+  background: #900;
+  line-height: normal;
+}
+
+#hopu_menu ul {
+  margin: 0;
+  padding-left: 30px;
+  list-style: none;
+}
+
+#hopu_menu li {
+  float: left;
+  margin: 0;
+}
+
+#hopu_menu a:link,
+#hopu_menu a:visited,
+#hopu_menu a:active {
+  display: block;
+  background: #900;
+  padding: 6px 15px;
+  border-right: 1px solid #900;
+  border-bottom: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+#hopu_menu a:hover {
+  background: #f00;
+}
+
+#hopu_title {
+  float: left;
+  width: 780px;
+  background-color: #111;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#hopu_content {
+  width: 780px;
+  background-color: #eedd82;
+}
+
+#hopu_text {
+  float: left;
+  width: 740px;
+  background: #111 url('/hopu/Background.GIF') top center repeat-y;
+  text-align: left;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#hopu_text_left {
+  float: left;
+  width: 460px;
+  /*background-color: #eedd82;*/
+  text-align: left;
+}
+
+#hopu_text_right {
+  float: right;
+  width: 280px;
+  /*background-color: #eedd82;*/
+  text-align: left;
+}
+
+#hopu_text_separator {
+  float: left;
+  width: 740px;
+  /*background-color: #eedd82;*/
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#hopu_footer {
+  width: 740px;
+  text-align: center;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.0em;
+
+}
+
+#history_table {
+  width: 700px;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+caption {
+  padding: 0 0 5px 0;
+  text-align: right;
+  font-style: italic;
+}
+
+th {
+  border: 1px solid;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 6px 6px 6px 12px;
+  background: #ffe;
+  color: #663;
+}
+
+td {
+  border: 1px;
+  padding: 2px 2px 2px 4px;
+}
+
+tr.even {
+ background: #fff;
+ color: #663;
+}
+
+tr.odd {
+  background: #ffe;
+  color #996;
+}
+
+hr {
+  color: #663;
+  background-color: #663;
+  text-align: center;
+  width: 60%;
+  height: 3px;
+}

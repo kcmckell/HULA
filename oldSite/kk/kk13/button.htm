@@ -1,0 +1,105 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+</HEAD>
+<BODY LINK="#0000ff"  background="../art/sand00.gif" VLINK="#800080">
+<TABLE BORDER="0">
+<TR><TD  width=150><IMG SRC="../art/kk2000.gif" alt="LOGO"></TD></TR>
+<TR><TD VALIGN="TOP">
+<SCRIPT>
+                if (document.images) {            // Active Images
+                    img1on = new Image();
+            img1on.src = "../art/main2.gif";
+
+                img2on = new Image();
+            img2on.src = "../art/director2.gif";
+
+                img3on = new Image();
+            img3on.src = "../art/teams2.gif";
+
+                img4on = new Image();
+            img4on.src = "../art/schedul2.gif";
+
+                img5on = new Image();
+            img5on.src =  "../art/maps2.gif";
+
+                img6on = new Image();
+            img6on.src = "../art/reg2.gif";
+
+                img7on = new Image();
+            img7on.src = "../art/kkhistory2.gif";
+
+                img8on = new Image();
+            img8on.src = "../art/bigisland2.gif";
+
+                img9on = new Image();
+            img9on.src = "../art/coed2.gif";
+
+                         img1off = new Image();
+            img1off.src = "../art/main1.gif";
+
+                img2off = new Image();
+            img2off.src = "../art/director1.gif";
+
+                img3off = new Image();
+            img3off.src = "../art/teams1.gif";
+
+                img4off = new Image();
+            img4off.src = "../art/schedul1.gif";
+
+                img5off = new Image();
+            img5off.src = "../art/maps1.gif";
+
+                img6off = new Image();
+            img6off.src = "../art/reg1.gif";
+
+                img7off = new Image();
+            img7off.src = "../art/kkhistory1.gif";
+
+                img8off = new Image();
+            img8off.src = "../art/bigisland1.gif";
+
+                img9off = new Image();
+            img9off.src = "../art/coed1.gif";
+        }
+
+// Function to 'activate' images.
+function imgOn(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "on.src");
+        }
+
+}
+
+
+// Function to 'deactivate' images.
+function imgOff(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "off.src");
+        }
+}
+//--
+</SCRIPT>
+                        <A href="home.htm" target="main" onMouseOver="imgOn('img1')" onMouseOut="imgOff('img1')"><IMG name="img1"  border="0" src="../art/main1.gif" alt="Kaimana 2000"></A><BR>
+
+                        <A href="director.htm" target="main" onMouseOver="imgOn('img2')" onMouseOut="imgOff('img2')"><IMG name="img2"  border="0"src="../art/director1.gif"alt="Director's Message"></A><BR>
+
+                        <A href="teams.htm" target="main" onMouseOver="imgOn('img3')" onMouseOut="imgOff('img3')"><IMG name="img3"  border="0" src="../art/teams1.gif"alt="TEAMS"></A><BR>
+
+                        <A href="schedule.htm" target="main" onMouseOver="imgOn('img4')" onMouseOut="imgOff('img4')"><IMG name="img4"  border="0"src="../art/schedul1.gif"alt="SCHEDULE"></A><BR>
+
+                        <A href="maps.htm" target="main" onMouseOver="imgOn('img5')" onMouseOut="imgOff('img5')"><IMG name="img5"  border="0"src="../art/maps1.gif" alt="MAPS"></A><BR>
+
+                        <A href="register.htm" target="main" onMouseOver="imgOn('img6')" onMouseOut="imgOff('img6')"><IMG name="img6"  border="0"src="../art/reg1.gif"alt="REGISTRATION FORM"></A><BR>
+
+                        <A href="kkhistory.htm" target="main" onMouseOver="imgOn('img7')" onMouseOut="imgOff('img7')"><IMG name="img7"  border="0"src="../art/kkhistory1.gif" alt="MAPS"></A><BR>
+
+                        <A href="http://www.k12.hi.us/~pcook/hilo.ultimate.htm" target="main" onMouseOver="imgOn('img8')" onMouseOut="imgOff('img8')"><IMG name="img8"  border="0"src="../art/bigisland1.gif"alt="Big Island Hat"></A><BR>
+
+                        <A href="http://www.hawaiicoed.com/" target="main" onMouseOver="imgOn('img9')" onMouseOut="imgOff('img9')"><IMG name="img9"  border="0"src="../art/coed1.gif"alt="Co-ed Tourney"></A><BR>
+
+<a href="http://www.hawaiiultimate.com/index.html">About H.U.L.A.</a>
+
+</TD></TR></TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hopu Ka Lewa</title>
+
+<link href="/hopu/hopu.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<center>
+<div id=hopu_body>
+
+  <!--#include file="/hopu/include/hopulogo.inc"-->
+  <!--#include file="/hopu/include/hopumenu.inc"-->
+
+  <div id=hopu_content>
+
+   <div id=hopu_title>
+     Hopu Ka Lewa 10 Schedule
+   </div>
+
+   <div id=hopu_text>
+     <H3> Saturday, November 8th </H3>
+       <p> Field tournament preliminary rounds at the Waimanalo Polo Fields.
+
+     <H3> Sunday, November 9th </H3>
+       <p> Field tournament late rounds, semi-finals and finals at the Waimanalo Polo Fields.
+
+     <H3> Monday, November 10th </H3>
+       <p> Mini Beach Tournament at <a href="/wiki/index.php?title=WaimanaloBeach"> Waimanalo Beach</a>.
+
+   </div>
+
+  </div>
+
+  <!--#include file="/hopu/include/hopuseparator.inc"-->
+  <!--#include file="/hopu/include/hopufooter.inc"-->
+
+</div>
+
+</center>
+
+</body>
+</html>
+
+
+
+
+
+

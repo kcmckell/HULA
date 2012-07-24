@@ -1,0 +1,61 @@
+----------------------------------------------------------------
+
+ BLACK TEAM           BLUE TEAM              BROWN TEAM
+ ----------           ---------              ---------
+ Alex Polderman       Aaron Rosa (C)         Adam Jacobstein
+ Anna Gardner         Barb Bruno             Andrea Bender
+ Ariel Rivera         Bartlett Durand        Brent Tamamoto
+ Chris Hurd           Dave Strang            Carrie Keller
+ Dale Kocevski        Dayna Hillcrest        Chris Haugen
+ Dave Sofio           Jared Marske           Frank Dabrosky
+ Evash Beresiwsky     Jeremy Michelson       Graham McNeil
+ Iliana Baums         John Hillcrest         Jeremy Claisse
+ Ilsa Kuffner         Kevin McGraw (C)       Katie Howard
+ Iuri Herzfeld        Kurtis Mabe            Keane Nishimoto
+ Liz McGrath          Laura Lott             Laura Gilda
+ Luke Dunklee         Leilani Durand         Megan Bushnell
+ Robbie Gardner       Lori Daniels           Meredith Ing (C)
+ Thuy La (C)          Patrick Riehle         Mike Gallagher
+                      Rick Mogle             Mike Tamamoto
+                                             Tony Bender
+
+
+ GREEN TEAM           KUMQUAT TEAM           RED TEAM
+ ----------           ------------           ---------
+ BJ Philmus (C)       Andrzej Piotrowski     Andy Currivan
+ Brad Embry           Blue Kaanehe           Brandee Gerke
+ Eiko Alexander       Don Najita             Bret Ragsdale
+ Frances Ajo          Ignacio Lobos (C)      Dan Sailer
+ Jeff Rodgers         Jeremy Garrett         Evan Moniz (C)
+ Jeremiah Johnson     John Roundy            Guerric de Coligny
+ Joel Haas            Jon Lillie             Jess Kaneshiro
+ Joseph Knothe        Jon Puritz             Jodi Lui
+ Lisa Curtis          Kim Umeda              Justine Hura
+ Mark Alexander       Kim Weersing           Lars Dorr
+ Phil Schwartz        Megan Grimshaw (C)     Ronny Marotz
+ Rebecca Eldredge     Mike Ward              Sara Ragsdale
+ Sanjai Ramchandani   Noah Buhayar           Steve Gee
+ Sara Simmons         Steve Brady            Tammy Wong
+                      Tracy Tayama           Tomas Hintnaus
+
+
+ WHITE TEAM           YELLOW TEAM
+ ----------           -----------
+ Alex Globerson       Alli Aaby
+ Becca Thoreson       Buffy Cushman
+ Brian Mixon          Eric DeRuyter
+ Chris Smith (C)      Heather Mitchell
+ Henry Hsieh          John Nelson
+ Jason Sickmiller     Jenny Whitton
+ Jena Kline           Kaveh Kardan
+ Jenn Kelley          Kevin Duffy
+ Kelly Molnar         Kevin Kelly
+ Kevin Scott          Kimba Towler
+ Leigh Jerome         Matt Dunlap (C)
+ Matt Kelley (C)      Mondo Chun
+ Nancy Faraj          Reid Sasaki
+ Ozzie Thoreson       Rob Whitton
+ Randy Clark          Tyrone Hogenauer
+ Steve Korow            
+
+----------------------------------------------------------------

@@ -1,0 +1,71 @@
+----------------------------------------------------------------
+
+ BLACK TEAM           BLUE TEAM              GRAY TEAM
+ ----------           ---------              ---------
+ Benjamin Owen        Alex Globerson         Andrzej Piotrowski
+ Brad Embry           Bob Steen              Andy Currivan
+ Chris Hurwitz        Chris Peterson         Austin Morioka
+ Chris Smith (C)      Dave Muell             Carrie Keller
+ Grant Wise           Don Najita             Eiko Alexander
+ Henry Hsieh (C)      Drew Baltensperger (C) Frances Ajo
+ Hiromi White         Jamie Becker           Jon Phillips
+ Jennifer Andrews     Jena Kline             Kevin Kelly
+ Jeremiah Johnson     Jeremy Michelson       Luke Dunklee (C)
+ Johnny Heimbaugh     Jodi Oldfather         Mark Alexander
+ Jolyon Thomas        Katie Howard           Rendall Choy
+ Justine Hura         Kenny Amazaki (C)      Robin Keillor (C)
+ Matt Kelley          Leigh Jerome           Sara Ragsdale
+ Nancy Faraj          Meredith Desha         Sarah McTee
+ Sachiyo Freund       Mike McCartney         Stephen Brady
+ Sara Simmons         Patrick Riehle         Thuy La
+ Satomi Wise          Rebecca Eldredge       Tom Hintnaus
+ Will Freund          Steve Korow            Tracy Tayama
+                      Tamara Wong
+
+
+ GREEN TEAM           ORANGE TEAM            RED TEAM
+ ----------           -----------            ---------
+ Bill Chazey          Aaron Rosa             Alex Polderman
+ Bridget Bombard      Angela Karam           Anthony Bender
+ Chloe Winant         Barb Bruno (C)         Ariel Rivera (C)
+ Dave Moore           Dan Sailer             BJ Philmus
+ Dave Strang          Eric DeRuyter          Co Le
+ Dayna Hillcrest      Guerric de Coligny     Danny DeMartini
+ Ignacio Lobos        Gumby Dammit           Gabe Wallman
+ Jason Dow            Ilsa Kuffner           Heather Mitchell
+ Jason Sickmiller (C) Iuri Herzfeld          Jeremy Ramberg
+ John Hillcrest       Jeff Rodgers           Jess Kaneshiro (C)
+ Kaveh Kardan         Jim Mitchell           Kaitlin DeMartini
+ Kelly Molnar         Jodi Lui               Kristin Knous
+ Laura Skopec         Josh White             Lara Franco
+ Lori Daniels         Justin Mullen          Marty Meyer
+ Mondo Chun           Laura Gilda (C)        Matt Dunlap
+ Nancy Lacuesta       Laura Lott             Megan Bushnell
+ Randy Clark          Mike Elhoff            Melinda Douangratdy
+ Rob Kinslow          Steve Johnson          Mitch Townsend
+ Steve Gee            Steven Lee             Tyrone Hogenauer
+                      Travis Idol
+
+
+ WHITE TEAM           YELLOW TEAM
+ ----------           -----------
+ Andrew Hebert        Alison Stimpert
+ Becca Thoreson       Ben Bergen (C)
+ Brent Tamamoto       Dale Kocevski
+ Buffy Cushman (C)    Elizabeth McGrath
+ Chris Jones          Frank Dabrosky
+ Elizabeth Hebert     Gary Huang
+ Jenny Whitton        Geoff Keenan
+ Katie Fagan          Heather Gregory
+ Kevin Bartholomew    Jamie Leonard
+ Kevin McGraw         Jeremy Claisse
+ Ozzie Thoreson       Joe Paradise
+ Pat Shamberger       John Roundy
+ Peter Berkelman      Kurtis Mabe
+ Rob Whitton          Leilani Durand
+ Sheri Chun           Louis Schlenker
+ Todd Ericksen (C)    Mary Jean McCann
+ Weston Willard       Meredith Ing
+                      Rick Mogle
+
+----------------------------------------------------------------

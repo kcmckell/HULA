@@ -1,0 +1,74 @@
+<head>
+<STYLE TYPE="text/css">
+body {
+   scrollbar-face-color: bisque;
+   scrollbar-shadow-color: #001122;
+   scrollbar-highlight-color: gold;
+   scrollbar-3dlight-color: ivory;
+   scrollbar-darkshadow-color: brick;
+   scrollbar-track-color: "#050500";
+   scrollbar-arrow-color: black;
+}</STYLE>
+
+<style type="text/css" media=screen><!--
+  A:link { text-decoration:none; color: coral}
+  A:visited { text-decoration:none; color: coral}
+  A:hover {text-decoration:none; color: red}
+  -->
+</style>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// convert decimal value (0 - 255) to hexadecimal
+// (use .toString(16) method supported by IE)
+function toHex(dec) {
+        // create list of hex characters
+        var hexCharacters = "0123456789ABCDEF"
+        // if number is out of range return limit
+        if (dec < 0)
+                return "FF"
+        if (dec > 255)
+                return "00"
+        // decimal equivalent of first hex character in converted number
+        var i = Math.floor(dec / 16)
+
+        // decimal equivalent of second hex character in converted number
+        var j = dec % 16
+
+        // return hexadecimal equivalent
+        return hexCharacters.charAt(i) + hexCharacters.charAt(j)
+}
+
+
+// set background color to specified descriptors
+function setbgColor(red, green, blue) {
+         document.bgColor = "#" + toHex(red) + toHex(green) +
+toHex(blue)
+
+}
+
+// fade from start to end descriptors (increase step to increase transition speed)
+
+
+function fade(sred, sgreen, sblue, ered, egreen, eblue, step) {
+        // loop to create fade effect
+        for(var i = 0; i <= step; ++i) {
+                // set current red descriptor
+                var red = Math.floor(sred * ((step - i) / step) + ered
+* (i / step))
+                // set current green descriptor
+                var green = Math.floor(sgreen * ((step - i) / step) +
+egreen * (i / step))
+                // set current green descriptor
+                var blue = Math.floor(sblue * ((step - i) / step) +
+eblue * (i / step))
+                // set background color according to descriptors
+                setbgColor(red, green, blue)
+        }
+}
+// -->
+</SCRIPT>
+</head>
+<body bgcolor="#000000" text=ivory link=bisque vlink=bisque alink=coral>
+<font face="arial, helvetica" size="-1">
+<p>Do you have questions that we failed to address? If you do, don't be silent.<a href="mailto:ramzi_mirshak@hotmail.com, garveycarolyn@hotmail.com">Send us an email and let us know</a>. We both have desk jobs and are at a computer all day so we will reply promptly (unless we're ignoring you). If you don't have access to the internet (and therefore are not actually reading this), give Carolyn and Ramzi a call at (808) 739-8220.</p>
+</body></html>

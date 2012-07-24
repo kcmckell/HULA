@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #e0e0e0;
+	background-image: url(/images/hula_background.gif);
+	background-repeat: repeat-x;
+}
+
+a {
+	color: #587993;
+}
+
+img {
+	border: 0;
+}
+
+#hula_body {
+	width: 740px;
+}
+
+#hula_inner {
+	float: left;
+	margin-left: 10px;
+	width: 720px;
+	background-color: #3399CC;
+	border-width: 0px;
+}
+#hula_logo {
+	height: 80px;
+	width: 720px;
+	float: left;
+	border-width: 0px;
+}
+#hula_user {
+        float: left;
+        width: 670px;
+	font-size: 0.8em;
+	text-align: right;
+        color: #FFFFFF;
+	background-color: #336633;
+	margin-left: 20px;
+        padding-top: 2px;
+        padding-right: 10px;
+}
+#hula_user a {
+        color: #FFFF99;
+}
+
+#hula_menu {
+	float: left;
+	width: 690px;
+	background-color: #3399CC;
+	border-width: 0px;
+	border-color: #FFFFFF;
+	margin-left: 15px;
+}
+#hula_menu_image {
+	float: left;
+	width: 680px;
+	height: 120px;
+	margin-left: 20px;
+	background-color: #3399CC;
+	border-width: 0px;
+	border-color: #FFFFFF;
+}
+
+#hula_location {
+	float: left;
+	width: 500px;
+	color: #D0D0D0;
+	padding-left: 10px;
+	padding-top: 2px;
+	text-align: left;
+}
+#hula_location a{
+	color: #FFFFFF;
+}
+
+#hula_imagebox {
+	float: right;
+	position: relative;
+	background-color: #99CCFF;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+} 
+#hula_imagebox_controls {
+	text-align: center;
+} 
+#hula_imagebox_pics {
+	visibility: hidden;
+	clear: both;
+} 
+
+#hula_content {
+	float: left;
+	width: 690px;
+	background-color: #3399CC;
+	margin-left: 15px;
+}
+
+#hula_blog {
+	float: left;
+	width: 390px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #D0E8F0;
+}
+#hula_blog_header {
+	text-align: center;
+	color: #000099;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 2px;
+	margin-bottom: 1px;
+	border-bottom: dashed 1px #808080;
+	background: url(/images/hula_blog_top.gif) no-repeat top left;
+}
+#hula_blog_text {
+	text-align: left;
+	font-size: 0.9em;
+	border-top: 5px;
+	border-bottom: 5px;
+	border-left: 10px;
+	border-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+	color: #000000;
+}
+#hula_blog_text a {
+        color: #006600;
+}
+#hula_blog_footer {
+	font-size: 0.8em;
+        color: #666666;
+	background: url(/images/hula_blog_bottom.gif) no-repeat bottom left;
+}
+
+#hula_events {
+	float: right;
+	width: 240px;
+	background-color: #88BBDD;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#hula_events_header {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 2px;
+	margin-bottom: 1px;
+	border-bottom: dashed 1px #808080;
+	background: url(/images/hula_events_top.gif) no-repeat top left;
+}
+#hula_events_text {
+	text-align: left;
+	font-size: 0.9em;
+	border-top: 5px;
+	border-bottom: 5px;
+	border-left: 10px;
+	border-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+	color: #006600;
+	background-color: #88BBDD;
+}
+#hula_events_text a {
+        color: #006600;
+}
+#hula_events_text p {
+        color: #FFFFFF;
+	text-align: center;
+}
+#hula_events_text span {
+        color: #000099;
+}
+#hula_events_footer {
+	background: url(/images/hula_events_bottom.gif) no-repeat bottom left;
+}
+
+
+#hula_story {
+	float: left;
+	width: 670px;
+	background-color: #D0E8F0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#hula_story_header {
+	text-align: center;
+	color: #000099;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 2px;
+	margin-bottom: 1px;
+	border-bottom: dashed 1px #808080;
+	background: url(/images/hula_story_top.gif) no-repeat top left;
+}
+#hula_story_text {
+	text-align: left;
+	font-size: 0.9em;
+	border-top: 5px;
+	border-bottom: 5px;
+	border-left: 10px;
+	border-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+	color: #000000;
+	background-color: #D0E8F0;
+}
+#hula_story_text a {
+        color: #006600;
+}
+#hula_story_footer {
+	background: url(/images/hula_story_bottom.gif) no-repeat bottom left;
+}
+
+
+
+
+
+#hula_footer {
+	float: left;
+	width: 690px;
+	background-color: #3399CC;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+#hula_bottom {
+	float: left;
+	font-size: .8em;
+	color: #D0D0D0;
+	width: 720px;
+	height: 40px;
+	background: url(/images/hula_bottom.gif) no-repeat bottom left;
+	margin-top: 20px;
+}
+
+#hula_bottom a{
+	color: #D0D0D0;
+}
