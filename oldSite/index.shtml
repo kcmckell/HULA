@@ -36,9 +36,9 @@
             <div id=hula_events>
               <div id=hula_events_header>Events</div>
               <div id=hula_events_text>
-				<p>---- Current and Upcoming Events ----</p>
+				<p>-- Current and Upcoming Events --</p>
 					<!--#include virtual="/include/CurrentEvents.asp"-->
-				<p>---- Recent Events ----</p>
+				<p>-- Recent Events --</p>
 					<!--#include virtual="/include/RecentEvents.asp"-->
                 <br>
                 <br><br>
