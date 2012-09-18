@@ -3,7 +3,7 @@
 /*
   Plugin Name: Advanced Access Manager
   Description: Manage Access to WordPress Backend and Frontend.
-  Version: 1.6.7.5
+  Version: 1.6.8
   Author: Vasyl Martyniuk <martyniuk.vasyl@gmail.com>
   Author URI: http://www.whimba.org
  */
@@ -135,7 +135,6 @@ class mvb_WPAccess {
                 wp_enqueue_style('wpaccess-style', WPACCESS_CSS_URL . 'wpaccess_style.css');
                 wp_enqueue_style('wpaccess-treeview', WPACCESS_CSS_URL . 'treeview/jquery.treeview.css');
                 wp_enqueue_style('codemirror', WPACCESS_CSS_URL . 'codemirror/codemirror.css');
-                wp_enqueue_style('jquery-ui', WPACCESS_CSS_URL . 'ui/jquery-ui.css');
                 wp_enqueue_style('thickbox');
                 break;
 
@@ -315,8 +314,6 @@ class mvb_WPAccess {
     }
 
     public function sidebars_widgets($widgets) {
-        global $wp_registered_widgets;
-
         if (!mvb_Model_API::isSuperAdmin()) {
             $m = new mvb_Model_FilterMetabox($this);
             $widgets = $m->manage('widgets', $widgets);
@@ -492,7 +489,6 @@ class mvb_WPAccess {
         $r_cats = array();
         $user_config = $this->getAccessControl()->getUserConfig();
         $rests = $user_config->getRestrictions();
-        $t_posts = array();
 
         if (!isset($query->query_vars['post_type']) || empty($query->query_vars['post_type'])) {
             $taxonomies = get_taxonomies();
@@ -905,7 +901,7 @@ class mvb_WPAccess {
      */
 
     public function activate() {
-        global $wpdb, $wp_version;
+        global $wp_version;
 
         if (version_compare($wp_version, '3.2', '<')) {
             exit(mvb_Model_Label::get('LABEL_122'));

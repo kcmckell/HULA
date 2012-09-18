@@ -1,10 +1,10 @@
 === Advanced Access Manager ===
 Contributors: vasyl_m, haeckdesign
 Donate link: http://whimba.org/donation
-Tags: access manager, access control, comments, capability, dashboard widget, expire, expire link, filter menu, page, post, metabox, role manager, user access, user control, user role, access config
+Tags: access manager, access control, comments, capability, dashboard widget, expire, expire link, filter menu, page, post, metabox, role manager, user access, user control, user role, access configuration
 Requires at least: 3.2
-Tested up to: 3.4
-Stable tag: 1.6.7.5
+Tested up to: 3.4.1
+Stable tag: 1.6.8
 
 Graphic interface to manage User Access to your Front-end and Back-end
 
@@ -86,6 +86,11 @@ just filter Main Menu.
 5. ConfigPress
 
 == Changelog ==
+
+= 1.6.8 =
+* Extended ConfigPress
+* New view
+* Updated ConfigPress Reference Guide
 
 = 1.6.7.5 =
 * Implemented alternative way of Premium Upgrade

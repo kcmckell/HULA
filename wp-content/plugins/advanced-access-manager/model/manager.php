@@ -380,7 +380,7 @@ class mvb_Model_Manager {
                 $config = clone $this->config;
                 $roles = mvb_Model_API::getRoleList(FALSE);
                 $m = new mvb_Model_Role(); //just in case
-                $apply = mvb_Model_ConfigPress::getOption(
+                $apply = (array) mvb_Model_ConfigPress::getOption(
                                 'aam.multisite.apply',
                                 array('menu', 'menu_order', 'metaboxes', 'capabilities', 'current_role')
                 );
