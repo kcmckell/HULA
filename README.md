@@ -20,3 +20,11 @@ If you would like a copy of the latest development database, email @kcmckell for
 
 ### Ask to be included
 When you're ready to share with the class, issue a *pull request*.  I'll take a peek, make sure everything checks out, and then fold your contributions into the main project.
+
+## Maintenance notes
+
+### Submodules
+Several of the components of the site are managed as git submodules.  These include Wordpress itself as well as a few plugins (Buddypress, e.g.).
+
+### Git-Svn
+Many Wordpress plugins are maintained publicly with SVN.  The ones that we use are maintained separately, and then copied in to the appropriate directory when they have been updated.
