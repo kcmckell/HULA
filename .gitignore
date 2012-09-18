@@ -3,3 +3,6 @@ wp-content/uploads/*
 
 # HULA-local gitignore
 local-config.php
+
+# System
+*.DS_Store
