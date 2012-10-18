@@ -57,16 +57,14 @@ if ( !defined('ABSPATH')) exit;
             
             <?php $options = get_option('responsive_theme_options');
 			// First let's check if content is in place
-			    if ($options['home_content_area']) {
+			    if (!empty($options['home_content_area'])) {
                     echo '<p>'; 
-				    echo $options['home_content_area'];
+					echo do_shortcode($options['home_content_area']);
 				    echo '</p>'; 
 			// If not let's show dummy content for demo purposes
 			      } else { 
 			        echo '<p>';
-				    echo __('Your title, subtitle and this very content is editable from Theme Option. 
-					      Call to Action button and its destination link as well. Image on your right 
-						  can be an image or even YouTube video if you like.','responsive');
+				    echo __('Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like.','responsive');
 				    echo '</p>';
 				  }
 			?>
@@ -97,10 +95,10 @@ if ( !defined('ABSPATH')) exit;
         <div id="featured-image" class="grid col-460 fit"> 
                            
             <?php $options = get_option('responsive_theme_options');
-			// First let's check if headline was set
+			// First let's check if image was set
 			    if (!empty($options['featured_content'])) {
-					echo $options['featured_content'];
-		    // If not display dummy headline for preview purposes
+					echo do_shortcode($options['featured_content']);
+		    // If not display dummy image for preview purposes
 			      } else {             
                     echo '<img class="aligncenter" src="'.get_stylesheet_directory_uri().'/images/featured-image.png" width="440" height="300" alt="" />'; 
  				  }

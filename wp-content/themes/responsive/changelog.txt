@@ -1,4 +1,5 @@
 Changelog Legend:
+----
 
 [+] = Added
 [*] = Changed
@@ -7,14 +8,164 @@ Changelog Legend:
 [x] = Deleted
 [!] = Bugs
 
+(10/11/2012) - IE Fix - Version 1.8.0.1
+[!] IE Current Page Item Fix
+
+----
+
+(10/09/2012) - Maintenance and Improvements - Version 1.8.0
+[*] W3C Markup Validation
+[!] Android Squares in Menus
+[*] All New CSS Button Gradients
+[*] New Default Logo
+[*] New TinyNav Background
+[*] New Screenshot
+[*] CSS Improvements
+
+----
+
+(09/30/2012) - Quick Bug Fixes - Version 1.7.9.1
+[!] Partial Localization
+[!] Top Widget Form
+[!] Error 404 Forms
+[x] (temporary) Previously added 4 languages
+	- Indonesian
+	- Welsh
+	- Turkish
+	- Romanian
+	
+----
+
+(09/27/2012) - Maintenance and Improvements - Version 1.7.9
+[*] Localization and Languages
+    - Global Localization Improvements
+	- New responsive.pot re-generated
+	- New Languages (32 total):
+	- Indonesian
+	- Welsh
+	- Turkish
+	- Romanian
+[*] style.css
+    - Pretty Indentation
+	- Better Form Responsiveness
+[!] style.css
+    - <hr />
+	- IE7 dropdown menu
+[x]
+    - #widgets ID from top-widget not needed
+    - X-UA-Compatible from header.php not needed 
+[+] W3C Markup Validation
+[+] RTL Support
+
+----
+
+
+(09/09/2012) - Maintenance and Improvements - Version 1.7.8
+[*] Language Revisions
+    - responsive.pot
+	- Japanese
+	- Finish
+	- Lithuanian
+[*] Script Updates
+[*] style.css
+    - IE image fixes
+	- pre code improvements
+	- general improvements and clean-ups
+[x] no-title, substituted with dates only
+[+] Retina (HiDPI) Display Support
+    - Media Queries
+[+] TinyNav - page/post select box intends
+[+] Top Widget
+
+----
+
+(08/27/2012) - IE7 Bug Fix - Version 1.7.7
+[+] Theme Options, support links hook
+[+] New Languages
+    - Czech
+    - Hungarian
+    - Greek
+[*] responsive.pot
+[*] tinynav.js jQuery 1.8.0 compatibility
+
+(08/21/2012) - IE7 Bug Fix - Version 1.7.6
+[!] widget clearfix
+
+----
+
+(08/19/2012) - Maintenance and Improvements - Version 1.7.5
+[+] Shortcode support for home and featured areas
+[+] Colophon widget (on-demand)
+[x] style.css
+    - Table blocks for 480px
+	- Margins for old widgets
+[*] style.css
+    - Description
+[x] Old action hook
+[*] Modernizr 2.6.1 (update)
+
+
+(08/06/2012) - Improvements - Version 1.7.3/4
+[+] WooCommerce Compatible
+[+] New Languages
+    - Japanese
+	- Chinese (Taiwan)
+[*] responsive.pot
+[*] style.css for WooCommerce Compatibility 
+
+----
+
+(07/19/2012) - Improvements - Version 1.7.2
+[+] Multilingual Ready (wmpl.org)
+[+] style.css
+    - b,i,iframe,embed and object
+
+----
+
+(07/09/2012) - Improvements and Maintenance - Version 1.7.0/1
+[+] New Languages
+    - Chinese
+    - Dutch
+    - Finish
+    - Icelandic
+[*] responsive.pot
+[+] class for all post titles
+[+] post navigation links
+[*] global CSS improvements
+[+] Theme Options support links
+
+----
+
+(07/02/2012) - Footer Bug Fix - Version 1.6.8/9
+[!] footer items did not align properly
+    while there was no menu or icons
+
+(07/01/2012) - Improvements, Maintenance - Version 1.6.8
+[+] New Languages
+    - Russian
+    - Lithuanian
+    - Danish
+    - Slovenian
+[!] Yelp icon
+[*] CSS page load improvements
+[*] Icons optimizations
+[+] FitVids support for HTTPS
+[!] IE7 JS tinynav
+[*] Dummy content revisions
+
+----
+
 (06/24/2012) - Bug fix - Version 1.6.7
 [!] Unformatted form fields
 [+] Polish Language
+
+----
 
 (06/24/2012) - Improvements - Version 1.6.6
 [+] missing social icons added in previous version
 [!] tinynav.js 
 
+----
 
 (06/23/2012) - Improvements - Version 1.6.3/4/5
 [+] Theme Options
@@ -27,16 +178,21 @@ Changelog Legend:
 [!] Missing select image
 [+] Placing back modernizer.js DEV
 
+----
+
 (06/11/2012)
 [*] Improvement in Theme Options
 [*] Tinynav to show Home instead of Navigation
 
+----
 
 (06/08/2012) - Maintenance - Version 1.6.0/1
 [!] /includes/version.php
 [!] fallback_cb for all but main menu
 [!] admin-head-callback < 3.4
 [*] code beautifying 
+
+----
 
 (06/07/2012) - Maintenance - Version 1.5.9
 [x] Theme Option redirect upon activation
@@ -47,8 +203,12 @@ Changelog Legend:
 [x] body background image CSS
 [+] minimized responsive menu
 
+----
+
 (06/03/2012) - Version 1.5.8
 [!] missing search query from search.php
+
+----
 
 (06/02/2012) - Version 1.5.6/7
 [*] all* language updates
@@ -58,6 +218,8 @@ Changelog Legend:
 [+] featured image support for archive.php
 [+] overflow auto for blockquote
 [*] improved search.php
+
+----
 
 (05/26/2012) - Version 1.5.4/5
 [+] new languages
@@ -77,6 +239,8 @@ Changelog Legend:
 [*] more precise responsive grids
 [*] style.css maintenance
 
+----
+
 (05/17/2012) - Version 1.5.3
 [+] new languages
     - Malay
@@ -85,6 +249,8 @@ Changelog Legend:
 [*] CSS tutorial link changed to
     https://developer.mozilla.org/en/CSS
 
+----
+
 (05/13/2012) - Quick Bug Fixes Version 1.5.2
 [*] comment counts in comments.php
 [*] help-links in /includes/theme-options.php
@@ -92,6 +258,8 @@ Changelog Legend:
 [+] new languages
     - Swedish
 [*] CSS buttons
+
+----
 
 (05/10/2012) - Bug Fixes/Maintenance Version 1.5.1
 [!] missing textdomain in
@@ -109,6 +277,8 @@ Changelog Legend:
 	- Italian
 [*] screenshot.png
 
+----
+
 (05/01/2012) - Maintenance Version 1.5.0
 [+] missing textdomain for 'powered by' footer.php
 [*] featured-image DIV end (comment only) home.php
@@ -116,6 +286,8 @@ Changelog Legend:
 [+] custom styles in Theme Options
 [+] German translation
 [*] theme-options.css
+
+----
 
 (04/24/2012) - Bug Fixes/Maintenance Version 1.4.8/9
 [!] dropdown menu clear background
@@ -133,6 +305,8 @@ Changelog Legend:
 [!] Breadcrumb List chevron was not displaying
     correctly on Windows based systems
 
+----
+
 (04/18/2012) - Maintenance Version 1.4.5/6
 [!] social icons px fix
 [+] WP 3.4 add_theme_support('custom-background') w/backward compatibilities
@@ -140,6 +314,8 @@ Changelog Legend:
 [+] new breadcrumb lists
 [*] featured-image.png
 [*] screenshot.png
+
+----
 
 (04/14/2012) - Maintenance Version 1.4.4
 [!] blog.php and blog-excerpt.php while frontpage fix
@@ -149,6 +325,7 @@ Changelog Legend:
 [x] unnecessary theme options functions.php
 [x] sub-header-menu border-radius
 
+----
 
 (04/05/2012) - Maintenance Version 1.4.2/3
 [x] widgets ul styles CSS
@@ -169,6 +346,7 @@ Changelog Legend:
 [*] read-more font-weight CSS
 [+] widget-wrapper DIV to all default sidebars
 
+----
 
 (04/01/2012) - Maintenance Version 1.4.0/1
 [x] ul children for better CSS efficiency
@@ -191,15 +369,21 @@ Changelog Legend:
 [*] blockquote's CSS
 [*] author-meta CSS
 
+----
+
 (03/27/2012) - Maintenance Version 1.3.8
 [*] description typo in style.css
 [+] link color in style.css for better visibility
 [*] load_theme_textdomain in /includes/functions.php
 
+----
+
 (03/22/2012) - Maintenance Version 1.3.6
 [x] #widgets #s padding in style.css
 [+] bbPress breadcrumb compatibility patch by Dan Smith keystonedatabase.com
 [+] localization support
+
+----
 
 (03/21/2012) - Maintenance Version 1.3.4
 [!] #widgets p border bug
@@ -207,6 +391,8 @@ Changelog Legend:
 [+] .textwidget for demo only
 [x] .widget-title, .widget-title-home h3 height:23px
 [!] Responsive videos
+
+----
 
 (03/17/2012) - Maintenance Version 1.3.2
 [+] jquery.fitvids.js for responsive videos
@@ -223,10 +409,13 @@ Changelog Legend:
 [*] CSS forms
 [*] posts_per_page=-1 sitemap.php
 
+----
 
 (03/15/2012) - Version 1.3.1
 [+] CSS formatting
 [x] the_excerpt
+
+----
 
 (03/15/2012) - Version 1.3.0
 [!] Prefix inconstancy for comment reply function
@@ -255,6 +444,8 @@ Changelog Legend:
 [x] post thumbnail CSS
 [+] See more to Read more in all files
 [+] global $more; $more = 0; for pages with _excerpt
+
+----
 
 (03/12/2012)
 Initial Release

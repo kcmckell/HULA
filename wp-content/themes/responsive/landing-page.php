@@ -28,7 +28,7 @@ if ( !defined('ABSPATH')) exit;
 		<?php while (have_posts()) : the_post(); ?>
         
             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <h1><?php the_title(); ?></h1> 
+                <h1 class="post-title"><?php the_title(); ?></h1> 
                 
                 <div class="post-entry">
                     <?php the_content(__('Read more &#8250;', 'responsive')); ?>

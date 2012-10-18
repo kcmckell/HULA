@@ -11,9 +11,9 @@ if ( !defined('ABSPATH')) exit;
  * @package        WordPress 
  * @subpackage     Responsive 
  * @author         Emil Uzelac 
- * @copyright      2003 - 2011 ThemeID
+ * @copyright      2003 - 2012 ThemeID
  * @license        license.txt
- * @version        Release: 1.1
+ * @version        Release: 1.2
  * @filesource     wp-content/themes/responsive/includes/version.php
  * @link           N/A
  * @since          available since Release 1.0
@@ -24,14 +24,14 @@ if ( function_exists('wp_get_theme')) {
 	
 function responsive_template_data() {
     echo '<!-- We need this for debugging -->' . "\n";
-    echo '<meta name="template" content="' . get_responsive_template_name() . ' ' . get_responsive_template_version() . '" />' . "\n";
+    echo '<!-- ' . get_responsive_template_name() . ' ' . get_responsive_template_version() . ' -->' . "\n";
 }
  
 add_action('wp_head', 'responsive_template_data');
 
 function responsive_theme_data() {
     if ( is_child_theme() ) {
-        echo '<meta name="theme" content="' . get_responsive_theme_name() . ' ' . get_responsive_theme_version() . '" />' . "\n";
+        echo '<!-- ' . get_responsive_theme_name() . ' ' . get_responsive_theme_version() . ' -->' . "\n";
     }
 }
 

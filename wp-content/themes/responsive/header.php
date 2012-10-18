@@ -12,7 +12,7 @@ if ( !defined('ABSPATH')) exit;
  * @author         Emil Uzelac 
  * @copyright      2003 - 2012 ThemeID
  * @license        license.txt
- * @version        Release: 1.0
+ * @version        Release: 1.2
  * @filesource     wp-content/themes/responsive/header.php
  * @link           http://codex.wordpress.org/Theme_Development#Document_Head_.28header.php.29
  * @since          available since Release 1.0
@@ -27,14 +27,13 @@ if ( !defined('ABSPATH')) exit;
 
 <meta charset="<?php bloginfo('charset'); ?>" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 <title><?php wp_title('&#124;', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-<?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.5.9');?>
+<?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.7.9');?>
 
 <?php wp_head(); ?>
 </head>
@@ -75,6 +74,8 @@ if ( !defined('ABSPATH')) exit;
         </div><!-- end of #logo -->  
 
     <?php endif; // header image was removed (again) ?>
+    
+    <?php get_sidebar('top'); ?>
 			    
 				<?php wp_nav_menu(array(
 				    'container'       => '',

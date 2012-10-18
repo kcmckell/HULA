@@ -33,7 +33,7 @@ if ( !defined('ABSPATH')) exit;
         <?php endif; ?>
         
             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <h1><?php the_title(); ?></h1> 
+                <h1 class="post-title"><?php the_title(); ?></h1> 
                 
                 <div class="post-entry">
                 <div id="widgets">

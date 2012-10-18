@@ -18,7 +18,7 @@ if ( !defined('ABSPATH')) exit;
  * @since          available since Release 1.0
  */
 ?>
-        <div id="widgets" class="grid-right col-460">
+        <div id="widgets" class="grid-right col-460 rtl-fit">
         <?php responsive_widgets(); // above widgets hook ?>
             
             <?php if (!dynamic_sidebar('left-sidebar-half')) : ?>

@@ -12,7 +12,7 @@ if ( !defined('ABSPATH')) exit;
  * @author         Emil Uzelac 
  * @copyright      2003 - 2012 ThemeID
  * @license        license.txt
- * @version        Release: 1.0
+ * @version        Release: 1.2
  * @filesource     wp-content/themes/responsive/footer.php
  * @link           http://codex.wordpress.org/Theme_Development#Footer_.28footer.php.29
  * @since          available since Release 1.0
@@ -27,8 +27,8 @@ if ( !defined('ABSPATH')) exit;
 
     <div id="footer-wrapper">
     
-    <div class="grid col-940">
-    
+        <div class="grid col-940">
+        
         <div class="grid col-540">
 		<?php if (has_nav_menu('footer-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
@@ -84,7 +84,7 @@ if ( !defined('ABSPATH')) exit;
                     .'<img src="' . get_stylesheet_directory_uri() . '/icons/pinterest-icon.png" width="24" height="24" alt="Pinterest">'
                     .'</a></li>';
 					
-                if (!empty($options['yelp_uid'])) echo '<li class="yelp-icon"><a href="' . $options['yelp_plus_uid'] . '">'
+                if (!empty($options['yelp_uid'])) echo '<li class="yelp-icon"><a href="' . $options['yelp_uid'] . '">'
                     .'<img src="' . get_stylesheet_directory_uri() . '/icons/yelp-icon.png" width="24" height="24" alt="Yelp!">'
                     .'</a></li>';
 					
@@ -99,6 +99,9 @@ if ( !defined('ABSPATH')) exit;
                 echo '</ul><!-- end of .social-icons -->';
          ?>
          </div><!-- end of col-380 fit -->
+         
+         </div><!-- end of col-940 -->
+         <?php get_sidebar('colophon'); ?>
                 
         <div class="grid col-300 copyright">
             <?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
@@ -115,7 +118,6 @@ if ( !defined('ABSPATH')) exit;
                     <?php printf('WordPress'); ?></a>
         </div><!-- end .powered -->
         
-    </div><!-- end of col-940 -->
     </div><!-- end #footer-wrapper -->
     
 </div><!-- end #footer -->
