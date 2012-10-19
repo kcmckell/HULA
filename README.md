@@ -28,3 +28,4 @@ Several of the components of the site are managed as git submodules.  These incl
 
 ### Git-Svn
 Many Wordpress plugins are maintained publicly with SVN.  The ones that we use are maintained separately, and then copied in to the appropriate directory when they have been updated.
+I'm a change!
