@@ -1,19 +1,12 @@
 # BEGIN WordPress
-
-# protect wpconfig
-<files wp-config.php>
-  order allow,deny
-  deny from all
-</files>
-
-#<IfModule mod_rewrite.c>
-#RewriteEngine On
-#RewriteBase /HULA/
-#RewriteRule ^index\.php$ - [L]
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule . /HULA/index.php [L]
-#</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
 
 # END WordPress
 
