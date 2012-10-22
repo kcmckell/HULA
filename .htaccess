@@ -1,4 +1,3 @@
-
 # BEGIN WordPress
 
 # protect wpconfig
@@ -17,3 +16,12 @@
 #</IfModule>
 
 # END WordPress
+
+# BEGIN legacy
+<IfModule mod_rewrite.c>
+RewriteEngine ON
+RewriteRule ^kk/?(.*) http://kaimanaklassik.com [R=301,NC]
+RewriteRule ^hopu/?(.*) http://hopukalewa.com [R=301,NC]
+#Redirect 301 /kk	http://kaimanaklassik.com
+#Redirect 301 /hopu 	http://hopukalewa.com
+# END legacy
