@@ -569,13 +569,13 @@ if ( ! class_exists( 'Google_Calendar_Events' ) ) {
 
 		//Adds the required CSS
 		function add_styles() {
-			wp_enqueue_style( 'gce_styles', plugins_url( '/css/gce-style.css', __FILE__ ) );
+			wp_enqueue_style( 'gce_styles', plugins_url( '/google-calendar-events/css/gce-style.css' ) );
 
 			$options = get_option( GCE_GENERAL_OPTIONS_NAME );
 
 			//If old stylesheet option is enabled, enqueue old styles
 			if ( $options['old_stylesheet'] )
-				wp_enqueue_style( 'gce_old_styles', plugins_url( '/css/gce-old-style.css', __FILE__ ) );
+				wp_enqueue_style( 'gce_old_styles', plugins_url( '/google-calendar-events/css/gce-old-style.css' ) );
 
 			//If user has entered a URL to a custom stylesheet, enqueue it too
 			if( '' != $options['stylesheet'] )
@@ -588,8 +588,8 @@ if ( ! class_exists( 'Google_Calendar_Events' ) ) {
 			$add_to_footer = (bool) $options['javascript'];
 
 			wp_enqueue_script( 'jquery' );
-			wp_enqueue_script( 'gce_jquery_qtip', plugins_url( '/js/jquery-qtip.js', __FILE__ ), array( 'jquery' ), null, $add_to_footer );
-			wp_enqueue_script( 'gce_scripts', plugins_url( '/js/gce-script.js', __FILE__ ), array( 'jquery' ), null, $add_to_footer );
+			wp_enqueue_script( 'gce_jquery_qtip', plugins_url( '/google-calendar-events/js/jquery-qtip.js' ), array( 'jquery' ), null, $add_to_footer );
+			wp_enqueue_script( 'gce_scripts', plugins_url( '/google-calendar-events/js/gce-script.js' ), array( 'jquery' ), null, $add_to_footer );
 			wp_localize_script( 'gce_scripts', 'GoogleCalendarEvents', array(
 				'ajaxurl' => admin_url( 'admin-ajax.php', is_ssl() ? 'https' : 'http' ),
 				'loading' => $options['loading']
