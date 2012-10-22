@@ -94,7 +94,7 @@
 			'exclude_from_search' => true,
 			'show_ui'             => true,
 			'show_in_menu'        => true,
-			'menu_icon'           => ''. plugins_url( '/images/slides-icon-20x20.png', __FILE__ ),
+			'menu_icon'           => ''. plugins_url( '/meteor-slides/images/slides-icon-20x20.png'),
 			'capability_type'     => $meteor_capabilitytype,
 			'capabilities'        => $meteor_capabilities,
 			'map_meta_cap'        => $meteor_mapmetacap,
@@ -233,7 +233,7 @@
 	
 		else {
 			
-			wp_enqueue_style( 'meteor-slides', plugins_url('/css/meteor-slides.css', __FILE__), array(), '1.0' );
+			wp_enqueue_style( 'meteor-slides', plugins_url('/meteor-slides/css/meteor-slides.css'), array(), '1.0' );
 		
 		}
 		
@@ -250,9 +250,9 @@
 		if( !is_admin() ) {
 	  
 			wp_enqueue_script( 'jquery' );
-			wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.all.js', __FILE__ ), array( 'jquery' ) );
-			wp_enqueue_script( 'jquery-metadata', plugins_url( '/js/jquery.metadata.v2.js', __FILE__ ), array( 'jquery' ) );
-			wp_enqueue_script( 'jquery-touchwipe', plugins_url( '/js/jquery.touchwipe.1.1.1.js', __FILE__ ), array( 'jquery' ) );
+			wp_enqueue_script( 'jquery-cycle', plugins_url( '/meteor-slides/js/jquery.cycle.all.js' ), array( 'jquery' ) );
+			wp_enqueue_script( 'jquery-metadata', plugins_url( '/meteor-slides/js/jquery.metadata.v2.js' ), array( 'jquery' ) );
+			wp_enqueue_script( 'jquery-touchwipe', plugins_url( '/meteor-slides/js/jquery.touchwipe.1.1.1.js' ), array( 'jquery' ) );
 			
 			if ( file_exists( get_stylesheet_directory()."/slideshow.js" ) ) {
                 
@@ -268,7 +268,7 @@
         
 			else {
                 
-				wp_enqueue_script( 'meteorslides-script', plugins_url( '/js/slideshow.js', __FILE__ ), array( 'jquery', 'jquery-cycle' ) );
+				wp_enqueue_script( 'meteorslides-script', plugins_url( '/meteor-slides/js/slideshow.js' ), array( 'jquery', 'jquery-cycle' ) );
             
 			}
 			
