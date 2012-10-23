@@ -520,7 +520,7 @@ class Antispam_Bee {
 		/* JS einbinden */
 		wp_register_script(
 			'ab_script',
-			plugins_url('js/script.js', __FILE__),
+			plugins_url('antispam-bee/js/script.js'),
 			array('jquery', 'jquery-ui-core', 'jquery-ui-tabs'),
 			$plugin['Version']
 		);
@@ -528,7 +528,7 @@ class Antispam_Bee {
 		/* CSS einbinden */
 		wp_register_style(
 			'ab_style',
-			plugins_url('css/style.css', __FILE__),
+			plugins_url('antispam-bee/css/style.css'),
 			array(),
 			$plugin['Version']
 		);
@@ -716,7 +716,7 @@ class Antispam_Bee {
 		/* CSS registrieren */
 		wp_register_style(
 			'ab_chart',
-			plugins_url('css/dashboard.css', __FILE__),
+			plugins_url('antispam-bee/css/dashboard.css'),
 			array(),
 			$plugin['Version']
 		);
@@ -779,7 +779,7 @@ class Antispam_Bee {
 		/* JS einbinden */
 		wp_register_script(
 			'ab_chart',
-			plugins_url('js/dashboard.js', __FILE__),
+			plugins_url('antispam-bee/js/dashboard.js'),
 			array('jquery'),
 			$plugin['Version']
 		);
