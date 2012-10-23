@@ -1,0 +1,6 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(.*) http://kaimanaklassik.com/$1 [R=301,NC]
+</IfModule>
+
