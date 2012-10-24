@@ -10,3 +10,6 @@
 
 
 
+[submodule "wp-content/plugins/WP-Maintenance-Mode"]
+	path = wp-content/plugins/WP-Maintenance-Mode
+	url = git@github.com:kcmckell/WP-Maintenance-Mode.git
