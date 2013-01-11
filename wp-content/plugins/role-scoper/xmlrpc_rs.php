@@ -6,6 +6,73 @@ global $HTTP_RAW_POST_DATA;
 if ( ! empty($HTTP_RAW_POST_DATA) )
 	$GLOBALS['scoper_last_raw_post_data'] = $HTTP_RAW_POST_DATA; // global var is not retained reliably
 	
+add_action( 'xmlrpc_call', '_rs_wlw_on_init', 0 );
+add_filter( 'xmlrpc_methods', '_rs_adjust_methods' );
+
+function _rs_wlw_on_init() {
+	global $wp_xmlrpc_server;
+
+	if ( isset( $wp_xmlrpc_server->message ) ) {
+		if ( 'metaWeblog.newPost' == $wp_xmlrpc_server->message->methodName ) {
+			if ( empty( $wp_xmlrpc_server->message->params[3]['categories'] ) ) {
+				$wp_xmlrpc_server->message->params[3]['categories'] = (array) get_option( 'default_category' );
+			}
+		}
+	}
+} // end function
+
+add_filter( 'pre_post_category', '_rs_pre_post_category' );
+
+function _rs_pre_post_category( $catids ) {
+	return apply_filters( 'pre_object_terms_rs', $catids, 'category' );
+}
+
+function _rs_adjust_methods( $methods ) {
+	$methods['mt.setPostCategories'] = '_rs_mt_set_categories';
+	return $methods;
+}
+
+// Override default method. Otherwise categories are unfilterable.
+function _rs_mt_set_categories( $args ) {
+	global $wp_xmlrpc_server;
+	$wp_xmlrpc_server->escape($args);
+
+	$post_ID    = (int) $args[0];
+	$username  = $args[1];
+	$password   = $args[2];
+	$categories  = $args[3];
+
+	if ( !$user = $wp_xmlrpc_server->login($username, $password) )
+		return $wp_xmlrpc_server->error;
+
+	if ( empty($categories) )
+		$categories = array();
+
+	$catids = array();
+	foreach( $categories as $cat ) {
+		$catids []= $cat['categoryId'];
+	}
+
+	$catids = apply_filters( 'pre_object_terms_rs', $catids, 'category' );
+
+	do_action('xmlrpc_call', 'mt.setPostCategories');
+
+	if ( ! get_post( $post_ID ) )
+		return new IXR_Error( 404, __( 'Invalid post ID.' ) );
+
+	if ( !current_user_can('edit_post', $post_ID) )
+		return new IXR_Error(401, __('Sorry, you cannot edit this post.'));
+
+	wp_set_post_categories($post_ID, $catids);
+	
+	return true;
+}
+
+// clean up after xmlrpc clients that don't specify a post_type for mw_editPost
+if ( defined('WLW_XMLRPC_HACK' ) )
+	include( dirname(__FILE__).'/xmlrpc-wlw_rs.php' );
+
+/*	
 $GLOBALS['scoper_xmlrpc_helper'] = new Scoper_XMLRPC_Helper();
 	
 class Scoper_XMLRPC_Helper {
@@ -68,12 +135,7 @@ class Scoper_XMLRPC_Helper {
 		}
 	}	
 } // end class
-
-
-// clean up after xmlrpc clients that don't specify a post_type for mw_editPost
-if ( defined( 'WLW_XMLRPC_HACK' ) )
-	include( dirname(__FILE__).'/xmlrpc-wlw_rs.php' );
-
+*/
   
 // might have to do this someday, but prefer not to incur the liability of overriding entire method handlers
 /*
