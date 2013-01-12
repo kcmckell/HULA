@@ -69,11 +69,11 @@ class Scoper
 			require_once( dirname(__FILE__).'/extension-helper_rs.php' );
 			scoper_adjust_legacy_extension_cfg( $this->role_defs, $this->cap_defs );
 		}
-
+		
 		add_action( 'set_current_user', array( &$this, 'credit_blogroles' ) );
 		
 		$this->credit_blogroles();
-			
+
 		do_action('config_loaded_rs');
 	}
 	
@@ -82,7 +82,7 @@ class Scoper
 		global $current_rs_user;
 		
 		if ( $current_rs_user ) {
-			if ( empty($current_rs_user->assigned_blog_roles) ) {
+			if ( empty($current_rs_user->ID) ) {
 				foreach ( $this->role_defs->filter_keys( -1, array( 'anon_user_blogrole' => true ) ) as $role_handle) {
 					$current_rs_user->assigned_blog_roles[ANY_CONTENT_DATE_RS][$role_handle] = true;
 					$current_rs_user->blog_roles[ANY_CONTENT_DATE_RS][$role_handle] = true;
@@ -101,7 +101,7 @@ class Scoper
 			return;
 		
 		$current_rs_user->merge_scoped_blogcaps();
-		$GLOBALS['current_user']->allcaps = $current_rs_user->allcaps;
+		$GLOBALS['current_user']->allcaps = array_merge( $GLOBALS['current_user']->allcaps, $current_rs_user->allcaps );
 		
 		if ( empty($GLOBALS['current_user']->data) )
 			$GLOBALS['current_user']->data = (object) array();
@@ -111,7 +111,7 @@ class Scoper
 				$GLOBALS['current_user']->$var = $current_rs_user->$var;
 		}
 
-		if ( $current_rs_user->ID ) {
+		if ( $current_rs_user->ID || defined( 'SCOPER_ANON_METAGROUP' ) ) {
 			foreach ( array_keys($current_rs_user->assigned_blog_roles) as $date_key )
 				$current_rs_user->blog_roles[$date_key] = $this->role_defs->add_contained_roles( $current_rs_user->assigned_blog_roles[$date_key] );
 		}
@@ -226,7 +226,7 @@ class Scoper
 		if ( $doing_cron = defined('DOING_CRON') )
 			if ( ! defined('DISABLE_QUERYFILTERS_RS') )
 				define('DISABLE_QUERYFILTERS_RS', true);
-
+				
 		if ( ! $this->direct_file_access = strpos($_SERVER['QUERY_STRING'], 'rs_rewrite') )
 			$this->add_main_filters();
 			
@@ -893,7 +893,7 @@ class Scoper
 			
 			if ( 'post' == $src_name ) {
 				if ( ! $operation )
-					$operation = ( $this->is_front() || ( 'profile.php' == $pagenow ) || ( is_admin() && ( 's2' == $GLOBALS['plugin_page'] ) ) ) ? 'read' : 'edit';  // hack to support subscribe2 categories checklist
+					$operation = ( $this->is_front() || ( 'profile.php' == $pagenow ) || ( is_admin() && array_key_exists('plugin_page', $GLOBALS) && ( 's2' == $GLOBALS['plugin_page'] ) ) ) ? 'read' : 'edit';  // hack to support subscribe2 categories checklist
 
 				$status = ( 'read' == $operation ) ? 'publish' : 'draft';
 				

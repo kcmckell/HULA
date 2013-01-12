@@ -48,8 +48,14 @@ class TermsInterceptor_RS
 	}
 
 	function flt_get_the_terms( $terms, $id, $taxonomy ) {
-		if ( $terms ) {
-			static $all_terms = array();
+		if ( $terms && is_array($terms) ) {
+			static $all_terms;
+			
+			if ( ! isset($all_terms) )
+				$all_terms = array();
+			
+			if ( empty($taxonomy) || ! is_scalar($taxonomy) )
+				return $terms;
 			
 			if ( ! isset($all_terms[$taxonomy]) ) {
 				$all_terms[$taxonomy] = get_terms($taxonomy, array( 'fields'=> 'ids' ) );

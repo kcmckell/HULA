@@ -2,66 +2,120 @@
 Contributors: sergej.mueller
 Tags: antispam, spam, comments, trackback
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5RDDW9FEHGLG6
-Requires at least: 3.3
-Tested up to: 3.4
+Requires at least: 3.4
+Tested up to: 3.5
 Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-Anonymous and independent antispam solution. Detect comment and trackback spam. Includes statistics and notifications.
+Say Goodbye zu Spam in deinem Blog. Kostenlos, werbefrei und datenschutzkonform. Für Kommentare und Trackbacks.
 
 
 
 == Description ==
 
-= Kill spam =
-Antispam Bee is simple to use, has many options and filters. Does not store data on remote servers. Really.
+Blog-Spam bekämpfen ist die Stärke von *Antispam Bee*. Seit Jahren wird das Plugin darauf trainiert, Spam-Kommentare zuverlässig zu erkennen (auf Wunsch auch sofort zu beseitigen). Dabei greift *Antispam Bee* auf unterschiedliche Techniken zu, die sich zur Identifizierung von Spam-Nachrichten bewährt haben.
 
-= Features =
-* Very fast execution
-* Spam counter on dashboard
-* Anonymous and confidential
-* Trackback and pingback check
-* Saves no data on remote servers
-* No need to adjust any templates
-* Cleaning up after plugin removal
-* Support for the Project Honey Pot
-* Accordingly no outgoing connection
-* Interactive statistics on dashboard
-* Automatically cleanup the spam folder
-* Allow comments only in certain language
-* Spam may be marked or deleted immediately
-* Email notifications about new spam comments
-* Quick & Dirty: activate, set settings, done!
-* Optional strict check for incomming comments
-* Block comments and pings from specific countries
-* WordPress 3.x ready: Design as well as technical
-* Consider comments which are already marked as spam
+= Pluspunkte =
+* Aktive Weiterentwicklung seit 2009
+* Über 20 untereinander kombinierbare Funktionen
+* Keine Speicherung von personenbezogenen Daten
+* Volle Transparenz bei der Prüfung der Kommentare
+* Keine Registrierung notwendig
+* Kostenlos auch für kommerzielle Projekte
+* Keine Anpassung von Theme-Templates vonnöten
+* Alle Funktionen vom Nutzer steuerbar
+* Statistik der letzten 30 Tage als Dashboard-Widget
 
-= Counter =
-`<?php do_action('antispam_bee_count') ?> spam comments blocked by
-<a href="http://antispambee.com">Antispam Bee</a>`
+= Einstellungen =
+Nach der Aktivierung nimmt *Antispam Bee* den regulären Betrieb auf, indem vordefinierte Schutzmechanismen scharf geschaltet werden. Es empfiehlt sich jedoch, die Seite mit Plugin-Einstellungen aufzurufen und sich mit wirkungsvollen Optionen auseinander zu setzen. Alle Optionsschalter sind in der [Online-Dokumentation](http://playground.ebiene.de/antispam-bee-wordpress-plugin/) detailliert vorgestellt.
 
-= Requirements =
-* PHP 5.1.2
-* WordPress 3.3
+Die meisten Auswahlmöglichkeiten innerhalb der Optionsseite sind konfigurierbare Antispam-Filter, die der Blog-Administrator nach Bedarf aktiviert. Zahlreiche Wahlmöglichkeiten steuern hingegen die Benachrichtigungs- und die automatische Löschfunktion des Plugins. Die *Antispam Bee* Optionen in der Kurzfassung:
 
-= Not compatible with =
-* Disqus
-* Jetpack Comments
-* All-in-One Event Calendar
+* Genehmigten Kommentatoren vertrauen
+* BBCode als Spam einstufen
+* IP-Adresse des Kommentators validieren
+* Reguläre Ausdrücke anwenden
+* Lokale Spamdatenbank einbeziehen
+* Öffentliche Spamdatenbank berücksichtigen
+* Bestimmte Länder blockieren bzw. erlauben
+* Kommentare nur in einer Sprache zulassen
+* Erkannten Spam kennzeichnen, nicht löschen
+* Bei Spam via E-Mail informieren
+* Spamgrund im Kommentar nicht speichern
+* Vorhandenen Spam nach X Tagen löschen
+* Aufbewahrung der Spam-Kommentare für einen Typ
+* Bei definierten Spamgründen sofort löschen
+* Statistiken als Dashboard-Widget generieren
+* Spam-Anzahl auf dem Dashboard anzeigen
+* Eingehende Ping- und Trackbacks ignorieren
+* Kommentarformular befindet sich auf Archivseiten
 
-= Documentation =
-* [Antispam Bee: Antispam für WordPress](http://playground.ebiene.de/antispam-bee-wordpress-plugin/ "Antispam für WordPress") (DE)
+= Datenschutz =
+In Blogs innerhalb der EU-Länder darf die Option *"Öffentliche Spamdatenbank berücksichtigen"* nicht aktiviert werden, da das Antispam-Plugin ungekürzte IP-Adressen der Nutzer dafür verwendet, diese in der öffentlichen Spammer-Datenbank nachzuschlagen und als Spam zu identifizieren. Technisch ist die Verschlüsselung der IP nicht möglich, da Spammer-Datenbanken mit vollständigen IP-Adressen arbeiten. [Weitere Details](http://playground.ebiene.de/antispam-bee-wordpress-plugin/#dnsbl_check)
 
-= Author =
+= Schlusswort =
+Installiert, probiert die bewährte Antispam-Lösung für WordPress aus.
+Anmeldefrei und ohne lästige Captchas.
+
+= Unterstützung =
+* Per [Flattr](https://flattr.com/donation/give/to/sergej.mueller)
+* Per [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5RDDW9FEHGLG6)
+
+= Systemanforderungen =
+* PHP 5.2.4
+* WordPress 3.4
+
+= Dokumentation =
+* [Antispam Bee: Antispam für WordPress](http://playground.ebiene.de/antispam-bee-wordpress-plugin/)
+
+= Autor =
 * [Google+](https://plus.google.com/110569673423509816572 "Google+")
 * [Plugins](http://wpcoder.de "Plugins")
-* [Portfolio](http://ebiene.de "Portfolio")
 
+= Inkompatibilität =
+* Disqus
+* Jetpack Comments
 
 
 == Changelog ==
+
+= 2.5.3 =
+* Optimierung des Regulären Ausdrucks
+
+= 2.5.2 =
+* Neu: [Reguläre Ausdrücke anwenden](http://playground.ebiene.de/antispam-bee-wordpress-plugin/#regexp_check) mit vordefinierten und eigenen Erkennungsmustern
+* Änderung der Filter-Reihenfolge
+* Verbesserungen an der Sprachdatei
+* [Hintergrundinformationen zum Update](https://plus.google.com/110569673423509816572/posts/CwtbSoMkGrT)
+
+= 2.5.1 =
+* [BBCode im Kommentar als Spamgrund](http://playground.ebiene.de/antispam-bee-wordpress-plugin/#bbcode_check)
+* IP-Anonymisierung bei der Länderprüfung
+* [Mehr Transparenz](https://plus.google.com/110569673423509816572/posts/ZMU6RfyRK29) durch hinzugefügte Datenschutzhinweise
+* PHP 5.2.4 als Voraussetzung (ist zugleich die Voraussetzung für WP 3.4)
+
+= 2.5.0 =
+* [Edition 2012](https://plus.google.com/110569673423509816572/posts/6JUC6PHXd6A)
+
+= 2.4.6 =
+* Russische Übersetzung
+* Veränderung der Secret-Zeichenfolge
+
+= 2.4.5 =
+* Überarbeitetes Layout der Einstellungen
+* Streichung von Project Honey Pot
+* TornevallNET als neuer DNSBL-Dienst
+* WordPress 3.4 als Mindestvoraussetzung
+* WordPress 3.5 Unterstützung
+* Online-Handbuch in Neufassung
+
+= 2.4.4 =
+* Technical and visual support for WordPress 3.5
+* Modification of the file structure: from `xyz.dev.css` to `xyz.min.css`
+* Retina screenshot
 
 = 2.4.3 =
 * Check for basic requirements
@@ -175,4 +229,4 @@ Antispam Bee is simple to use, has many options and filters. Does not store data
 
 == Screenshots ==
 
-1. Antispam Bee settings
+1. Antispam Bee Optionen
