@@ -10,7 +10,7 @@ if ( !defined('ABSPATH')) exit;
  * @file           comments.php
  * @package        Responsive 
  * @author         Emil Uzelac 
- * @copyright      2010 - 2012 ThemeID
+ * @copyright      2010 - 2013 ThemeID
  * @license        license.txt
  * @version        Release: 1.0
  * @filesource     wp-content/themes/responsive/comments.php
@@ -59,7 +59,7 @@ if (!empty($comments_by_type['pings'])) : // let's seperate pings/trackbacks fro
     ($count !== 1) ? $txt = __('Pings&#47;Trackbacks','responsive') : $txt = __('Pings&#47;Trackbacks','responsive');
 ?>
 
-    <h6 id="pings"><?php echo $count . " " . $txt; ?> <?php _e('for','responsive'); ?> "<?php the_title(); ?>"</h6>
+    <h6 id="pings"><?php printf( __( '%1$d %2$s for "%3$s"', 'responsive' ), $count, $txt, get_the_title() )?></h6>
 
     <ol class="commentlist">
         <?php wp_list_comments('type=pings&max_depth=<em>'); ?>

@@ -1,5 +1,5 @@
 /*!
- * Responsive JS Plugins v1.1.0
+ * Responsive JS Plugins v1.2.2
  */
 // Placeholder
 jQuery(function(){
@@ -7,7 +7,7 @@ jQuery(function(){
 });
 // FitVids
 jQuery(document).ready(function(){
-// Target your .container, .wrapper, .post, etc.
+// Target your #container, #wrapper etc.
     jQuery("#wrapper").fitVids();
 });
 
@@ -16,8 +16,14 @@ jQuery(document).ready(function(){
 // Selectors are comma separated, just like CSS
 // Note: This will be the quickest way to add your own custom vendor as well as test your player's compatibility with FitVids.
 
-// Responsive Menu
+// Responsive Menu (TinyNav)
 jQuery(".menu").tinyNav({
-    active: 'current_page_item', // Set the "active" class
-    header: false // Show header instead of the active item
+	active: 'current_page_item', // Set the "active" class for default menu
+	label: '', // String: Sets the <label> text for the <select> (if not set, no label will be added)
+    header: '' // String: Specify text for "header" and show header instead of the active item
+});
+
+// Responsive Menu (Selectbox)
+jQuery(function () {
+    jQuery(".tinynav").selectbox();
 });

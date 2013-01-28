@@ -8,6 +8,91 @@ Changelog Legend:
 [x] = Deleted
 [!] = Bugs
 
+----
+
+(01/27/2013) - Maintenance and Minor Bug Release - Version 1.8.8
+
+[!] SelectBox for Android and iPhone
+[*] SelectBox style.css improvements
+[*] quirksmode.org link fix
+[*] Support link for style.css
+[x] Arabic language duplicates
+[+] Hindi language
+
+----
+
+(01/06/2013) - Improvements - Version 1.8.7
+
+----
+Please see: http://themeid.com/forum/topic/4780/responsive-version-187/
+----
+[*] Copyright date change to 2013
+[+] New and improved Responsive menu style updates in:
+    - /js/responsive-scripts.js
+	- /js/responsive-plugins.js
+	- style.css
+	- rtl.css	
+[*] Language updates for:
+    - responsive.pot
+	- Italian
+	- Dutch
+	- Estonian
+[+] SEO Improvements
+    - Highly recommended wp_title filter added in functions.php
+	-- http://codex.wordpress.org/Plugin_API/Filter_Reference/wp_title
+	-- http://yoast.com/wordpress-themes-page-title/
+[+] Unique function class for custom menus in widgets
+
+----
+
+(12/23/2012) - Maintenance and Improvements - Version 1.8.6
+[+] Localization
+    - responsive.pot
+    - Languages improvements 
+    - New Languages (40 total)
+    - Arabic
+    - Estonian
+    - Hindi
+    - Korean
+    - Turkish
+	
+[+] If statement for breadcrumb lists and code formatting 
+[+] Breadcrumb lists to Blog and Blog Excerpt Template
+[*] CSS Improvements
+[*] Twitter Icon to comply with https://twitter.com/logo guidelines
+[*] New screenshot.png for Retina displays
+
+----
+
+(12/09/2012) - Maintenance and Improvements - Version 1.8.4.1
+[!] Sidebar Half Page - rtl.css
+
+----
+
+(11/25/2012) - Maintenance and Improvements - Version 1.8.4
+[*] blog-excerpt.php Template now uses a default sidebar
+[*] content-sidebar-page.php Template is now the only 
+    Template where right sidebar is assigned to.
+[*] IE9+ Conditionals
+[x] IE6 Conditionals
+[+] IE Conditionals to target non-ie browsers.
+[+] FitVids support for YouTube's "privacy-enhanced" mode.
+[+] Border Radius and improvements for Author's Box.
+[!] <pre> code fix
+
+----
+
+(11/14/2012) - Maintenance and Improvements - Version 1.8.3
+[*] TinyNav Update - https://github.com/viljamis/TinyNav.js
+[*] CSS Fix for TinyNav on the landing page template
+
+----
+
+(11/07/2012) - Maintenance and Improvements - Version 1.8.2
+[*] Localization Improvements
+[*] TinyNav Update
+[*] CSS Improvements
+
 (10/11/2012) - IE Fix - Version 1.8.0.1
 [!] IE Current Page Item Fix
 
@@ -32,8 +117,7 @@ Changelog Legend:
 	- Indonesian
 	- Welsh
 	- Turkish
-	- Romanian
-	
+	- Romanian	
 ----
 
 (09/27/2012) - Maintenance and Improvements - Version 1.7.9
