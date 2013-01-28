@@ -1,4 +1,4 @@
-/*  Script for the Meteor Slides 1.5 slideshow
+/*  Script for the Meteor Slides 1.5.1 slideshow
 	
 	Copy "slideshow.js" from "/meteor-slides/js/" to your theme's directory to replace
 	the plugin's default slideshow script.
@@ -10,17 +10,16 @@
 // Set custom shortcut to avoid conflicts
 var $j = jQuery.noConflict();
 
-// Get the slideshow options
-var $slidespeed      = parseInt( meteorslidessettings.meteorslideshowspeed );
-var $slidetimeout    = parseInt( meteorslidessettings.meteorslideshowduration );
-var $slideheight     = parseInt( meteorslidessettings.meteorslideshowheight );
-var $slidewidth      = parseInt( meteorslidessettings.meteorslideshowwidth );
-var $slidetransition = meteorslidessettings.meteorslideshowtransition;
-
 $j(document).ready(function() {
 
+	// Get the slideshow options
+	var $slidespeed      = parseInt( meteorslidessettings.meteorslideshowspeed );
+	var $slidetimeout    = parseInt( meteorslidessettings.meteorslideshowduration );
+	var $slideheight     = parseInt( meteorslidessettings.meteorslideshowheight );
+	var $slidewidth      = parseInt( meteorslidessettings.meteorslideshowwidth );
+	var $slidetransition = meteorslidessettings.meteorslideshowtransition;
+
 	// Setup jQuery Cycle
-	
     $j('.meteor-slides').cycle({
 		cleartypeNoBg: true,
 		fit:           1,
@@ -38,18 +37,17 @@ $j(document).ready(function() {
 	});
 	
 	// Setup jQuery TouchWipe
-
     $j('.meteor-slides').touchwipe({
         wipeLeft: function() {
             $j('.meteor-slides').cycle('next');
         },
         wipeRight: function() {
             $j('.meteor-slides').cycle('prev');
-        }
+        },
+		preventDefaultEvents: false
     });
 	
 	// Add class to hide and show prev/next nav on hover
-	
     $j('.meteor-slides').hover(function () {
 		$j(this).addClass('navhover');
     }, function () {
@@ -57,9 +55,20 @@ $j(document).ready(function() {
     });
 	
 	// Set a fixed height for prev/next nav in IE6
-	
 	if(typeof document.body.style.maxWidth === 'undefined') {
 		$j('.meteor-nav a').height($slideheight);
 	}
+	
+	// Add align class if set in metadata
+	$j('.meteor-slides').each(function () {
+		meteormetadata = $j(this).metadata();
+		if (meteormetadata.align == 'left') {
+			$j(this).addClass('meteor-left');
+		} else if (meteormetadata.align == 'right') {
+			$j(this).addClass('meteor-right');
+		} else if (meteormetadata.align == 'center') {
+			$j(this).addClass('meteor-center');
+		}
+	});
 	
 });

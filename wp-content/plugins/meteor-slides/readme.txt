@@ -1,10 +1,10 @@
 === Meteor Slides ===
 Contributors: jleuze
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
+Donate link: http://jleuze.com/donate/
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
-Requires at least: 3.3
-Tested up to: 3.3.2
-Stable tag: 1.5
+Requires at least: 3.5
+Tested up to: 3.5
+Stable tag: 1.5.1
 
 Easily create responsive slideshows with WordPress that are mobile friendly and simple to customize.
 
@@ -31,7 +31,8 @@ This screencast shows some of the plugin's features, such as different transitio
 * **Slideshow metadata:** Customize individual slideshows or configure more [jQuery Cycle options](http://jquery.malsup.com/cycle/options.html "jQuery Cycle Plugin") with the [MetaData jQuery Plugin](http://plugins.jquery.com/project/metadata "MetaData jQuery Plugin").
 * **Slideshow transition styles:** blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, slideX, slideY, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom.
 * **Slideshow navigation:** Optional previous/next and/or paged slide navigation.
-* **Multiple languages:** Belarusian, Chinese, Czech, Danish, Dutch, English, French, German, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Spanish, Swedish, Turkish.
+* **Multiple languages:** Belarusian, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, French, German, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Spanish, Swedish, Turkish, Vietnamese.
+* **Multisite Compatible:** Add Meteor Slides to any site on your network.
 
 *[Got a question about Meteor Slides?](http://wordpress.org/tags/meteor-slides?forum_id=10#postform "Post a question in the forums")*
 
@@ -58,7 +59,7 @@ Check out the [Meteor Slides Documentation](http://www.jleuze.com/plugins/meteor
 
 = Meteor Slides is awesome, what can I do to help? =
 
-You can help right on this page by rating the plugin or voting for its compatibility with the latest version of WordPress. Blog about Meteor Slides to get the word out, or [visit my blog](http://www.jleuze.com/ "JLeuze.com") to post feedback or just say hi. You could also [translate Meteor Slides](http://www.jleuze.com/plugins/meteor-slides/languages/ "Meteor Slides Languages") into another language or [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8 "Donate").
+You can help right on this page by rating the plugin or voting for its compatibility with the latest version of WordPress. Blog about Meteor Slides to get the word out, or [visit my blog](http://www.jleuze.com/ "JLeuze.com") to post feedback or just say hi. You could also [translate Meteor Slides](http://www.jleuze.com/plugins/meteor-slides/languages/ "Meteor Slides Languages") into another language or [make a donation](http://jleuze.com/donate/ "Donate").
 
 = I add a slide, save or publish it, and then it's missing or not found, what gives? =
 
@@ -107,6 +108,13 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 7. Meteor Slides Widget
 
 == Changelog ==
+= 1.5.1 =
+* Added slideshow alignment option to metadata
+* Fixed bugs related to caching, touch navigation, and theme compatibility
+* Added support for slideshows with one slide
+* Added Traditional Chinese and Vietnamese translations
+* Updated Brazilian Portuguese, Danish, and Swedish translations
+
 = 1.5 =
 * Updated slideshow to scale for responsive and fluid width themes
 * Added slideshow taxonomy selector to widget
@@ -184,6 +192,9 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 * Initial release of Meteor Slides.
 
 == Upgrade Notice ==
+
+= 1.5 =
+Meteor Slides 1.5.1 adds a slideshow alignment option and support for slideshows with one slide, includes new and updated translations, and includes several minor bug fixes.
 
 = 1.5 =
 Meteor Slides 1.5 adds responsive slideshow support, touch navigation, an improved slideshow widget, new translations, and updates jQuery Cycle.
