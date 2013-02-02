@@ -1,11 +1,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /HULA/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
@@ -18,4 +18,3 @@ RewriteRule ^hopu/?(.*) http://hopukalewa.com [R=301,NC]
 #Redirect 301 /kk	http://kaimanaklassik.com
 #Redirect 301 /hopu 	http://hopukalewa.com
 # END legacy
-</IfModule>
