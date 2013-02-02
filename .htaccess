@@ -18,3 +18,4 @@ RewriteRule ^hopu/?(.*) http://hopukalewa.com [R=301,NC]
 #Redirect 301 /kk	http://kaimanaklassik.com
 #Redirect 301 /hopu 	http://hopukalewa.com
 # END legacy
+</IfModule>
