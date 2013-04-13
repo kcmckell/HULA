@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AJSBB
 Tags: post, posts, Facebook, social, link, links, permalink, wpmu, admin, comment, comments, shortcode, sidebar, widget, bbPress
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 1.177
+Stable tag: 1.178
 
 Automatically add links to published posts or pages to your Facebook wall, pages or groups and more
 
@@ -369,12 +369,10 @@ Question E22 describes possible errors for the Facebook registration form / logi
 No, this can't be removed or changed for automatically added links, see also question U27.
 The only thing that can be changed is the Facebook application name after 'via'.
 
-= U32 Is video or audio supported? =
-
-From version 1.142 video is supported for [Viper's Video Quicktags](http://wordpress.org/extend/plugins/vipers-video-quicktags/).
+= U32 Is video supported? =
 
 From version 1.149.1 you can set a video URL in the post editor.
-See [here](http://www.viwickam.com/how-to-make-your-video-blog-posts-facebook-friendly/) for how to get the correct video URL.
+Please note that the URL must link *directly* to the video and not to a page that displays the video.
 
 = U33 The like/send button doesn't look/behave as I want =
 
@@ -545,8 +543,8 @@ Yes, but the custom post type should support custom values for it to work.
 
 Assuming that you embed a NextGEN Gallery into a post, set the option *Link Picture* to *First image in the post*.
 Disable the option *Do not execute filters for texts*, but take care to check if this doesn't result in compatibility problems with other plugins.
-Enable the option *Do not execute shortcodes for texts*.
-It is also possible to use featured images of NextGEN Gallery.
+Also enable the option *Do not execute shortcodes for texts*.
+Please note that changes in NextGEN may cause this not to work anymore, see also question C02.
 
 **--- Error messages ---**
 
@@ -772,7 +770,7 @@ and describe the problem as accurate as possible and press the *Send* button.
 == Changelog ==
 
 = Development version =
-* ...
+* Bugfix: OPG home URL
 
 Follow these steps to install the development version:
 
@@ -787,6 +785,11 @@ Follow these steps to install the development version:
 * Please report any problem you encounter
 * Reports that everything works are also appreciated :-)
 
+= 1.178 =
+* Bugfix: localized registration
+* Revert: bugfix Facebook login for multi-sites
+* Removed *Share link* feature, since there are too many problems with it
+
 = 1.177 =
 * Bugfix: Facebook login for multi-sites
 * Added Ukranian (ua\_UA) translation
@@ -795,18 +798,14 @@ Follow these steps to install the development version:
 * Removed graphical ads
 * Removed request for rating
 
-= 1.175 =
-* Disable adding links to friends walls after February 6th, [read here](https://developers.facebook.com/blog/post/2012/10/10/growing-quality-apps-with-open-graph/) why
-* Updated German (de\_DE) translation by [Wolfgang Tischer](http://www.literaturcafe.de "Wolfgang Tischer")
-
 = Older versions =
 * Deleted, because of maximum readme.txt size
 * Newer versions should always be compatible with [older versions](http://wordpress.org/extend/plugins/add-link-to-facebook/download/ "Other Versions")
 
 == Upgrade Notice ==
 
-= 1.177 =
-One bugfix, new translation
+= 1.178 =
+Two bugfixes, removed one feature
 
 == Setup guide ==
 
