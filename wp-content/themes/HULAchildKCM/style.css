@@ -1,6 +1,6 @@
 /*
-Theme Name:     Sample Child
-Description:    Sample for child themes, specifically children of the Responsive theme. 
+Theme Name:     HULAchildKCM
+Description:    Child of the Responsive theme. 
 Author:         K. Clay McKell
 Author URI:     http://ee.hawaii.edu/~mckell
 Template:       responsive
@@ -26,3 +26,10 @@ Version:        0.1.0
 .leftjust {float: left; margin-right: 1em;}
 .menu li li {background: #E4E4E4; background: rgba(228,228,228,.95);}
 ol.commentlist > li.comment:nth-child(odd) {background: #D4E3F1;}
+/*Possibilities for formatting the search bar
+.menu {clear: left;}
+#top-widget {margin-top:5.5em;}
+@media screen and (max-width: 980px) {
+  .menu {clear:left;}
+  #top-widget {margin-top: 5.5em !important;}
+}*/
