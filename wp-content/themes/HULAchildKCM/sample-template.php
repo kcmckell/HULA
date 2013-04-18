@@ -3,7 +3,7 @@
 Template Name: Sample-Template
  * 
  * @file           sample-template.php
- * @package        Sample Child
+ * @package        HULAchildKCM
  * @author         K. Clay McKell 
  */
 ?>
