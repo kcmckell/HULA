@@ -20,3 +20,9 @@ Version:        0.1.0
 /*************************************** 
 * Include your custom child styles below.
 ****************************************/
+
+#featured-image > * {margin: 0 auto;}
+.rightjust {float: right; margin-left: 1em;}
+.leftjust {float: left; margin-right: 1em;}
+.menu li li {background: #E4E4E4; background: rgba(228,228,228,.95);}
+ol.commentlist > li.comment:nth-child(odd) {background: #D4E3F1;}
