@@ -23,4 +23,14 @@
  *  }
  *  add_action('wp_head', 'favicon_link');
  */
+
+add_action('publish_post','MyFunctionOnPublish');
+
+function MyFunctionOnPublish($post_id) {
+  // Attempt to forward posts to the HULA email group.
+  $post = get_post($post_id);
+  $from_email = get_the_author_meta('user_email', $post->post_author);
+  $headers = array('From: ' . $from_email);
+  wp_mail('hawaii-ultimate-league-association@googlegroups.com', $post->post_title, $post->post_content, $headers);
+};
 ?>
