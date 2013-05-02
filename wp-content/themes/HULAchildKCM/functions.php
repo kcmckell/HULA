@@ -47,4 +47,34 @@ function MyFunctionOnPublish($post_id) {
     // Nothing to see here.
   };
 };
+// **********
+
+// **********
+// Add a widget in WordPress Dashboard
+// by Aurelien Denis
+// http://wp.smashingmagazine.com/2012/05/17/customize-wordpress-admin-easily/
+function HULA_dashboard_widget_function() {
+  echo "<p>
+    I'm a paragraph.
+    </p>";
+};
+function HULA_add_dashboard_widgets() {
+  wp_add_dashboard_widget('wp_dashboard_widget', 'Greeting', 'HULA_dashboard_widget_function');
+  // Push this widget to the top, if can.
+  // from http://codex.wordpress.org/Dashboard_Widgets_API
+  // Globalize the metaboxes array, this holds all the widgets for wp-admin
+  global $wp_meta_boxes;
+  // Get the regular dashboard widgets array 
+  // (which has our new widget already but at the end)
+  $normal_dashboard = $wp_meta_boxes['dashboard']['normal']['core'];
+  // Backup and delete our new dashboard widget from the end of the array
+  $important_widget_backup = array('wp_dashboard_widget' => $normal_dashboard['wp_dashboard_widget']);
+  unset($normal_dashboard['wp_dashboard_widget']);
+  // Merge the two arrays together so our widget is at the beginning
+  $sorted_dashboard = array_merge($important_widget_backup, $normal_dashboard);
+  // Save the sorted array back into the original metaboxes 
+  $wp_meta_boxes['dashboard']['normal']['core'] = $sorted_dashboard;
+};
+add_action('wp_dashboard_setup', 'HULA_add_dashboard_widgets');
+// *********
 ?>
