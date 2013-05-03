@@ -35,7 +35,7 @@ add_action('future_to_publish','MyFunctionOnPublish');
 function MyFunctionOnPublish($post_id) {
   // Attempt to forward posts to the HULA email group.
   $post = get_post($post_id);
-  if (has_tag("hulamail", $post)) {
+  if (has_category("hulamail", $post)) {
     $from_name = get_the_author_meta('display_name', $post->post_author);
     $from_email = get_the_author_meta('user_email', $post->post_author);
     $headers = array('From: ' . $from_name . ' <' . $from_email . '>');
