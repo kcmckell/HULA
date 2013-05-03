@@ -40,9 +40,9 @@ function MyFunctionOnPublish($post_id) {
     $from_email = get_the_author_meta('user_email', $post->post_author);
     $headers = array('From: ' . $from_name . ' <' . $from_email . '>');
       $msg = $post->post_content;
-//    wp_mail('hawaii-ultimate-league-association@googlegroups.com', $post->post_title, $post->post_content, $headers);
+    wp_mail('hawaii-ultimate-league-association@googlegroups.com', $post->post_title, $post->post_content, $headers);
 // Debug mode:    
-    wp_mail('testingwordpressemail@googlegroups.com', $post->post_title, $msg, $headers);
+//    wp_mail('testingwordpressemail@googlegroups.com', $post->post_title, $msg, $headers);
   } else {
     // Nothing to see here.
   };
