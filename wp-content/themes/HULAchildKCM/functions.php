@@ -54,8 +54,15 @@ function MyFunctionOnPublish($post_id) {
 // by Aurelien Denis
 // http://wp.smashingmagazine.com/2012/05/17/customize-wordpress-admin-easily/
 function HULA_dashboard_widget_function() {
-  echo "<p>
-    I'm a paragraph.
+  echo "<h1>Welcome HULA Ohana</h1>
+    <p>
+      Thanks for logging on to HULA's website.  This is your dashboard; from here you can write blog posts, upload media, add a static page, and many more things.
+    </p>
+    <p>
+      If you need help, we've started a <a href=\"https://docs.google.com/document/d/1U2dTDSy3iygnao8zacqFF4uD_6dEI1wXAzsfhMlOE1E/edit?usp=sharing\">Frequenty Asked Questions</a> document that you may want to check out.
+    </p>
+    <p>
+      Otherwise, <a href=\"mailto:webmaster@hawaiiultimate.com\">shoot me an email</a> and we can get you started.
     </p>";
 };
 function HULA_add_dashboard_widgets() {
