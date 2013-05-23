@@ -4,7 +4,7 @@ You've found the Github repository of the Hawaii Ultimate League Association's w
 
 ## Project structure
 
-The *development* copy of the website lives here on Github.  The live *production* version gets deployed when the Github ```live``` branch gets pushed to.
+The *development* copy of the website lives here on Github.  The live *production* version gets deployed when the Github ```live``` branch gets pushed to by approved administrators.
 Anything contributed to the development copy is safe from being pushed to the live server until it has been thoroughly tested.
 
 ## How to contribute
