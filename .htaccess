@@ -19,3 +19,14 @@ RewriteRule ^hopu/?(.*) http://hopukalewa.com [R=301,NC]
 #Redirect 301 /hopu 	http://hopukalewa.com
 # END legacy
 </IfModule>
+
+# protect wp-config.php
+# ref: http://wp.tutsplus.com/tutorials/security/conquering-the-wp-config-php-file-11-good-practices/
+<files wp-config.php>
+  order allow,deny
+  deny from all
+</files>
+<files local-config.php>
+  order allow,deny
+  deny from all
+</files>

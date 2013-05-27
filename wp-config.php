@@ -71,7 +71,16 @@ define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
-
+/** 
+ * Security measures.
+ * 
+ * As recommended here: http://blogvault.net/wordpress-security-1-securing-wp-config-php/
+ */
+// Disable editing of Theme/Pluing files
+define( 'DISALLOW_RILE_EDIT', true );
+/**
+ * As recommended here: http://wp.tutsplus.com/tutorials/security/conquering-the-wp-config-php-file-11-good-practices/
+ */
 /**
  * WordPress Database Table prefix.
  *
