@@ -26,10 +26,8 @@ Version:        0.1.0
 .leftjust {float: left; margin-right: 1em;}
 .menu li li {background: #E4E4E4; background: rgba(228,228,228,.95);}
 ol.commentlist > li.comment:nth-child(odd) {background: #D4E3F1;}
-/*Possibilities for formatting the search bar
-.menu {clear: left;}
-#top-widget {margin-top:5.5em;}
-@media screen and (max-width: 980px) {
-  .menu {clear:left;}
-  #top-widget {margin-top: 5.5em !important;}
-}*/
+/*Positioning the search bar*/
+.top-widget .widget_search, .front-page .top-widget .widget_search {margin-top: 1em !important;}
+@media screen and (max-width: 650px) {
+  .top-widget .widget_search, .front-page .top-widget .widget_search {margin-top: 0em !important;}
+}
