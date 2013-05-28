@@ -3,6 +3,7 @@ wp-content/uploads/
 wp-content/cache/
 
 # HULA-local gitignore
+.htaccess
 local-config.php
 
 # System
