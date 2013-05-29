@@ -36,6 +36,8 @@ ol.commentlist > li.comment:nth-child(odd) {background: #D4E3F1;}
 table#leaguehistory { text-align: center; }
 table#leaguehistory tbody {background: lightgrey;}
 table#leaguehistory  tr {font-weight: bold;}
+table#leaguehistory span.teamname {display: block;}
+table#leaguehistory span.captains {display: block;}
 table#leaguehistory td.teamcolor.white {background: white;}
 table#leaguehistory td.teamcolor.red {background: red;}
 table#leaguehistory td.teamcolor.blue {background: blue;}
