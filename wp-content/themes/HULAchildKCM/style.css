@@ -34,7 +34,7 @@ ol.commentlist > li.comment:nth-child(odd) {background: #D4E3F1;}
 
 /* League history table formatting.  Add colors as necessary. */
 table#leaguehistory { text-align: center; }
-table#leaguehistory tbody {background: light-grey;}
+table#leaguehistory tbody {background: lightgrey;}
 table#leaguehistory  tr {font-weight: bold;}
 table#leaguehistory td.teamcolor.white {background: white;}
 table#leaguehistory td.teamcolor.red {background: red;}
