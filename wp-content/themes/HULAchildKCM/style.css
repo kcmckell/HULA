@@ -31,3 +31,15 @@ ol.commentlist > li.comment:nth-child(odd) {background: #D4E3F1;}
 @media screen and (max-width: 650px) {
   .top-widget .widget_search, .front-page .top-widget .widget_search {margin-top: 0em !important;}
 }
+
+/* League history table formatting.  Add colors as necessary. */
+table#leaguehistory { text-align: center; }
+table#leaguehistory tbody {background: light-grey;}
+table#leaguehistory  tr {font-weight: bold;}
+table#leaguehistory td.teamcolor.white {background: white;}
+table#leaguehistory td.teamcolor.red {background: red;}
+table#leaguehistory td.teamcolor.blue {background: blue;}
+table#leaguehistory td.teamcolor.yellow {background: yellow;}
+table#leaguehistory td.teamcolor.orange {background: orange;}
+table#leaguehistory td.teamcolor.green {background: green;}
+table#leaguehistory td.teamcolor.black {background: black; color: white;}
