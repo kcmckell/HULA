@@ -50,8 +50,9 @@ table#leaguehistory span.captains {
 }
 table#leaguehistory td.teamcolor.white {background: white;}
 table#leaguehistory td.teamcolor.red {background: red;}
-table#leaguehistory td.teamcolor.blue {background: blue;}
+table#leaguehistory td.teamcolor.blue {background: mediumblue; color: white;}
 table#leaguehistory td.teamcolor.yellow {background: yellow;}
-table#leaguehistory td.teamcolor.orange {background: orange;}
+table#leaguehistory td.teamcolor.orange {background: darkorange;}
 table#leaguehistory td.teamcolor.green {background: green;}
+table#leaguehistory td.teamcolor.pink {background: hotpink;}
 table#leaguehistory td.teamcolor.black {background: black; color: white;}
