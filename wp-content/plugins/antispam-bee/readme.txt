@@ -3,7 +3,7 @@ Contributors: sergej.mueller
 Tags: antispam, spam, comments, trackback
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5RDDW9FEHGLG6
 Requires at least: 3.4
-Tested up to: 3.5
+Tested up to: 3.6
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,6 +46,7 @@ Die meisten Auswahlmöglichkeiten innerhalb der Optionsseite sind konfigurierbar
 * Kommentare nur in einer Sprache zulassen
 * Erkannten Spam kennzeichnen, nicht löschen
 * Bei Spam via E-Mail informieren
+* Optionale Logdatei mit Spam-Einträgen z.B. für [Fail2Ban](http://cup.wpcoder.de/fail2ban-ip-firewall/)
 * Spamgrund im Kommentar nicht speichern
 * Vorhandenen Spam nach X Tagen löschen
 * Aufbewahrung der Spam-Kommentare für einen Typ
@@ -65,6 +66,10 @@ Installiert, probiert die bewährte Antispam-Lösung für WordPress aus.
 Anmeldefrei und ohne lästige Captchas.
 
 
+= Support =
+Freundlich formulierte Fragen rund um das Plugin werden per E-Mail beantwortet.
+
+
 = Systemanforderungen =
 * PHP 5.2.4
 * WordPress 3.4
@@ -73,10 +78,11 @@ Anmeldefrei und ohne lästige Captchas.
 = Inkompatibilität =
 * Disqus
 * Jetpack Comments
+* AJAX-Kommentarformulare
 
 
 = Unterstützung =
-* Per [Flattr](https://flattr.com/donation/give/to/sergej.mueller)
+* Per [Flattr](https://flattr.com/t/1323822)
 * Per [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5RDDW9FEHGLG6)
 
 
@@ -89,14 +95,30 @@ Anmeldefrei und ohne lästige Captchas.
 
 
 = Autor =
-* [Google+](https://plus.google.com/110569673423509816572 "Google+")
-* [Plugins](http://wpcoder.de "Plugins")
+* [Twitter](https://twitter.com/wpSEO)
+* [Google+](https://plus.google.com/110569673423509816572)
+* [Plugins](http://wpcoder.de)
 
 
 
 
 
 == Changelog ==
+
+= 2.5.7 =
+* DE: Optionale Spam-Logdatei z.B. für [Fail2Ban](http://cup.wpcoder.de/fail2ban-ip-firewall/)
+* DE: Filter `antispam_bee_notification_subject` für eigenen Betreff in Benachrichtigungen
+* DE: Detaillierte Informationen zum Update auf [Google+](https://plus.google.com/110569673423509816572/posts/iCfip2ggYt9)
+* EN: Optional logfile with spam entries e.g. for [Fail2Ban](https://gist.github.com/sergejmueller/5622883)
+* EN: Filter `antispam_bee_notification_subject` for a custom subject in notifications
+
+= 2.5.6 =
+* DE: Neue Erkennungsmuster für Spam hinzugefügt / [Google+](https://plus.google.com/110569673423509816572/posts/9BSURheN3as)
+* EN: Added new detection/patterns for spam comments
+
+= 2.5.5 =
+* Deutsch: Erkennung und Ausfilterung von Spam-Kommentaren, die versuchen, [Sicherheitslücken von W3 Total Cache und WP Super Cache](http://blog.sucuri.net/2013/05/w3-total-cache-and-wp-super-cache-vulnerability-being-targeted-in-the-wild.html) auszunutzen. [Ausführlicher auf Google+](https://plus.google.com/110569673423509816572/posts/afWWQbUh4at).
+* English: Detection and filtering of spam comments that try to exploit the latest [W3 Total Cache and WP Super Cache Vulnerability](http://blog.sucuri.net/2013/05/w3-total-cache-and-wp-super-cache-vulnerability-being-targeted-in-the-wild.html).
 
 = 2.5.4 =
 * Jubiläumsausgabe: [Details zum Update](https://plus.google.com/110569673423509816572/posts/3dq9Re5vTY5)
