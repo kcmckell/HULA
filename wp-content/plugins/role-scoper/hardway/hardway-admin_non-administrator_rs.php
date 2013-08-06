@@ -172,8 +172,9 @@ class ScoperAdminHardway_Ltd {
 				if ( defined( 'RVY_VERSION' ) ) {
 					if ( class_exists( 'RevisionaryAdminHardway_Ltd' ) )
 						$query = RevisionaryAdminHardway_Ltd::flt_last_resort_query( $query );
-						
-					$query = RevisionaryAdminHardway::flt_include_pending_revisions( $query );
+					
+					if ( class_exists( 'RevisionaryAdminHardway' ) )
+						$query = RevisionaryAdminHardway::flt_include_pending_revisions( $query );
 				}
 			}
 
