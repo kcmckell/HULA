@@ -4,3 +4,6 @@
 [submodule "wp-content/plugins/Docs-to-WordPress"]
 	path = wp-content/plugins/Docs-to-WordPress
 	url = https://github.com/kcmckell/Docs-to-WordPress
+[submodule "wp-content/plugins/leaguevine-wp-plugin"]
+	path = wp-content/plugins/leaguevine-wp-plugin
+	url = https://github.com/kcmckell/leaguevine-wp-plugin.git
