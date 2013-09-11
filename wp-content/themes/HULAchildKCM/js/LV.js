@@ -15,7 +15,8 @@ jQuery(document).ready(function() {
     '&access_token='+LV_access_token,
     function(json){
       renderGames(json,1,'#LV-current');
-    });
+    }
+  );
   // Format:
   //games/?season_id=20368&starts_after=2013-09-10T23%3A03%3A03.002Z&access_token=efa78d2a3e
   //
@@ -25,11 +26,28 @@ jQuery(document).ready(function() {
     '&access_token='+LV_access_token,
       function(json){
         renderGames(json,0,'#LV-schedule');
-    });
+    }
+  );
   // Get past results.
-//  jQuery.getJSON(LV_api_url+'seasons/20368/?access_token='+LV_access_token,function(json){
-//    
-//  });
+  jQuery.getJSON(LV_api_url+'teams/?season_id=20368'+
+    '&access_token='+LV_access_token, 
+    function(json){
+      var records = [];
+      jQuery.each(json.objects, function(ind,val){
+        var record = {
+          name: val.name,
+          W: val.wins,
+          L: val.losses,
+          pct: (val.wins+val.losses>0 ? val.wins/(val.wins+val.losses) : 0),
+          url: val.leaguevine_url
+        };
+        records.push(record);
+      });
+      // Sort the records by PCT.
+      // Construct HTML rows.
+      // Inject HTML.
+    }
+  );
   function renderGames(json,currentBool,destination_selector){
     var items = [];
     jQuery.each(json.objects, function(ind, val){
