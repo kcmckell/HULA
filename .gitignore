@@ -5,6 +5,7 @@ wp-content/cache/
 # HULA-local gitignore
 .htaccess
 local-config.php
+local_settings.php
 
 # System
 *.DS_Store
