@@ -44,8 +44,25 @@ jQuery(document).ready(function() {
         records.push(record);
       });
       // Sort the records by PCT.
+      function compareRecords(a,b){
+        if (a.pct < b.pct) return -1;
+        if (a.pct > b.pct) return 1;
+        return 0;
+      }
+      var sorted_records = records.sort(compareRecords);
       // Construct HTML rows.
+      var results_table = '<table><tr><th>Rank</th><th>Team</th><th>Wins</th><th>Losses</th></tr>';
+      var team;
+      for (var i = sorted_records.length-1; i>=0; i--){
+        team = sorted_records.pop();
+        results_table += '<tr><td>'+(1+sorted_records.length-i)+'</td>'+
+          '<td>'+team.name+'</td>'+
+          '<td>'+team.W+'</td>'+
+          '<td>'+team.L+'</td></tr>';
+      }
+      results_table += '</table>'
       // Inject HTML.
+      jQuery('<div/>', {'class':'LV-response', html: results_table}).appendTo($LV.children().filter('#LV-results'));
     }
   );
   function renderGames(json,currentBool,destination_selector){
