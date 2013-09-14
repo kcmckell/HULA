@@ -73,3 +73,10 @@ table#leaguehistory td.teamcolor.black {background: black; color: white;}
   height: 100%;
 }
 .mapcaption {font-size: 80%; margin-bottom: 1em; margin-bottom: 1rem;}
+
+/* LeagueVine styling */
+#LV-results td:first-of-type, #LV-results td:last-of-type, #LV-results td:nth-last-of-type(2) {
+  width: 10%;
+  min-width: 1em;
+  text-align: center;
+}
