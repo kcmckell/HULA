@@ -80,3 +80,17 @@ table#leaguehistory td.teamcolor.black {background: black; color: white;}
   min-width: 1em;
   text-align: center;
 }
+.LV-date {
+    background: none repeat scroll 0 0 #D3D3D3;
+    padding: 0.5em;
+}
+.LVgame {
+  text-align: center;
+}
+.LVgame * {
+  display: inline;
+  padding: 0.5em 0;
+}
+.LVlocation {
+  display: block;
+}

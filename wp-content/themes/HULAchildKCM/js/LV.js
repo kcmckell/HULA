@@ -25,9 +25,50 @@ jQuery(document).ready(function() {
     '&starts_after='+now.toISOString()+
     '&access_token='+LV_access_token,
       function(json){
-        renderGames(json,0,'#LV-schedule');
-    }
-  );
+        var dates = {},
+            items = [];
+        jQuery.each(json.objects, function(ind,gm){
+          // Iterate over games.  Collect by start times in the dates object.
+          if (!dates[gm.start_time]) {
+            dates[gm.start_time] = [gm];
+          } else {
+            dates[gm.start_time].push(gm);
+          };
+        });
+        var sorted_dates = sortedArrayByObjKey(dates);
+        var date,
+            games,
+            gameday = '',
+            startdate,
+            gameText = '';
+        jQuery.each(sorted_dates, function(ind,val){
+          // Iterate over date/times.
+          // Super janky (artifact of sortedArrayByObjKey function, below):
+          date = val.k[0].start_time;
+          games = val.k;
+          startdate = new Date(date);
+          gameday = '';
+          gameday += '<div class="LV-gameday">';
+          gameday += '<div class="LV-date">'+monthString(startdate.getMonth(),1)+' '+startdate.getDate()+' at '+startdate.getHours()+':'+(startdate.getMinutes()<10?'0':'')+startdate.getMinutes()+'</div>';
+          jQuery.each(games, function(ind,gm){
+            // Iterate over games taking place at every date/time.
+            gameText = '';
+            gameText += '<div class="LVgame">';
+            gameText += '<div class="LVlocation">'+(gm.game_site ? gm.game_site.event_site.name+' '+gm.game_site.name : 'Field TBD')+'</div>';
+            gameText += '<div class="LVteam1"><a href="'+gm.team_1.leaguevine_url+'">'+gm.team_1.name+'</a></div>';
+            gameText += ' vs ';
+//            gameText += ' '+gm.team_1_score+' - '+gm.team_2_score+' ';
+            gameText += '<div class="LVteam2"><a href="'+gm.team_2.leaguevine_url+'">'+gm.team_2.name+'</a></div>';
+            gameText += '</div>'
+            gameday += gameText;
+          })
+          gameday += '</div>';
+          items.push(gameday);
+        });
+        var consolation_string = 'There are no upcoming games.';
+        var append_me = jQuery('<div/>', (items.length > 0 ? {'class':'LV-response', html: items.join('')} : {html: '<p>'+consolation_string+'</p>'}));
+        append_me.appendTo($LV.children().filter('#LV-schedule'));
+    });
   // Get past results.
   jQuery.getJSON(LV_api_url+'teams/?season_id=20368'+
     '&access_token='+LV_access_token, 
@@ -94,3 +135,17 @@ function monthString(ind, abbrvBool) {
   var arr = (abbrvBool ? ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'] )
   return arr[ind];
 }  
+
+function sortedArrayByObjKey(obj){
+  var keys = Object.keys(obj),
+    i,
+    k,
+    len = keys.length,
+    out = [];
+  keys.sort();
+  for (i = 0; i < len; i++) {
+    k = keys[i];
+    out.push({k : obj[k]});
+  };
+  return out;
+}
