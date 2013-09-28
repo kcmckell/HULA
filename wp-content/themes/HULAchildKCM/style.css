@@ -94,3 +94,19 @@ table#leaguehistory td.teamcolor.black {background: black; color: white;}
 .LVlocation {
   display: block;
 }
+
+#LV-current div[class^='LVteam'], #LV-current div.LVscore {
+  font-size: 150%;
+}
+
+.LVscore {
+  padding: 0 0.5em;
+}
+
+.LVscore .leader {
+  color: green;
+}
+
+.LVscore .trailer {
+  color: red;
+}
