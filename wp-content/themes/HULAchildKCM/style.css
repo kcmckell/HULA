@@ -88,15 +88,21 @@ table#leaguehistory td.teamcolor.black {background: black; color: white;}
   text-align: center;
 }
 .LVgame * {
-  display: inline;
+  /*display: inline;*/
   padding: 0.5em 0;
 }
 .LVlocation {
   display: block;
 }
 
-#LV-current div[class^='LVteam'], #LV-current div.LVscore {
-  font-size: 150%;
+#LV-current .LVteams {
+  font-size: 2em;
+  font-size: 1.8rem;
+}
+
+#LV-current .LVteams * {
+  display: inline;
+  font-size: inherit;
 }
 
 .LVscore {
