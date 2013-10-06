@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
       gameText += '</div>';
       gameText += '<div class="LVteam2"><a href="'+gm.team_2.leaguevine_url+'">'+gm.team_2.name+'</a></div>';
       gameText += '</div>';
-      gameText += '<div class="LVstatslink"><a href="'+ultistats_game_url+gm.id+'">Take stats for this game</a></div>';
+      gameText += '<div class="LVstatslink"><a href="'+ultistats_game_url+gm.id+'" target="_blank">Take stats for this game</a></div>';
       gameText += '</div>';
       items.push(gameText);
     });
