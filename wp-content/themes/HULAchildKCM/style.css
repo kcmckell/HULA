@@ -21,7 +21,12 @@ Version:        0.1.0
 * Include your custom child styles below.
 ****************************************/
 
-#featured-image > * {margin: 0 auto;}
+#featured-image * {text-align: center;}
+#featured-image ul {list-style: none; padding: 0;}
+#featured-image ul li {display: inline; position: relative;}
+#featured-image img {max-width: 50%; max-height: 125px;}
+#featured-image ul li:after {position: absolute; right: 0; top: 100%;}
+#featured-image ul li.facebook:after {content: url("images/FB-f-Logo__blue_29.png");}
 .rightjust {float: right; margin-left: 1em;}
 .leftjust {float: left; margin-right: 1em;}
 .menu li li {background: #E4E4E4; background: rgba(228,228,228,.95);}
