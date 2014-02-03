@@ -8,6 +8,197 @@ Changelog Legend:
 [x] = Deleted
 [!] = Bugs
 
+(01/28/14) - Improvements - Version 1.9.4.7-8
+
+[*] Allow for gallery image size can be defined
+[!] Fixed disabling breadcrumbs
+
+----
+
+(01/19/14) - Improvements - Version 1.9.4.6
+
+[*] Improved Responsive Breadcrumbs
+[+] Added support for Breadcrumb NavXT, Breadcrum Trail and Yoast SEO
+breadcrumbs.
+
+----
+
+(01/12/14) - Improvements - Version 1.9.4.5
+
+[*] Made Theme Options responsive
+[*] Update coyright to 2014
+[x] Removed old code in header.php
+
+----
+
+(01/07/14) - Improvements - Version 1.9.4.4
+
+[+] Added improved support gallery images
+[x] Removed old tags
+
+----
+
+(12/22/13) - Improvements - Version 1.9.4.3
+
+[+] Allow switching minified scripts with SCRIPT_DEBUG
+[x] Removed code for Backward Compatibility of WP 3.4
+[*] Improved responsive_widget_menu_class as suggested by markoheijnen
+[*] Allow Stylesheet version update automatically.
+[!] Fix disabling breadcrumbs
+
+----
+
+(12/15/13) - Improvements - Version 1.9.4.2
+
+[+] Made search form accessible
+[*] Updated screenshot to 880x660px
+[*] Moved breadcrumb check from template to functions.php
+[*] Updated responsive.pot
+[*] Updated links from themeid.com to cyberchimps.com
+
+----
+
+(12/08/13) - Improvements - Version 1.9.4.1
+
+[+] Added `featured-content` id to front-page.
+[*] Updated Welsh, Russian and Greek translations.
+[!] Fixed the footer widget with adding fit class to third widget.
+[x] Removed duplicated theme options titles.
+[x] Removed old mobile menu css.
+
+----
+
+(11/29/13) - Improvements - Version 1.9.4.0
+
+[+] Added front page setting notification to reading settings.
+[+] Added support for paragraphs for the front page areas.
+[*] Update German Translation.
+[!] Fix placeholder + IE8 + The Event Calendar issue.
+[*] Improve mobile menu title.
+
+----
+
+(10/28/13) - Improvements - Version 1.9.3.9
+
+[+] Added footer widget area.
+[+] Added Id's to home widgets.
+[+] Added h3 tags to widgets.
+[x] Removed 100% width from input form fields.
+[*] Plugin notification is made to be displayed only to admin.
+[*] Updated language files.
+[!] Fixed if else structure.
+[!] Fixed Image map area.
+[*] Widgets - Added better descriptions.
+
+----
+
+(10/04/13) - Improvements - Version 1.9.3.8
+
+http://cyberchimps.com/guide/update-1-9-3-8/
+
+[*] Spaces for indentation have been swapped out for tabs in the code.
+[!] Fixed javascript bug that was preventing other javascripts from working correctly.
+
+----
+
+(09/26/13) - Improvements - Version 1.9.3.7
+
+http://cyberchimps.com/guide/update-1-9-3-7/
+
+[*] Set up icon links with new responsive_child_uri() function.
+[+] Added function responsive_free_get_option() to get value of individual free option.
+[+] Added title to blog post page.
+[x] Removed trailing blank spaces.
+[+] Added editor option type for Content area and Featured content options.
+
+----
+
+(08/21/13) - Improvements - Version 1.9.3.6
+
+http://cyberchimps.com/guide/update-1-9-3-6/
+
+[+] Themes page to appearance menu
+[!] Fixed support and forum links.
+[^] Moved plugin from theme to wordpress plugin repo.
+[+] Added ability to add classes to options.
+[*] Allowed call to action update without home content.
+
+----
+
+(08/06/13) - Improvements - Version 1.9.3.5
+
+http://cyberchimps.com/guide/update-1-9-3-5/
+
+[+] Added rtl css support.
+[+] Added cyberchimps logo to footer.
+[+] Added option class to define theme options.
+[+] Added support for companion plugin.
+[*] Changed post title tag of blog post from h1 to h2.
+[x] Removed google-site-verification etc as per WP rules.
+[!] Fixed css loading sequence.
+[!] Fixed customizer redirection issue.
+
+----
+
+(07/22/13) - Improvements - Version 1.9.3.4
+
+http://cyberchimps.com/guide/update-1-9-3-4/
+
+[+] Allow pinch to zoom
+[+] Close mobile menu by clicking anywhere on the page
+[+] Add waring when reseting options to defaults
+[+] Translation can be loaded from the the WordPress language folder or child theme
+[*] Update Translations
+[*] Allow pinch to zoom
+[*] Improvments for loading of title for mobile menu
+[*] Support for jQuery 1.9
+[!] RTL Sub-Header Menu fix
+[!] Fix errors on image atachment page
+[!] Fix breadcrumb errors
+
+----
+
+(06/18/13) - Improvements - Version 1.9.3.3
+
+http://themeid.com/docs/update-1-9-3-3/
+
+[+] Upgrade bar
+[+] Breadcrumb class to single breadcrumb
+[+] Utility classes
+[+] Created core folder
+[*] Function exists responsive_wp_title
+[*] Mobile menu set height removed for pages with longer title
+[*] Link to http://www.quirksmode.org/blog/archives/2013/06/devicepixelrati.html
+[^] Buttons and info box lower
+[^] Parent style enqueue
+[^] Media queries into the core
+[x] Old menu styles
+[x] ie7 compatibility text from style.css
+[x] Print css h1 page breaks
+
+----
+
+(05/07/13) - Improvements - Version 1.9.3.2
+
+http://themeid.com/docs/update-1-9-3-2/
+
+[!] Multiple fixes for the menu mobile menu
+[!] Fix blog templates to change layout
+
+----
+
+(04/24/13) - Improvements - Version 1.9.3.1
+
+http://themeid.com/docs/update-1-9-3-1/
+
+[!] Multiple fixes for the menu mobile menu
+[!] Fix custom front page for Polylang
+[!] Fix title when using All in One SEO plugin
+[+] Add support for hatom-entry: entry title and updated
+[x] Removed link from title in single posts
+
+----
+
 (04/02/13) - Improvements - Version 1.9.3
 [*] Update pot
 [!] Fix navigation on blog templates when set as front page
