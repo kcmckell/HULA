@@ -68,9 +68,9 @@ get_header(); ?>
                   <?php while ($my_query->have_posts()) { ?>
                   <div class="AutoRecentLink">
                     <p>
-                      Details on the most recent clinic can be found 
+                      Get details and register for the
                         <?php $my_query->the_post(); ?>
-                      <a href="<?php echo the_permalink(); ?>">here</a>.
+                      <a href="<?php echo the_permalink(); ?>">latest clinic</a>.
                     </p>
                   </div>
                   <?php } ?>
