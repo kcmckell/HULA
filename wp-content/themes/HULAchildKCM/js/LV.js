@@ -8,8 +8,8 @@
 jQuery(document).ready(function() {
   //alert(LV_season_string);
   var $LV = jQuery('div.LV'),
-      now = new Date(),
-      ultistats_game_url = 'https://ultistats.leaguevine.com/games/';
+  now = new Date(),
+  ultistats_game_url = 'https://ultistats.leaguevine.com/games/';
   var recent = new Date(now - 120*60*1000);
   var HULA_org_id = 20232;
   jQuery.getJSON(LV_api_url+'seasons/?organization_ids='+
@@ -34,9 +34,17 @@ jQuery(document).ready(function() {
             var gameText = '';
             gameText += '<div class="LVgame">';
             gameText += '<div class="LVlocation">'+(gm.game_site ? gm.game_site.event_site.name+' '+gm.game_site.name : 'Field TBD')+'</div>';
+            gameText += '<div class="LVteams">';
             gameText += '<div class="LVteam1"><a href="'+gm.team_1.leaguevine_url+'">'+gm.team_1.name+'</a></div>';
-            gameText += ' vs ';
-//            gameText += ' '+gm.team_1_score+' - '+gm.team_2_score+' ';
+            gameText += '<div class="LVscore">';
+            if (gm.team_1_score > gm.team_2_score) {
+              gameText += '<span class="leader">'+gm.team_1_score+'</span> - <span class="trailer">'+gm.team_2_score+'</span>';
+            } else if (gm.team_1_score < gm.team_2_score) {
+              gameText += '<span class="trailer">'+gm.team_1_score+'</span> - <span class="leader">'+gm.team_2_score+'</span>';
+            } else {
+              gameText += '<span>'+gm.team_1_score+'</span> - <span>'+gm.team_2_score+'</span>';
+            };
+            gameText += '</div>';
             gameText += '<div class="LVteam2"><a href="'+gm.team_2.leaguevine_url+'">'+gm.team_2.name+'</a></div>';
             gameText += '</div>';
             gameText += '<div class="LVstatslink"><a href="'+ultistats_game_url+gm.id+'" target="_blank">Take stats for this game</a></div>';
@@ -168,14 +176,16 @@ function monthString(ind, abbrvBool) {
 
 function sortedArrayByObjKey(obj){
   var keys = Object.keys(obj),
-    i,
-    k,
-    len = keys.length,
-    out = [];
+  i,
+  k,
+  len = keys.length,
+  out = [];
   keys.sort();
   for (i = 0; i < len; i++) {
     k = keys[i];
-    out.push({k : obj[k]});
+    out.push({
+      k : obj[k]
+      });
   };
   return out;
 }
