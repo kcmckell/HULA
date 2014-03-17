@@ -25,10 +25,7 @@ jQuery(document).ready(function() {
         '&starts_after='+recent.toISOString()+
         '&starts_before='+now.toISOString()+
         '&access_token='+LV_access_token,
-        function(json){
-          // DEBUG
-          //  debugcurrent(demo);
-          //    function debugcurrent(json){      
+        function(json){  
           var items = [];
           jQuery.each(json.objects, function(ind, gm){
             var gameText = '';
@@ -68,6 +65,7 @@ jQuery(document).ready(function() {
       // ***********************
       jQuery.getJSON(LV_api_url+'games/?season_id='+this_season_id+
         '&starts_after='+now.toISOString()+
+        '&order_by='+encodeURIComponent("[start_time]")+
         '&access_token='+LV_access_token,
         function(json){
           var dates = {},
