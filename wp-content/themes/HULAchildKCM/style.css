@@ -16,6 +16,7 @@ Version:        0.1.0
 * So, leave the following line intact unless you are sure you know what you are doing!
 */
 @import url("../responsive/style.css");
+@import url("../responsive/core/css/style.css")
 
 /*************************************** 
 * Include your custom child styles below.
