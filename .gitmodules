@@ -7,3 +7,6 @@
 [submodule "wp-content/plugins/leaguevine-wp-plugin"]
 	path = wp-content/plugins/leaguevine-wp-plugin
 	url = https://github.com/kcmckell/leaguevine-wp-plugin.git
+[submodule "wp-content/plugins/gecka-submenu"]
+	path = wp-content/plugins/gecka-submenu
+	url = https://github.com/Gecka-Apps/Wordpress_Gecka_Submenu.git
