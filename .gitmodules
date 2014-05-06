@@ -10,3 +10,6 @@
 [submodule "wp-content/plugins/gecka-submenu"]
 	path = wp-content/plugins/gecka-submenu
 	url = https://github.com/kcmckell/Wordpress_Gecka_Submenu.git
+[submodule "wp-content/themes/responsive"]
+	path = wp-content/themes/responsive
+	url = https://github.com/kcmckell/responsive.git
